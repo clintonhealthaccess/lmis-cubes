@@ -1,0 +1,53 @@
+{
+	"dimensions":[
+		{
+			"name": "products",
+			"label": "Product",
+			"levels": [
+				{
+					"name": "programs",
+					"attributes": ["program_code", "program_name"]
+				},
+				{
+					"name": "products",
+					"attributes": ["code", "primaryname"]
+				}
+			]
+		},
+		{
+			"name": "facilities",
+			"label": "Facility",
+			"attributes": ["id", "name"]
+		}
+	],
+	
+	"cubes":[
+		{
+			"name": "requisition_line_items",
+			"dimensions": ["products", "facilities"],
+			"measures": [
+				{"name": "stockinhand", "label": "Stock In Hand"}
+			],
+			"aggregates": [
+				
+			],
+			"mappings": {
+
+			},
+			"joins": [
+				{"master": "productcode", "detail": "products.code"},
+				{"master": "products.id", "detail": "program_products.productid"},
+				{"master": "program_products.programid", "detail": "programs.id"},
+				{"master": "rnrid", "detail": "requisitions.id"},
+				{"master": "requisitions.facilityid", "detail": "facilities.id"}
+			],
+			"mappings": {
+				"products.program_code": "programs.code",
+				"products.program_name": "programs.name"
+			},
+			"info": {
+				
+			}
+		}
+	]
+}

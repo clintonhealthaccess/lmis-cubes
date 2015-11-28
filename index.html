@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+		<script>
+		function generateReport() {
+			$('#result tbody').empty();
+			
+			var codes = $('.drug').filter(function(index, cb){return $(cb).is(':checked')}).map(function(index, cb){return 'MMIA,' + cb.value;}).toArray().join(';');
+			
+			var facilities = $('.facility').filter(function(index, cb){return $(cb).is(':checked')}).map(function(index, cb){return cb.value;}).toArray().join(';');
+			
+			var codeCut = (codes.length > 0) ? 'products:' + codes : '';
+			var facilityCut = (facilities.length > 0) ? 'facilities:' + facilities : '';
+			
+			var cutString = '';
+			if(codeCut.length > 0 && facilityCut.length > 0) {
+				cutString = codeCut + '|' + facilityCut;
+			} else {
+				cutString = codeCut + facilityCut;
+			}
+			
+			var url = 'http://localhost:5566/cube/requisition_line_items/facts';
+			
+			if(cutString.length > 0) {
+				url = url + '?cut=' + cutString;
+			}
+			
+			$.ajax({
+				url: url,
+				type: 'GET',
+				dataType: 'JSON',
+				crossDomain: true, 
+				success: function(resultSet) {
+					$(resultSet).each(function(index, result) {
+						$('#result tbody').append('<tr><td>' + result['facilities.name'] + '</td><td>' + result['products.primaryname'] + '</td><td>' + result.stockinhand + '</td></tr>')
+					});
+				}
+			});
+		}
+		
+		$(document).ready(function() {
+			$.ajax({
+				url: 'http://localhost:5566/cube/requisition_line_items/members/products?cut=products.program_code:MMIA',
+				type: 'GET',
+				dataType: 'JSON',
+				crossDomain: true,
+				success: function(resultSet) {
+					$(resultSet.data).sort(function(one, another) {
+						return one['products.code'].localeCompare(another['products.code']);
+					}).each(function(index, product) {
+						$('#drugs').append('<div class="checkbox"><label><input class="drug" type="checkbox" value="' + product['products.code'] + '">' + product['products.primaryname'] + '</label></div>');
+					});
+				}
+			});
+			
+			$.ajax({
+				url: 'http://localhost:5566/cube/requisition_line_items/members/facilities',
+				type: 'GET',
+				dataType: 'JSON',
+				crossDomain: true,
+				success: function(resultSet) {
+					$(resultSet.data).each(function(index, facility) {
+						$('#facilities').append('<div class="checkbox"><label><input class="facility" type="checkbox" value="' + facility['facilities.id'] + '">' + facility['facilities.name'] + '</label></div>');
+					});
+				}
+			});
+			
+		});
+		</script>
+	</head>
+	
+	<body role='document'>
+		<div class='col-md-4'>
+			<form>
+				<div id='drugs'></div>
+				
+				<br>
+				
+				<div id='facilities'></div>
+								
+				<div class='btn btn-primary' onclick='generateReport()'>Generate</div>
+			</form>
+		</div>
+		
+		<div class='col-md-8'>
+			<table class='table' id='result'>
+				<thead>
+					<tr>
+						<th>Facility</th>
+						<th>Drug</th>
+						<th>Stock In Hand</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
