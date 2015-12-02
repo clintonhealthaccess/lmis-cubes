@@ -29,7 +29,12 @@
 				{"name": "stockinhand", "label": "Stock In Hand"}
 			],
 			"aggregates": [
-				
+				{
+					"name": "stockinhand_sum",
+				    "label": "Total Stock in Hand",
+				    "measure": "stockinhand",
+				    "function": "sum"
+				}
 			],
 			"mappings": {
 
