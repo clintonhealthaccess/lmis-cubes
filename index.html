@@ -23,7 +23,7 @@
 				cutString = codeCut + facilityCut;
 			}
 			
-			var url = 'http://localhost:5566/cube/requisition_line_items/facts';
+			var url = 'http://localhost:5555/cube/requisition_line_items/facts';
 			
 			if(cutString.length > 0) {
 				url = url + '?cut=' + cutString;
@@ -44,7 +44,7 @@
 		
 		$(document).ready(function() {
 			$.ajax({
-				url: 'http://localhost:5566/cube/requisition_line_items/members/products?cut=products.program_code:MMIA',
+				url: 'http://localhost:5555/cube/requisition_line_items/members/products?cut=products.program_code:MMIA',
 				type: 'GET',
 				dataType: 'JSON',
 				crossDomain: true,
@@ -58,7 +58,7 @@
 			});
 			
 			$.ajax({
-				url: 'http://localhost:5566/cube/requisition_line_items/members/facilities',
+				url: 'http://localhost:5555/cube/requisition_line_items/members/facilities',
 				type: 'GET',
 				dataType: 'JSON',
 				crossDomain: true,
