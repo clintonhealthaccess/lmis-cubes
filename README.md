@@ -14,14 +14,6 @@ Setup Cubes
 * slicer serve slicer.ini  # database configured here
 
 
-Setup Reverse Proxy Server
-==========================
-
-* brew install node
-* npm install
-* node server.js
-
-
 Sample Report
 =============
 
