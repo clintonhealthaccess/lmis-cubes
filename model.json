@@ -40,11 +40,11 @@
 
 			},
 			"joins": [
-				{"master": "productcode", "detail": "products.code"},
-				{"master": "products.id", "detail": "program_products.productid"},
 				{"master": "program_products.programid", "detail": "programs.id"},
-				{"master": "rnrid", "detail": "requisitions.id"},
-				{"master": "requisitions.facilityid", "detail": "facilities.id"}
+				{"master": "products.id", "detail": "program_products.productid"},
+				{"master": "productcode", "detail": "products.code"},
+				{"master": "requisitions.facilityid", "detail": "facilities.id"},
+				{"master": "rnrid", "detail": "requisitions.id"}
 			],
 			"mappings": {
 				"products.program_code": "programs.code",
