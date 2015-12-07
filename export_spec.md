@@ -14,7 +14,7 @@ all MMIA requisition histories(upload time included)
 
 facilities csv: [http://localhost:5555/cube/facilities/facts?format=csv](http://localhost:5555/cube/facilities/facts?format=csv)
 
-products csv: [http://localhost:5555/cube/products/facts?format=csv](http://localhost:5555/cube/products/facts?format=csv)
+products csv: [http://localhost:5555/cube/requisition_line_items/members/products?format=csv)
 
 stock at different facilities: [http://localhost:5555/cube/requisition_line_items/facts?format=csv](http://localhost:5555/cube/requisition_line_items/facts?format=csv)
 
