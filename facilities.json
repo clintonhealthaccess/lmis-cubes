@@ -1,15 +1,26 @@
 {
   "dimensions": [{
     "name": "facility",
-    "label": "Facility",
-    "attributes": ["name", "code"]
+    "levels": [{
+      "name": "zone",
+      "attributes": ["zone_code", "zone_name"]
+    }, {
+      "name": "facility",
+      "attributes": ["code", "name"]
+    }]
   }],
   "cubes": [{
     "name": "facilities",
     "dimensions": ["facility"],
     "mappings": {
       "facility.name": "name",
-      "facility.code": "code"
-    }
+      "facility.code": "code",
+      "facility.zone_code": "geographic_zones.code",
+      "facility.zone_name": "geographic_zones.name"
+    },
+    "joins": [{
+      "master": "facilities.geographiczoneid",
+      "detail": "geographic_zones.id"
+    }]
   }]
 }
