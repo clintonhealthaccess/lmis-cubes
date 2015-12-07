@@ -3,7 +3,7 @@
     "name": "movement",
     "levels": [{
       "name": "movement",
-      "attributes": ["movement_type", "movement_date"]
+      "attributes": ["movement_type", "movement_date","productid"]
     }]
   }],
   "cubes": [{
@@ -11,7 +11,8 @@
     "dimensions": ["movement"],
     "mappings": {
       "movement.movement_type": "type",
-      "movement.movement_date": "createddate"
+      "movement.movement_date": "createddate",
+      "movement.productid": "stock_cards.productid"
     },
     "joins": [{
       "master": "stock_card_entries.stockcardid",
