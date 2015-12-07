@@ -1,0 +1,15 @@
+{
+  "dimensions": [{
+    "name": "facility",
+    "label": "Facility",
+    "attributes": ["name", "code"]
+  }],
+  "cubes": [{
+    "name": "facilities",
+    "dimensions": ["facility"],
+    "mappings": {
+      "facility.name": "name",
+      "facility.code": "code"
+    }
+  }]
+}

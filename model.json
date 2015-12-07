@@ -21,7 +21,7 @@
 			"label": "Facility",
 			"attributes": ["id", "name"]
 		},
-		
+
 		{
 		    "name": "date_base_full",
 		    "label": "Date Base Full",
@@ -66,7 +66,7 @@
 		    "template": "date_base_full"
 		}
 	],
-	
+
 	"cubes":[
 		{
 			"name": "requisition_line_items",
@@ -98,7 +98,7 @@
 				"created_date.day": {"column":"createddate", "extract":"day"}
 			},
 			"info": {
-				
+
 			}
 		}
 	]
