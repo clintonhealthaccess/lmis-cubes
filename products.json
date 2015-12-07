@@ -1,0 +1,18 @@
+{
+  "dimensions": [{
+    "name": "product",
+    "levels": [{
+      "name": "products",
+      "attributes": ["product_code", "product_primaryname", "product_strength"]
+    }]
+  }],
+  "cubes": [{
+    "name": "products",
+    "dimensions": ["product"],
+    "mappings": {
+      "product.product_code": "code",
+      "product.product_primaryname": "primaryname",
+      "product.product_strength": "strength"
+    }
+  }]
+}
