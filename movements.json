@@ -3,20 +3,20 @@
     "name": "movement",
     "levels": [{
       "name": "movement",
-      "attributes": ["movement_type", "movement_date","productid"]
+      "attributes": ["movement_type", "movement_date", "productid"]
     }]
   }],
   "cubes": [{
-    "name": "stock_card_entries",
+    "name": "stock_cards",
     "dimensions": ["movement"],
     "mappings": {
-      "movement.movement_type": "type",
-      "movement.movement_date": "createddate",
+      "movement.movement_type": "stock_card_entries.type",
+      "movement.movement_date": "stock_card_entries.createddate",
       "movement.productid": "stock_cards.productid"
     },
     "joins": [{
-      "master": "stock_card_entries.stockcardid",
-      "detail": "stock_cards.id"
+      "master": "stock_cards.id",
+      "detail": "stock_card_entries.stockcardid"
     }]
   }]
 }
