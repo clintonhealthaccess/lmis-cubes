@@ -7,6 +7,9 @@
     }, {
       "name": "facility",
       "attributes": ["code", "name"]
+    }, {
+      "name": "user",
+      "attributes": ["user_name", "user_firstname", "user_lastname"]
     }]
   }],
   "cubes": [{
@@ -16,11 +19,19 @@
       "facility.name": "name",
       "facility.code": "code",
       "facility.zone_code": "geographic_zones.code",
-      "facility.zone_name": "geographic_zones.name"
+      "facility.zone_name": "geographic_zones.name",
+      "facility.user_name": "users.username",
+      "facility.user_firstname": "users.firstname",
+      "facility.user_lastname": "users.lastname"
     },
     "joins": [{
       "master": "facilities.geographiczoneid",
-      "detail": "geographic_zones.id"
+      "detail": "geographic_zones.id",
+      "method": "master"
+    }, {
+      "master": "facilities.id",
+      "detail": "users.facilityid",
+      "method": "master"
     }]
   }]
 }
