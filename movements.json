@@ -3,7 +3,7 @@
     "name": "movement",
     "levels": [{
       "name": "movement",
-      "attributes": ["movement_type", "movement_date", "product_name","facility_name"]
+      "attributes": ["movement_type", "movement_date", "product_name", "facility_name", "product_code", "quantity"]
     }]
   }],
   "cubes": [{
@@ -12,8 +12,10 @@
     "mappings": {
       "movement.movement_type": "stock_card_entries.adjustmenttype",
       "movement.movement_date": "stock_card_entries.createddate",
+      "movement.quantity": "stock_card_entries.quantity",
       "movement.product_name": "products.primaryname",
-      "movement.facility_name": "facilities.name"
+      "movement.facility_name": "facilities.name",
+      "movement.product_code": "products.code"
     },
     "joins": [{
       "master": "stock_cards.id",
