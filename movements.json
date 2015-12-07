@@ -1,0 +1,21 @@
+{
+  "dimensions": [{
+    "name": "movement",
+    "levels": [{
+      "name": "movement",
+      "attributes": ["movement_type", "movement_date"]
+    }]
+  }],
+  "cubes": [{
+    "name": "stock_card_entries",
+    "dimensions": ["movement"],
+    "mappings": {
+      "movement.movement_type": "type",
+      "movement.movement_date": "createddate"
+    },
+    "joins": [{
+      "master": "stock_card_entries.stockcardid",
+      "detail": "stock_cards.id"
+    }]
+  }]
+}
