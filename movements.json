@@ -3,16 +3,17 @@
     "name": "movement",
     "levels": [{
       "name": "movement",
-      "attributes": ["movement_type", "movement_date", "product_name"]
+      "attributes": ["movement_type", "movement_date", "product_name","facility_name"]
     }]
   }],
   "cubes": [{
     "name": "stock_cards",
     "dimensions": ["movement"],
     "mappings": {
-      "movement.movement_type": "stock_card_entries.type",
+      "movement.movement_type": "stock_card_entries.adjustmenttype",
       "movement.movement_date": "stock_card_entries.createddate",
-      "movement.product_name": "products.primaryname"
+      "movement.product_name": "products.primaryname",
+      "movement.facility_name": "facilities.name"
     },
     "joins": [{
       "master": "stock_cards.id",
@@ -20,6 +21,9 @@
     }, {
       "master": "stock_cards.productid",
       "detail": "products.id"
+    }, {
+      "master": "stock_cards.facilityid",
+      "detail": "facilities.id"
     }]
   }]
 }
