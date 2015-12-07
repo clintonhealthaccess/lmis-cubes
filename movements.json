@@ -13,7 +13,7 @@
     }]
   }, {
     "name": "stock",
-    "attributes": ["latest_soh", "product_name", "product_code", "facility_name","date"]
+    "attributes": ["latest_soh", "product_name", "product_code", "facility_name", "date","expiration"]
   }],
   "cubes": [{
     "name": "stock_cards",
@@ -30,16 +30,20 @@
       "stock.product_name": "products.primaryname",
       "stock.product_code": "products.code",
       "stock.facility_name": "facilities.name",
-      "stock.date": "effectivedate"
+      "stock.date": "effectivedate",
+      "stock.expiration": "stock_card_entry_key_values.valuecolumn"
     },
     "joins": [{
-      "master": "stock_cards.id",
+      "master": "stock_card_entries.id",
+      "detail": "stock_card_entry_key_values.stockcardentryid"
+    }, {
+      "master": "id",
       "detail": "stock_card_entries.stockcardid"
     }, {
-      "master": "stock_cards.productid",
+      "master": "productid",
       "detail": "products.id"
     }, {
-      "master": "stock_cards.facilityid",
+      "master": "facilityid",
       "detail": "facilities.id"
     }]
   }]
