@@ -1,14 +1,14 @@
-all facilities and its users
+all facilities and its users (ok)
 
-all products and which program it belongs to
+all products and which program it belongs to (ok)
 
-stock on hands of facilities
+stock on hands of each drug of facilities (take from stock_cards, need expire date, only need latest quantity)
 
-all movements histories
+all movements histories (signature)
 
-all VIA requisition histories(upload time included)
+all VIA requisition histories ()
 
-all MMIA requisition histories(upload time included)
+all MMIA requisition histories ()
 
 6 csv files in a zip file
 
