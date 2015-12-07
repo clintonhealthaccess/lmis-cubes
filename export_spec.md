@@ -16,6 +16,6 @@ facilities csv: [http://localhost:5555/cube/facilities/facts?format=csv](http://
 
 products csv: [[http://localhost:5555/cube/requisition_line_items/members/products?format=csv](http://localhost:5555/cube/requisition_line_items/members/products?format=csv))
 
-latest stock at different facilities: [http://localhost:5555/cube/stock_cards/members/stock?format=csv](http://localhost:5555/cube/stock_cards/members/stock?format=csv)
+latest stock at different facilities: [http://localhost:5555/cube/stock_cards/members/stock?cut=stock:expirationdates&format=csv](http://localhost:5555/cube/stock_cards/members/stock?cut=stock:expirationdates&format=csv)
 
-movement history:  [http://localhost:5555/cube/stock_cards/members/movement?format=csv](http://localhost:5555/cube/stock_cards/members/movement?format=csv)
+movement history:  [http://localhost:5555/cube/stock_cards/members/movement?cut=movement:signature&format=csv](http://localhost:5555/cube/stock_cards/members/movement?cut=movement:signature&format=csv)
