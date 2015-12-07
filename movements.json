@@ -2,20 +2,35 @@
   "dimensions": [{
     "name": "movement",
     "levels": [{
-      "name": "movement",
-      "attributes": ["movement_type", "movement_date", "product_name", "facility_name", "product_code", "quantity"]
+      "name": "product",
+      "attributes": ["product_name", "product_code"]
+    }, {
+      "name": "facility",
+      "attributes": ["facility_name"]
+    }, {
+      "name": "entry",
+      "attributes": ["movement_type", "movement_date", "quantity"]
     }]
+  }, {
+    "name": "stock",
+    "attributes": ["latest_soh", "product_name", "product_code", "facility_name","date"]
   }],
   "cubes": [{
     "name": "stock_cards",
-    "dimensions": ["movement"],
+    "dimensions": ["movement", "stock"],
     "mappings": {
       "movement.movement_type": "stock_card_entries.adjustmenttype",
       "movement.movement_date": "stock_card_entries.createddate",
       "movement.quantity": "stock_card_entries.quantity",
       "movement.product_name": "products.primaryname",
       "movement.facility_name": "facilities.name",
-      "movement.product_code": "products.code"
+      "movement.product_code": "products.code",
+
+      "stock.latest_soh": "totalquantityonhand",
+      "stock.product_name": "products.primaryname",
+      "stock.product_code": "products.code",
+      "stock.facility_name": "facilities.name",
+      "stock.date": "effectivedate"
     },
     "joins": [{
       "master": "stock_cards.id",
