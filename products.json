@@ -1,18 +1,31 @@
 {
   "dimensions": [{
-    "name": "product",
+    "name": "products",
     "levels": [{
       "name": "products",
       "attributes": ["product_code", "product_primaryname", "product_strength"]
+    }, {
+      "name": "programs",
+      "label": "Programs",
+      "attributes": ["program_code", "program_name"]
     }]
   }],
   "cubes": [{
     "name": "products",
-    "dimensions": ["product"],
+    "dimensions": ["products"],
+    "joins": [{
+      "master": "program_products.programid",
+      "detail": "programs.id"
+    }, {
+      "master": "products.id",
+      "detail": "program_products.productid"
+    }],
     "mappings": {
-      "product.product_code": "code",
-      "product.product_primaryname": "primaryname",
-      "product.product_strength": "strength"
+      "products.product_code": "code",
+      "products.product_primaryname": "primaryname",
+      "products.product_strength": "strength",
+      "products.program_code": "programs.code",
+      "products.program_name": "programs.name"
     }
   }]
 }
