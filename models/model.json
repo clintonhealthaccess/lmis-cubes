@@ -63,7 +63,8 @@
       "name": "rnr",
       "attributes": ["beginningbalance", "quantityreceived", "quantitydispensed",
         "quantityrequested", "quantityapproved", "totallossesandadjustments",
-        "calculatedorderquantity", "newpatientcount", "syncedtime","submittedtime"
+        "calculatedorderquantity", "newpatientcount", "syncedtime", "submittedtime",
+        "signature"
       ]
     }
   ],
@@ -93,6 +94,12 @@
     }, {
       "master": "requisitions.facilityid",
       "detail": "facilities.id"
+    }, {
+      "master": "requisition_signatures.signatureid",
+      "detail": "signatures.id"
+    }, {
+      "master": "rnrid",
+      "detail": "requisition_signatures.rnrid"
     }, {
       "master": "rnrid",
       "detail": "requisitions.id"
@@ -125,7 +132,8 @@
       "rnr.calculatedorderquantity": "calculatedorderquantity",
       "rnr.newpatientcount": "newpatientcount",
       "rnr.syncedtime": "requisitions.createddate",
-      "rnr.submittedtime": "requisitions.clientsubmittedtime"
+      "rnr.submittedtime": "requisitions.clientsubmittedtime",
+      "rnr.signature": "signatures.text"
     },
     "info": {
 
