@@ -6,9 +6,11 @@ latest stock on hands of each drug of facilities, expire date included (ok)
 
 all movements histories, signature included (ok)
 
-all VIA requisition histories (theory soh is missing now)
+all VIA requisition histories (theory soh is missing now) need signature, committed time, synced time
 
 all MMIA requisition histories (theory soh is missing now)
+
+regime and quantification of patients of each requisition
 
 filter by date range is not in scope for now.
 

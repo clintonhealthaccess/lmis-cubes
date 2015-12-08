@@ -63,7 +63,7 @@
       "name": "rnr",
       "attributes": ["beginningbalance", "quantityreceived", "quantitydispensed",
         "quantityrequested", "quantityapproved", "totallossesandadjustments",
-        "calculatedorderquantity", "newpatientcount"
+        "calculatedorderquantity", "newpatientcount", "syncedtime","submittedtime"
       ]
     }
   ],
@@ -123,7 +123,9 @@
       "rnr.quantityapproved": "quantityapproved",
       "rnr.totallossesandadjustments": "totallossesandadjustments",
       "rnr.calculatedorderquantity": "calculatedorderquantity",
-      "rnr.newpatientcount": "newpatientcount"
+      "rnr.newpatientcount": "newpatientcount",
+      "rnr.syncedtime": "requisitions.createddate",
+      "rnr.submittedtime": "requisitions.clientsubmittedtime"
     },
     "info": {
 
