@@ -14,7 +14,7 @@ regime and quantification of patients of each requisition
 
 filter by date range is not in scope for now.
 
-6 csv files in a zip file
+7 csv files in a zip file
 
 facilities csv: [http://localhost:5555/cube/facilities/facts?format=csv](http://localhost:5555/cube/facilities/facts?format=csv)
 

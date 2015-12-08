@@ -1,0 +1,21 @@
+{
+  "dimensions": [{
+    "name": "requisition",
+    "attributes": ["program", "facility"]
+  }],
+  "cubes": [{
+    "name": "requisitions",
+    "dimensions": ["requisition"],
+    "mappings": {
+      "requisition.program": "programs.name",
+      "requisition.facility": "facilities.name"
+    },
+    "joins": [{
+      "master": "programid",
+      "detail": "programs.id"
+    }, {
+      "master": "facilityid",
+      "detail": "facilities.id"
+    }]
+  }]
+}
