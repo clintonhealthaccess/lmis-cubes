@@ -1,7 +1,7 @@
 {
   "dimensions": [{
     "name": "requisition",
-    "attributes": ["program", "facility", "regimename", "patients"]
+    "attributes": ["program", "facility", "regimename", "patients","time"]
   }],
   "cubes": [{
     "name": "requisitions",
@@ -10,7 +10,8 @@
       "requisition.program": "programs.name",
       "requisition.facility": "facilities.name",
       "requisition.regimename": "regimen_line_items.name",
-      "requisition.patients": "regimen_line_items.patientsontreatment"
+      "requisition.patients": "regimen_line_items.patientsontreatment",
+      "requisition.time": "requisitions.createddate"
     },
     "joins": [{
       "master": "programid",
