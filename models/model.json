@@ -59,12 +59,18 @@
       "label": "Created Date",
       "role": "time",
       "template": "date_base_full"
+    }, {
+      "name": "rnr",
+      "attributes": ["beginningbalance", "quantityreceived", "quantitydispensed",
+        "quantityrequested", "quantityapproved", "totallossesandadjustments",
+        "calculatedorderquantity", "newpatientcount"
+      ]
     }
   ],
 
   "cubes": [{
     "name": "requisition_line_items",
-    "dimensions": ["products", "facilities", "created_date"],
+    "dimensions": ["products", "facilities", "created_date", "rnr"],
     "measures": [{
       "name": "stockinhand",
       "label": "Stock In Hand"
@@ -109,7 +115,15 @@
       "created_date.day": {
         "column": "createddate",
         "extract": "day"
-      }
+      },
+      "rnr.beginningbalance": "beginningbalance",
+      "rnr.quantityreceived": "quantityreceived",
+      "rnr.quantitydispensed": "quantitydispensed",
+      "rnr.quantityrequested": "quantityrequested",
+      "rnr.quantityapproved": "quantityapproved",
+      "rnr.totallossesandadjustments": "totallossesandadjustments",
+      "rnr.calculatedorderquantity": "calculatedorderquantity",
+      "rnr.newpatientcount": "newpatientcount"
     },
     "info": {
 

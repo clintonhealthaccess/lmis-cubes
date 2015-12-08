@@ -6,9 +6,9 @@ latest stock on hands of each drug of facilities (take from stock_cards, need ex
 
 all movements histories (signature)
 
-all VIA requisition histories ()
+all VIA requisition histories (theory soh is missing now)
 
-all MMIA requisition histories ()
+all MMIA requisition histories (theory soh is missing now)
 
 6 csv files in a zip file
 
@@ -19,3 +19,7 @@ products csv: [[http://localhost:5555/cube/requisition_line_items/members/produc
 latest stock at different facilities: [http://localhost:5555/cube/stock_cards/members/stock?cut=stock:expirationdates&format=csv](http://localhost:5555/cube/stock_cards/members/stock?cut=stock:expirationdates&format=csv)
 
 movement history:  [http://localhost:5555/cube/stock_cards/members/movement?cut=movement:signature&format=csv](http://localhost:5555/cube/stock_cards/members/movement?cut=movement:signature&format=csv)
+
+requisition mmia: [http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS](http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS)
+
+requisition via: [http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS](http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS)
