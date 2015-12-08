@@ -1,14 +1,16 @@
 {
   "dimensions": [{
     "name": "requisition",
-    "attributes": ["program", "facility"]
+    "attributes": ["program", "facility", "regimename", "patients"]
   }],
   "cubes": [{
     "name": "requisitions",
     "dimensions": ["requisition"],
     "mappings": {
       "requisition.program": "programs.name",
-      "requisition.facility": "facilities.name"
+      "requisition.facility": "facilities.name",
+      "requisition.regimename": "regimen_line_items.name",
+      "requisition.patients": "regimen_line_items.patientsontreatment"
     },
     "joins": [{
       "master": "programid",
@@ -16,6 +18,9 @@
     }, {
       "master": "facilityid",
       "detail": "facilities.id"
+    }, {
+      "master": "id",
+      "detail": "regimen_line_items.rnrid"
     }]
   }]
 }
