@@ -2,13 +2,15 @@ all facilities and its users (ok)
 
 all products and which program it belongs to (ok)
 
-latest stock on hands of each drug of facilities (take from stock_cards, need expire date, only need latest quantity)
+latest stock on hands of each drug of facilities, expire date included (ok)
 
-all movements histories (signature)
+all movements histories, signature included (ok)
 
 all VIA requisition histories (theory soh is missing now)
 
 all MMIA requisition histories (theory soh is missing now)
+
+filter by date range is not in scope for now.
 
 6 csv files in a zip file
 
