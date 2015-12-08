@@ -1,0 +1,1255 @@
+program_code,program_name,code,primaryname,strength,description
+ESS_MEDS,VIA ESSENTIAL,07A02Z,Acido acetilsalicilico (Aspiri; 320mg; Comprimidos,320mg,Acido acetilsalicilico (Aspirina)
+ESS_MEDS,VIA ESSENTIAL,23A09,Adesivo Tape (Micropore Tipo C; 20cmX5m; Rolo,20cmX5m,Adesivo Tape (Micropore Tipo Cirugico)
+ESS_MEDS,VIA ESSENTIAL,08N03,Ivermectina; 6mg; Comprimidos,6mg,Ivermectina
+ESS_MEDS,VIA ESSENTIAL,08S17Z,Zidovudina (AZT); 50mg/5mL 200ml; Suspensão,50mg/5mL 200ml,Zidovudina (AZT)
+ESS_MEDS,VIA ESSENTIAL,FC0015,Teste  do SIMAM 2015 unidade Tratamento,unidade,Teste  do SIMAM 2015
+ESS_MEDS,VIA ESSENTIAL,02D08,"Sulfato de sódio+Polietilenogl; 0,2%; Pó","0,2%",Sulfato de sÑdio+Polietilenoglicol
+ESS_MEDS,VIA ESSENTIAL,08M02,Clofazimina; 100mg; Cápsulas,100mg,Clofazimina
+ESS_MEDS,VIA ESSENTIAL,07C01,Ergotamina+Cafeina; 1g + 100mg; Comprimidos,1g + 100mg,Ergotamina+Cafeina
+ESS_MEDS,VIA ESSENTIAL,23E01Z,Vaselina solida esterilizada; 20g Bisnaga; Pomada,20g Bisnaga,Vaselina solida esterilizada
+ESS_MEDS,VIA ESSENTIAL,09A07,Ifosfamida; 1g; Injectável,1g,Ifosfamida
+ESS_MEDS,VIA ESSENTIAL,01F02,Nifedipina accao prolongada; 30mg; Comprimidos,30mg,Nifedipina accao prolongada
+ESS_MEDS,VIA ESSENTIAL,08B08,Ceftriaxona; 1g/4ml- ampola; Injectável,1g/4ml- ampola,Ceftriaxona
+ESS_MEDS,VIA ESSENTIAL,01J02Z,Sinvastatina; 10mg; Comprimidos,10mg,Sinvastatina
+ESS_MEDS,VIA ESSENTIAL,12D15,Pirodixina (Vit B6); 300mg/2mL; Injectável,300mg/2mL,Pirodixina (Vit B6)
+ESS_MEDS,VIA ESSENTIAL,08H04,"Ciprofloxacina, lactato; 2mg/mL; KIT",2mg/mL,"Ciprofloxacina, lactato"
+ESS_MEDS,VIA ESSENTIAL,23A05,"Adesivo Perfurado; 20cmx2,5m; Rolo","20cmx2,5m",Adesivo Perfurado
+ESS_MEDS,VIA ESSENTIAL,02D07,Parafina Liquida; 100g; Emulsão,100g,Parafina Liquida
+ESS_MEDS,VIA ESSENTIAL,01E02,"Bisoprolol; 2,5mg; Comprimidos","2,5mg",Bisoprolol
+ESS_MEDS,VIA ESSENTIAL,07D01,Carbamazepina; 200mg; Comprimidos,200mg,Carbamazepina
+ESS_MEDS,VIA ESSENTIAL,13A07,"Hidroxizina; 0,2%; Xarope","0,2%",Hidroxizina
+ESS_MEDS,VIA ESSENTIAL,18D01,Atracurio ; 10mg/ml; Injectável,10mg/mL,Atracurio
+ESS_MEDS,VIA ESSENTIAL,04B01,Dinoprost (Prostaglandina F2 A; 5mg/mL; Injectável,5mg/mL,Dinoprost (Prostaglandina F2 Alfa)
+ESS_MEDS,VIA ESSENTIAL,17C07,Tetraciclina; 1%; Pomada oftálmica,1%,Tetraciclina
+ESS_MEDS,VIA ESSENTIAL,07G06,Maprotilina; 25mg; Comprimidos,25mg,Maprotilina
+ESS_MEDS,VIA ESSENTIAL,01E01Z,Atenolol; 100mg; Comprimidos,100mg,Atenolol
+ESS_MEDS,VIA ESSENTIAL,08S29,Ritonavir ; 100mg 60 comp; Embalagem,100mg 60 comp,Ritonavir
+ESS_MEDS,VIA ESSENTIAL,22A07,TDR de Unigold; kit de 20; Tests,kit de 20,TDR de Unigold
+ESS_MEDS,VIA ESSENTIAL,21A12,Pralidoxima; 40mg/mL; Injectável,40mg/mL,Pralidoxima
+ESS_MEDS,VIA ESSENTIAL,08N04Z,Mebendazol; 500mg; Comprimidos,500mg,Mebendazol
+ESS_MEDS,VIA ESSENTIAL,04K03,Bicalutamida; 150mg; Comprimidos,150mg,Bicalutamida
+ESS_MEDS,VIA ESSENTIAL,02H0YZ,Dimetilpolissiloxano; 250mg; Comprimidos,250mg,Dimetilpolissiloxano
+ESS_MEDS,VIA ESSENTIAL,23D06,Ligadura De Gaze ; 10cm X 10m; Rolo,10cm X 10m,Ligadura De Gaze
+ESS_MEDS,VIA ESSENTIAL,03A01,Dexametasona fosfato sodico; 4mg/mL; Injectável,4mg/mL,Dexametasona fosfato sodico
+ESS_MEDS,VIA ESSENTIAL,13A10,Prometazina; 50mg/2mL; Injectável,50mg/2mL,Prometazina
+ESS_MEDS,VIA ESSENTIAL,08N05,Piperazina; 750mg/5mL; Xarope,750mg/5mL,Piperazina
+ESS_MEDS,VIA ESSENTIAL,01G02,"Nitroglicerina; 0,5mg; Comprimidos","0,5mg",Nitroglicerina
+ESS_MEDS,VIA ESSENTIAL,14A01,Diclofenac; 50mg; Comprimidos,50mg,Diclofenac
+ESS_MEDS,VIA ESSENTIAL,08S08,Didanosina (DDI) libertacao le; 250mg 30Caps; Embalagem,250mg 30Caps,Didanosina (DDI) libertacao lenta
+ESS_MEDS,VIA ESSENTIAL,05A02,Aminofilina; 240mg/10mL; Injectável,240mg/10mL,Aminofilina
+ESS_MEDS,VIA ESSENTIAL,09C04,Fluorouracilo; 50 mg/mL; Injectável,50 mg/mL,Fluorouracilo
+ESS_MEDS,VIA ESSENTIAL,15E04,"Tretinoina; 0,05%; Créme","0,05%",Tretinoina
+ESS_MEDS,VIA ESSENTIAL,04G04,Tansulosina; 400mcg; Comprimidos,400mcg,Tansulosina
+ESS_MEDS,VIA ESSENTIAL,07L03Z,Disulfiram; 250mg; Comprimidos,250mg,Disulfiram
+ESS_MEDS,VIA ESSENTIAL,16D01,"Acido tricloroacetico; 0,2%; Cristais","0,2%",Acido tricloroacetico
+ESS_MEDS,VIA ESSENTIAL,17C05,"Gentamicina; 0,3%; Colírio","0,3%",Gentamicina
+ESS_MEDS,VIA ESSENTIAL,15C20,Miconazol Nitrato; 20mg/ml(2%) 30g; Gel,20mg/ml(2%) 30g,Miconazol Nitrato
+ESS_MEDS,VIA ESSENTIAL,09C06,Mercaptopurina; 50mg; Comprimidos,50mg,Mercaptopurina
+ESS_MEDS,VIA ESSENTIAL,01A04Z,Dobutamina; 250mg/20mL; Injectável,250mg/20mL,Dobutamina
+ESS_MEDS,VIA ESSENTIAL,12A07,Leite de soja; SEM DOSAGEM; Pó,Sem Dosagem,Leite de soja
+ESS_MEDS,VIA ESSENTIAL,08A10Z,"Amoxicilina+Acido clavulanico; 125mg + 31,25mg/5mL; Suspensão","125mg + 31,25mg/5mL",Amoxicilina+Acido clavulanico
+ESS_MEDS,VIA ESSENTIAL,11A08,"Cloreto de sodio; 500 mL 0,9%; Injectável","500 mL 0,9%",Cloreto de sodio
+ESS_MEDS,VIA ESSENTIAL,09A04,Clorambucil; 2mg; Comprimidos,2mg,Clorambucil
+ESS_MEDS,VIA ESSENTIAL,19B05,Vacina anti-rabica; 1ml; Injectável,1ml,Vacina anti-rabica
+ESS_MEDS,VIA ESSENTIAL,03D03Z,Levotiroxina Sodica; 100mg; Comprimidos,100mg,Levotiroxina Sodica
+ESS_MEDS,VIA ESSENTIAL,13A08Z,Prometazina; 25mg; Comprimidos,25mg,Prometazina
+ESS_MEDS,VIA ESSENTIAL,08M06,Rifampicina; 300mg; Cápsulas,300mg,Rifampicina
+ESS_MEDS,VIA ESSENTIAL,18C09,Lidocaina; 10%; Solução,10%,Lidocaina
+ESS_MEDS,VIA ESSENTIAL,24A01Z,"Agulha Hipodermica 24G; 0,55x25mm; Embalagem","0,55x25mm",Agulha Hipodermica 24G
+ESS_MEDS,VIA ESSENTIAL,15C24,Piritionato de zinco; 20mg/g; Suspensão,20mg/g,Piritionato de zinco
+ESS_MEDS,VIA ESSENTIAL,03B04,Metformina; 500mg; Comprimidos,500mg,Metformina
+ESS_MEDS,VIA ESSENTIAL,15F02,Acido tricloroacetico; 80%; Solução,80%,Acido tricloroacetico
+ESS_MEDS,VIA ESSENTIAL,08A15,"Flucloxacilina, Sal de magnesi; 125mg/5mL; Suspensão",125mg/5mL,"Flucloxacilina, Sal de magnesio"
+ESS_MEDS,VIA ESSENTIAL,08B06Y,Cefotaxima de sodio; 250mg-frasco; Injectável,250mg-frasco,Cefotaxima de sodio
+ESS_MEDS,VIA ESSENTIAL,11A0VY,"Glucose+Cloreto de Sodio; 5% +0,9% 500ml set AD; Injectável","5% +0,9% 500ml set AD",Glucose+Cloreto Sodio
+ESS_MEDS,VIA ESSENTIAL,04J02,Papaverina; 60mg/2mL; Injectável,60mg/2mL,Papaverina
+ESS_MEDS,VIA ESSENTIAL,15B06,"Betametasona+Clotrimazol+Genta; (0,5+10+1)mg; Créme","(0,5+10+1)mg",Betametasona+Clotrimazol+Gentamicina
+ESS_MEDS,VIA ESSENTIAL,10A07,Amilorido+Hidroclortiazida; 5mg + 50mg; Comprimidos,5mg + 50mg,Amilorido+Hidroclortiazida
+ESS_MEDS,VIA ESSENTIAL,17B03X,Fenilefrina; 5%; Colírio,5%,Fenilefrina
+ESS_MEDS,VIA ESSENTIAL,21A07,Edatamil calcio- Sodico (EDTA); 200 mg/mL; Injectável,200 mg/mL,Edatamil calcio- Sodico (EDTA)
+ESS_MEDS,VIA ESSENTIAL,25A02,Guia de Remessa /Entrada; SEM DOSAGEM; Papel,Sem Dosagem,Guia de Remessa /Entrada
+ESS_MEDS,VIA ESSENTIAL,15D0YZ,"Iodeto de potassio; 0,2%; Solução","0,2%",Iodeto de potassio
+ESS_MEDS,VIA ESSENTIAL,19B07,"Vacina Anti-Tetanica (VAT); 0,5ml; Injectável","0,5ml",Vacina Anti-Tetanica (VAT)
+ESS_MEDS,VIA ESSENTIAL,04E04,"Ciproterona, acetato; 100mg; Comprimidos",100mg,"Ciproterona, acetato"
+ESS_MEDS,VIA ESSENTIAL,03D04,Propiltiouracilo; 50mg; Comprimidos,50mg,Propiltiouracilo
+ESS_MEDS,VIA ESSENTIAL,01J0ZZ,Atorvastatina; 20mg; Comprimidos,20mg,Atorvastatina
+ESS_MEDS,VIA ESSENTIAL,08S02,Abacavir sulfato (ABC); 10mg/mL; Suspensão,10mg/mL,Abacavir sulfato (ABC)
+ESS_MEDS,VIA ESSENTIAL,15C15,Hexacloreto de benzeno; 600mg/60ml; Loção,600mg/60ml,Hexacloreto de benzeno
+ESS_MEDS,VIA ESSENTIAL,04E07Z,Testosterona deposito; 100 mg/mL; Injectável,100 mg/mL,Testosterona deposito
+ESS_MEDS,VIA ESSENTIAL,18C03Z,Bupivacaina+Dextrose; 10mg + 75 mg; Injectável,10mg + 75 mg,Bupivacaina+Dextrose
+ESS_MEDS,VIA ESSENTIAL,17C07Z,Tetraciclina HCL; 3%; Pomada,3%,Tetraciclina HCL
+ESS_MEDS,VIA ESSENTIAL,03D01,Carbimazol; 5mg; Comprimidos,5mg,Carbimazol
+ESS_MEDS,VIA ESSENTIAL,04D01,Estradiol; 1mg; Cápsulas,1mg,Estradiol
+ESS_MEDS,VIA ESSENTIAL,01G04,Nitropussiato de sodio; 50mg; Injectável,50mg,Nitropussiato de sodio
+ESS_MEDS,VIA ESSENTIAL,08A01Z,Fenoximetilpenicilina; 250mg; Comprimidos,250mg,Fenoximetilpenicilina
+ESS_MEDS,VIA ESSENTIAL,08K04,Metronidazol; 250mg; Comprimidos,250mg,Metronidazol
+ESS_MEDS,VIA ESSENTIAL,02H0ZZ,Fenipentol; 100mg; Cápsulas,100mg,Fenipentol
+ESS_MEDS,VIA ESSENTIAL,04F07Z,Medroxiprogesterona (Sayana Press) 104mg/0.65ml Inj,104mg/0.65ml,Medroxiprogesterona (Sayana Press)
+ESS_MEDS,VIA ESSENTIAL,26B06,Caixa Para Kits AL/APE Sem Dosagem Papel,Sem Dosagem,Caixa Para Kits AL/APE
+ESS_MEDS,VIA ESSENTIAL,15B16,"Metilprednisolona aceponato; 0,1%; Créme","0,1%",Metilprednisolona aceponato
+MMIA,MMIA,08S15,Zidovudina (AZT); 300mg 60Comp; Embalagem,300mg Comp,Zidovudina (AZT)
+ESS_MEDS,VIA ESSENTIAL,06F04,"Esponja de Gelatina esteril; 0,2%; Cubos","0,2%",Esponja de Gelatina esteril
+ESS_MEDS,VIA ESSENTIAL,04H04,Tolterodina; 4mg; Cápsulas,4mg,Tolterodina
+ESS_MEDS,VIA ESSENTIAL,07B08,Petidina; 100mg/2mL; Injectável,100mg/2mL,Petidina
+ESS_MEDS,VIA ESSENTIAL,07B04,Morfina sulfato; 10mg; Comprimidos de Libertação Prol,10mg,Morfina sulfato
+ESS_MEDS,VIA ESSENTIAL,17F07,"Fluoresceina; 0,2%; Papel","0,2%",Fluoresceina
+ESS_MEDS,VIA ESSENTIAL,15L01,"Tacrolimus; 0,03%; Pomada","0,03%",Tacrolimus
+ESS_MEDS,VIA ESSENTIAL,24B08,Seringa 10 ml ; SEM DOSAGEM; Embalagem,Sem Dosagem,Seringa 10 ml
+ESS_MEDS,VIA ESSENTIAL,15D06,"Calcipotriol; 0,005%; Loção","0,005%",Calcipotriol
+ESS_MEDS,VIA ESSENTIAL,01B05,Verapamil; 5mg/2mL; Injectável,5mg/2mL,Verapamil
+ESS_MEDS,VIA ESSENTIAL,21A11,Nitrito de Sodio; 30mg/mL; Injectável,30mg/mL,Nitrito de Sodio
+ESS_MEDS,VIA ESSENTIAL,15L02,"Tacrolimus; 0,1%; Pomada","0,1%",Tacrolimus
+ESS_MEDS,VIA ESSENTIAL,08Q01,Anfotericina B; 50mg; Injectável,50mg,Anfotericina B
+ESS_MEDS,VIA ESSENTIAL,12A02,"Hidrolizado de proteinas compo; 0,2%; Pó","0,2%",Hidrolizado de proteinas composto (Complan)
+ESS_MEDS,VIA ESSENTIAL,20A16,Trioximetileno; 1g; Comprimidos,1g,Trioximetileno
+ESS_MEDS,VIA ESSENTIAL,08S30W,Atazanavir; 300mg 30Caps; Embalagem,300mg 30Caps,Atazanavir
+ESS_MEDS,VIA ESSENTIAL,04F0XY,Preservativos Masculino (53mm ; 53mm /2mm; Preservativo,53mm /2mm,Preservativos Masculino (53mm 2mm)
+ESS_MEDS,VIA ESSENTIAL,16A01,Ciprofloxacina+Hidrocortisona 10ml Gota auricular,10ml,Ciprofloxacina+Hidrocortisona
+ESS_MEDS,VIA ESSENTIAL,07A0ZW,Metamizol; 5mg; Comprimidos,5mg,Metamizol
+ESS_MEDS,VIA ESSENTIAL,25A04,Requisicao Interna / Balancete; SEM DOSAGEM; Papel,Sem Dosagem,Requisicao Interna / Balancete
+ESS_MEDS,VIA ESSENTIAL,24D06,"Cateter periferico c/ agulha, valvula de injeccao e abas 24G, Radiopaco unidade Embalagem",unidade,"Cateter periferico c/ agulha, valvula de injeccao e abas 24G, Radiopaco"
+ESS_MEDS,VIA ESSENTIAL,08M03,Dapsona; 50mg; Comprimidos,50mg,Dapsona
+ESS_MEDS,VIA ESSENTIAL,25D03,Manual de procedimentos  do Deposito Distital de Medicamentos Sem Dosagem Papel,Sem Dosagem,Manual de procedimentos  do Deposito Distital de Medicamentos
+ESS_MEDS,VIA ESSENTIAL,13A10Z,Prometazina; 25mg/mL; Injectável,25mg/mL,Prometazina
+ESS_MEDS,VIA ESSENTIAL,08A08Z,Amoxicilina trihidrato; 125mg/5mL; Suspensão,125mg/5mL,Amoxicilina trihidrato
+ESS_MEDS,VIA ESSENTIAL,24B07,Seringa 5 ml  ; SEM DOSAGEM; Embalagem,Sem Dosagem,Seringa 5 ml
+ESS_MEDS,VIA ESSENTIAL,08L05Z,Pirazinamida; 500mg; Comprimidos,500mg,Pirazinamida
+ESS_MEDS,VIA ESSENTIAL,15C22,Mupirocin; 2%; Pomada,2%,Mupirocin
+ESS_MEDS,VIA ESSENTIAL,17A01,Acetazolamida; 250mg; Comprimidos,250mg,Acetazolamida
+ESS_MEDS,VIA ESSENTIAL,18D03,Vecuronio brometo; 10mg/5mL; Injectável,10mg/5mL,Vecuronio brometo
+ESS_MEDS,VIA ESSENTIAL,16C04,"Fenilefrina HCL; 0,25%; Gotas nasais","0,25%",Fenilefrina HCL
+ESS_MEDS,VIA ESSENTIAL,24B05,"Seringa Hipodermica 5 ml com a; 0,80x38mm; Embalagem","0,80x38mm",Seringa Hipodermica 5 ml com agulha
+ESS_MEDS,VIA ESSENTIAL,03B07,Insulina accao curta(rapida)(A; 100UI/mL; Injectável,100UI/mL,Insulina accao curta(rapida)(Actrapid)
+ESS_MEDS,VIA ESSENTIAL,15D04,Alcatrao de Hulha (Coaltar); 5% + 2%; Loção,5% + 2%,Alcatrao de Hulha (Coaltar)
+ESS_MEDS,VIA ESSENTIAL,13A03,Clorfeniramina; 2mg/5mL; Xarope,2mg/5mL,Clorfeniramina
+ESS_MEDS,VIA ESSENTIAL,13A08,Prometazina; 10mg; Comprimidos,10mg,Prometazina
+ESS_MEDS,VIA ESSENTIAL,15B05,"Betametasona+Acido salicilico; 0,05%+3%; Pomada","0,05%+3%",Betametasona+Acido salicilico
+ESS_MEDS,VIA ESSENTIAL,15C25,Terbinafina; 1%; Créme,1%,Terbinafina
+ESS_MEDS,VIA ESSENTIAL,09B01Z,Bleomicina Sulfato; 15UI; Injectável,15UI,Bleomicina Sulfato
+ESS_MEDS,VIA ESSENTIAL,01F02Z,Nifedipina; 10mg; Cápsulas,10mg,Nifedipina
+ESS_MEDS,VIA ESSENTIAL,23C05,Penso Ocular Adesivo; 58x82mm; Compressa,58x82mm,Penso Ocular Adesivo
+ESS_MEDS,VIA ESSENTIAL,22A03Y,Reguas para teste de tuberculi; SEM DOSAGEM; Papel,Sem Dosagem,Reguas para teste de tuberculina
+ESS_MEDS,VIA ESSENTIAL,25B03,Livro de  Registo  Diario de  ; SEM DOSAGEM; Papel,Sem Dosagem,Livro de  Registo  Diario de  ARVs-PTV
+ESS_MEDS,VIA ESSENTIAL,08A11,Amoxicilina+Acido clavulanico; 500mg + 125mg; Comprimidos,500mg + 125mg,Amoxicilina+Acido clavulanico
+ESS_MEDS,VIA ESSENTIAL,15J01,Hidroquinona; 2%; Créme,2%,Hidroquinona
+ESS_MEDS,VIA ESSENTIAL,04F03,Etinilest+Levonorgestrel; 30mcg + 150mcg; Comprimidos,30mcg + 150mcg,Etinilest+Levonorgestrel
+ESS_MEDS,VIA ESSENTIAL,09C03Z,Fluorouracilo; 5%; Pomada,5%,Fluorouracilo
+ESS_MEDS,VIA ESSENTIAL,02I02Y,"Anti hemorroidario; 0,2%; Pomada","0,2%",Anti hemorroidario
+ESS_MEDS,VIA ESSENTIAL,18C07,"Lidocaina carpule; 36mg/1,8ml-Ampola; Injectável","36mg/1,8ml-Ampola",Lidocaina carpule
+ESS_MEDS,VIA ESSENTIAL,10A02,Espironolactona; 25mg; Comprimidos,25mg,Espironolactona
+ESS_MEDS,VIA ESSENTIAL,04I01,"Acido Citrico+Citrato de potas; 0,2%; Granulado","0,2%",Acido Citrico+Citrato de potassio+Citrato de Sodio
+MMIA,MMIA,08S01B,"Abacavir sulfato (ABC) 60mg, 60Cps (Baby) Embalagem","60mg,  (Baby)",Abacavir sulfato (ABC)
+ESS_MEDS,VIA ESSENTIAL,15B03,"Betametasona dipropionato; 0,1%; Pomada","0,1%",Betametasona dipropionato
+ESS_MEDS,VIA ESSENTIAL,08O15X,Artesunato+Amodiaquina; 50mg+150mg; Comprimidos,50mg+150mg,Artesunato+Amodiaquina
+ESS_MEDS,VIA ESSENTIAL,04A03Z,Clotrimazol; 500mg; Comprimidos vaginais,500mg,Clotrimazol
+ESS_MEDS,VIA ESSENTIAL,08L07Y,Rifampicina+Isoniazida; 150mg+150mg; Comprimidos,150mg+150mg,Rifampicina+Isoniazida
+ESS_MEDS,VIA ESSENTIAL,07J01,Clorpromazina; 25mg; Comprimidos,25mg,Clorpromazina
+ESS_MEDS,VIA ESSENTIAL,10A08,"Manitol; 20% (12,5mg/50ml); Injectável","20% (12,5mg/50ml)",Manitol
+ESS_MEDS,VIA ESSENTIAL,04D02Z,"Estrogenios conjugados; 1,25mg; Comprimidos","1,25mg",Estrogenios conjugados
+ESS_MEDS,VIA ESSENTIAL,15B12,Hidrocortisona acetato; 1%; Loção,1%,Hidrocortisona acetato
+ESS_MEDS,VIA ESSENTIAL,17C03,"Cloranfenicol; 0,5%; Colírio","0,5%",Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,13A0XY,Prometazina HCL; 5mg/mL; Xarope,5mg/mL,Prometazina HCL
+ESS_MEDS,VIA ESSENTIAL,04B05,Oxitocina; 5 UI/mL; Injectável,5 UI/mL,Oxitocina
+ESS_MEDS,VIA ESSENTIAL,08S02Z,Abacavir sulfato (ABC); 20mg/mL; Solução,20mg/mL,Abacavir sulfato (ABC)
+ESS_MEDS,VIA ESSENTIAL,26A02,KIT PME APE; SEM DOSAGEM; KIT,Sem Dosagem,KIT PME APE
+ESS_MEDS,VIA ESSENTIAL,11A26,Solucao p/ Dialise peritoneal ; 4.50%; Injectável,4.50%,Solucao p/ Dialise peritoneal c/ Glicose
+ESS_MEDS,VIA ESSENTIAL,16C01,Beclometasona; 50mcg/inalacao; Spray nasal,50mcg/inalacao,Beclometasona
+ESS_MEDS,VIA ESSENTIAL,04A02,Clotrimazol; 50mg/5g; Créme vaginal,50mg/5g,Clotrimazol
+ESS_MEDS,VIA ESSENTIAL,07A06Y,Paracetamol; 250mg/5mL; Xarope,250mg/5mL,Paracetamol
+ESS_MEDS,VIA ESSENTIAL,18C03Y,Bupivacaina+Dextrose; 10mg+75mg; Injectável,10mg+75mg,Bupivacaina+Dextrose
+ESS_MEDS,VIA ESSENTIAL,13A0XZ,Prometazina HCL; 5mg/5mL; Xarope,5mg/5mL,Prometazina HCL
+ESS_MEDS,VIA ESSENTIAL,09E01,L-acido Zoledronico; 4 mg/5mL; Injectável,4 mg/5mL,L-acido Zoledronico
+ESS_MEDS,VIA ESSENTIAL,12B02,Glicose (Dextrose); 250ml 10%; Injectável,250ml 10%,Glicose (Dextrose)
+ESS_MEDS,VIA ESSENTIAL,08H03,Ciprofloxacina; 500mg; Comprimidos,500mg,Ciprofloxacina
+ESS_MEDS,VIA ESSENTIAL,09C08Z,Metotrexato; 25mg/mL Ampola 2mL; Injectável,25mg/mL Ampola 2mL,Metotrexato
+ESS_MEDS,VIA ESSENTIAL,08O14,"Sulfadoxina+Pirimetamina; 500mg + 25mg/2,5mL; Injectável","500mg + 25mg/2,5mL",Sulfadoxina+Pirimetamina
+ESS_MEDS,VIA ESSENTIAL,25B05,Mapa Consumo Mensal AL; SEM DOSAGEM; Papel,Sem Dosagem,Mapa Consumo Mensal AL
+ESS_MEDS,VIA ESSENTIAL,25A09,Mapa  Resumo/Plano Trimestral ; SEM DOSAGEM; Papel,Sem Dosagem,Mapa  Resumo/Plano Trimestral Distribuicao de Kits
+MMIA,MMIA,08S39Y,Lopinavir/Ritonavir (Kaletra); 80mg + 20mg; Solução,80mg + 20mg,Lopinavir/Ritonavir (Kaletra)
+ESS_MEDS,VIA ESSENTIAL,08B04Z,Cefixima; 400mg; Comprimidos,400mg,Cefixima
+ESS_MEDS,VIA ESSENTIAL,09C02,"Fludarabina, fosfato; 10mg; Comprimidos",10mg,"Fludarabina, fosfato"
+ESS_MEDS,VIA ESSENTIAL,05A08,Salbutamol; 100mcg/inalacao; Aerosol,100mcg/inalacao,Salbutamol
+ESS_MEDS,VIA ESSENTIAL,10A01,Amilorido; 5mg; Comprimidos,5mg,Amilorido
+MMIA,MMIA,08S13,Lamivudina(3TC); 150mg 60Comp; Embalagem,150mg Comp,Lamivudina(3TC)
+ESS_MEDS,VIA ESSENTIAL,18D03Z,Vecuronio brometo; 10mg/5mL; Injectável,10mg/5mL,Vecuronio brometo
+ESS_MEDS,VIA ESSENTIAL,04K05,Flutamida; 250mg; Comprimidos,250mg,Flutamida
+ESS_MEDS,VIA ESSENTIAL,08I03,Cotrimoxazol (Sulfametazol+Tri; 240mg/5mL; Suspensão,240mg/5mL,Cotrimoxazol (Sulfametazol+Trimetoprim)
+ESS_MEDS,VIA ESSENTIAL,08K01,Cloranfenicol; 250mg; Cápsulas,250mg,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,12B09,"Sol oligoelementos; 0,2%; Injectável","0,2%",Sol oligoelementos
+ESS_MEDS,VIA ESSENTIAL,08B03,"Cefuroxima, axetil; 125mg/5mL; Suspensão",125mg/5mL,"Cefuroxima, axetil"
+ESS_MEDS,VIA ESSENTIAL,04B02,Ergometrina+Oxitocina; 500mg + 5UI; Injectável,500mg + 5UI,Ergometrina+Oxitocina
+ESS_MEDS,VIA ESSENTIAL,07J13,Clozapina; 100mg; Comprimidos,100mg,Clozapina
+ESS_MEDS,VIA ESSENTIAL,07J09Z,Tioridazina; 25mg; Comprimidos,25mg,Tioridazina
+ESS_MEDS,VIA ESSENTIAL,08O07Z,Artesunato; 40mg; Comprimidos,40mg,Artesunato
+ESS_MEDS,VIA ESSENTIAL,08S39,Lopinavir+Ritonavir; 400mg + 100mg/5mL 80ml; Solução,400mg + 100mg/5mL 80ml,Lopinavir+Ritonavir
+ESS_MEDS,VIA ESSENTIAL,05B0X,Ciclidrol xpe (8mg/mL); 8mg/mL; Xarope,8mg/mL,Ciclidrol xpe (8mg/mL)
+ESS_MEDS,VIA ESSENTIAL,15B02,"Betametasona dipropionato; 0,05%; Loção Capilar","0,05%",Betametasona dipropionato
+ESS_MEDS,VIA ESSENTIAL,02F01,Mesalazina ou Sulfasalazina (5; 400mg; Comprimidos,400mg,Mesalazina ou Sulfasalazina (5ASA)
+ESS_MEDS,VIA ESSENTIAL,12B07,Lipidos; 10%; Injectável,10%,Lipidos
+ESS_MEDS,VIA ESSENTIAL,24B05Z,Seringa Hipodermica 10 mL com agulha 10ml,10ml,Seringa Hipodermica 10 mL com agulha
+ESS_MEDS,VIA ESSENTIAL,19B04,Vacina anti-poliomielítica 10 ; SEM DOSAGEM; Gotas Orais,Sem Dosagem,Vacina anti-poliomielÕtica 10 doses
+ESS_MEDS,VIA ESSENTIAL,08H01,Acido Nalidíxico; 500mg; Comprimidos,500mg,Acido NalidÕxico
+ESS_MEDS,VIA ESSENTIAL,03E02,"Somatropina; 6,1 mg/ml, ampola pre-enchida; Injectável","6,1 mg/ml, ampola pre-enchida",Somatropina
+ESS_MEDS,VIA ESSENTIAL,08R01,Aciclovir; 400mg; Comprimidos,400mg,Aciclovir
+ESS_MEDS,VIA ESSENTIAL,08D05Z,Kanamicina; 1g/10mL-ampola; Injectável,1g/10mL-ampola,Kanamicina
+ESS_MEDS,VIA ESSENTIAL,19B01,"Vacina Anti - Colerica 10 dose; 0,2%; Injectável","0,2%",Vacina Anti - Colerica 10 doses
+MMIA,MMIA,08S23,Nevirapina (NVP); 50mg/5mL 240mL; Suspensão,50mg/5mL 240mL,Nevirapina (NVP)
+ESS_MEDS,VIA ESSENTIAL,05A01,Aminofilina; 100mg; Comprimidos,100mg,Aminofilina
+ESS_MEDS,VIA ESSENTIAL,11A07,"Cloreto de sodio; 250 mL 0,9%; Injectável","250 mL 0,9%",Cloreto de sodio
+ESS_MEDS,VIA ESSENTIAL,02A05,Omeprazol; 40mg/10mL; Injectável,40mg/10mL,Omeprazol
+ESS_MEDS,VIA ESSENTIAL,20A06,Clorexidina; 5%; Solução - Frasco,5%,Clorexidina
+ESS_MEDS,VIA ESSENTIAL,11A17,"Glicose+Cloreto de Sódio; 4,3% + 0,18%/500ml; Injectável","4,3% + 0,18%/500ml",Glicose+Cloreto de SÑdio
+ESS_MEDS,VIA ESSENTIAL,10A08Z,Manitol; 10% (100mg/ml); Injectável,10% (100mg/ml),Manitol
+ESS_MEDS,VIA ESSENTIAL,11A0XZ,Agua para Injectaveis  5ml Inj,5ml,Agua para Injectaveis
+ESS_MEDS,VIA ESSENTIAL,08F02,Azitromicina; 200mg/5mL; Suspensão,200mg/5mL,Azitromicina
+ESS_MEDS,VIA ESSENTIAL,12C02,"Gluconato de cálcio; 500mg (2,3 mEq de cálcio); Comprimidos","500mg (2,3 mEq de cálcio)",Gluconato de càlcio
+ESS_MEDS,VIA ESSENTIAL,16C03,"Efedrina HCL; 0,5%; Gotas nasais","0,5%",Efedrina HCL
+ESS_MEDS,VIA ESSENTIAL,07B11,Tramadol; 100mg/2mL; Injectável,100mg/2mL,Tramadol
+ESS_MEDS,VIA ESSENTIAL,15C09,Clotrimazol; 1%; Solução Ungueal,1%,Clotrimazol
+ESS_MEDS,VIA ESSENTIAL,07J05,Flufenazina; 25mg/2mL; Injectável,25mg/2mL,Flufenazina
+ESS_MEDS,VIA ESSENTIAL,25D02,Manual de procedimentos dos Hospitais Sem Dosagem Papel,Sem Dosagem,Manual de procedimentos dos Hospitais
+ESS_MEDS,VIA ESSENTIAL,18C11Z,Lidocaina+Prilocaína; 5% (25mg + 25mg); Créme,5% (25mg + 25mg),Lidocaina+PrilocaÕna
+ESS_MEDS,VIA ESSENTIAL,10A06,Hidroclortiazida; 50mg; Comprimidos,50mg,Hidroclortiazida
+ESS_MEDS,VIA ESSENTIAL,22B0YZ,"Propiliodona; 0,2%; Suspensão","0,2%",Propiliodona
+ESS_MEDS,VIA ESSENTIAL,08L10X,Acido Aminosalicilico (PASER); 4g; Saquetas,4g,Acido Aminosalicilico (PASER)
+ESS_MEDS,VIA ESSENTIAL,23D02,Ligadura De Cambraia ; 10cm X 5m; Rolo,10cm X 5m,Ligadura De Cambraia
+ESS_MEDS,VIA ESSENTIAL,15C06Z,Neomicina + Bacitracina; 3300UI+250UI; Créme,3300UI+250UI,Neomicina + Bacitracina
+ESS_MEDS,VIA ESSENTIAL,12A01,"Caseinato de calcio; 0,2%; Pó","0,2%",Caseinato de calcio
+ESS_MEDS,VIA ESSENTIAL,05A07Z,Ketotifeno; 1mg/5mL; Xarope,1mg/5mL,Ketotifeno
+ESS_MEDS,VIA ESSENTIAL,08J02,Vancomicina hidrocloreto; 500mg; Injectável,500mg,Vancomicina hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,08K01Z,Cloranfenicol; 500mg; Cápsulas,500mg,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,12B10Y,Albumina; 20% 50ml 10g; Injectável,20% 50ml 10g,Albumina
+ESS_MEDS,VIA ESSENTIAL,15B01,"Betametasona dipropionato; 0,1%; Créme","0,1%",Betametasona dipropionato
+ESS_MEDS,VIA ESSENTIAL,15C26,Violeta de genciana; 1%; Solução alcoólica,1%,Violeta de genciana
+ESS_MEDS,VIA ESSENTIAL,12B03Y,Dextrose; 25% 250ml; Injectável,25% 250ml,Dextrose
+ESS_MEDS,VIA ESSENTIAL,08L04Z,Isoniazida+Tiacetazona; 300mg+150mg; Comprimidos,300mg+150mg,Isoniazida+Tiacetazona
+ESS_MEDS,VIA ESSENTIAL,19B09,"Vacina pentavalente; 0,2%; Injectável","0,2%",Vacina pentavalente
+ESS_MEDS,VIA ESSENTIAL,17D0ZZ,"Dexametasona+Cloranfenicol; 1% + 0,5%; Colírio","1% + 0,5%",Dexametasona+Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,15B14,"Hidrocortisona butirato; 0,1%; Créme","0,1%",Hidrocortisona butirato
+ESS_MEDS,VIA ESSENTIAL,08K09,Nitrofurantoína; 25mg/5mL; Suspensão,25mg/5mL,NitrofurantoÕna
+ESS_MEDS,VIA ESSENTIAL,03B09,Insulina accao intermedia (Pro; 100UI/mL; Injectável,100UI/mL,Insulina accao intermedia (Protaphane)
+ESS_MEDS,VIA ESSENTIAL,18B04,Propofol; (10mg/ml) 50ml; Injectável,(10mg/ml) 50ml,Propofol
+ESS_MEDS,VIA ESSENTIAL,04F04,Etinilest+Levonorgestrel; 50mcg + 250mcg; Comprimidos,50mcg + 250mcg,Etinilest+Levonorgestrel
+ESS_MEDS,VIA ESSENTIAL,20A08Z,Cetrimida+Clorexidina; 15%+7.5% 500mL; Solução,15%+7.5% 500mL,Cetrimida+Clorexidina
+ESS_MEDS,VIA ESSENTIAL,24C02,Sistemas paraTransfusao de san; SEM DOSAGEM; Embalagem,Sem Dosagem,Sistemas paraTransfusao de sangue
+ESS_MEDS,VIA ESSENTIAL,02A02Z,Hidroxido de  Magnesio; 311mg; Comprimidos,311mg,Hidroxido de  Magnesio
+ESS_MEDS,VIA ESSENTIAL,08O18,Sulfadiazina Sodica; 250mg/mL; Injectável,250mg/mL,Sulfadiazina Sodica
+ESS_MEDS,VIA ESSENTIAL,15D03,Alcatrão de Hulha (Coaltar); 5% + 0.2%; Champo,5% + 0.2%,AlcatrÜo de Hulha (Coaltar)
+ESS_MEDS,VIA ESSENTIAL,04E0YZ,Progesterona; 25mg/mL; Injectável,25mg/mL,Progesterona
+ESS_MEDS,VIA ESSENTIAL,08O16,Pirimetamina; 25mg; Comprimidos,25mg,Pirimetamina
+ESS_MEDS,VIA ESSENTIAL,15C04,"Amorolfine; 5%Frasco 2,5mL; Frasco","5%Frasco 2,5mL",Amorolfine
+ESS_MEDS,VIA ESSENTIAL,17A03,Adrenalina pediatrica; 2%; Solução,2%,Adrenalina pediatrica
+ESS_MEDS,VIA ESSENTIAL,02H01Z,Dimetilpolissiloxano; 10mg/25mL; Gotas Orais,10mg/25mL,Dimetilpolissiloxano
+ESS_MEDS,VIA ESSENTIAL,10A04Z,Furosemida; 10mg/2mL; Injectável,10mg/2mL,Furosemida
+ESS_MEDS,VIA ESSENTIAL,07J02,Clorpromazina; 100mg; Comprimidos,100mg,Clorpromazina
+ESS_MEDS,VIA ESSENTIAL,18C02Y,Bupivacaina HCL+Adrenalina; 100mg+5mg; Injectável,100mg+5mg,Bupivacaina HCL+Adrenalina
+ESS_MEDS,VIA ESSENTIAL,02B02,Butilescopolamina; 20mg/mL; Injectável,20mg/mL,Butilescopolamina
+ESS_MEDS,VIA ESSENTIAL,08O04,Artemeter; 50mg; Supositório,50mg,Artemeter
+ESS_MEDS,VIA ESSENTIAL,08O05X,Artemeter+Lumefantrina; 120mg+20mg 4x6; Comprimidos,120mg+20mg 4x6,Artemeter+Lumefantrina
+ESS_MEDS,VIA ESSENTIAL,11A03Z,Cloreto de potassio; 15%; Injectável,15%,Cloreto de potassio
+ESS_MEDS,VIA ESSENTIAL,23A01,Adesivo Esparadrapo(Transpore); 18cm X5m; Rolo,18cm X5m,Adesivo Esparadrapo(Transpore)
+ESS_MEDS,VIA ESSENTIAL,08B07,Ceftadizima; 1g-ampola; Injectável,1g-ampola,Ceftadizima
+ESS_MEDS,VIA ESSENTIAL,26B07,Rede Mosquiteiras unidade,unidade,Rede Mosquiteiras
+ESS_MEDS,VIA ESSENTIAL,07C02,Sumatriptano; 50mg; Comprimidos,50mg,Sumatriptano
+MMIA,MMIA,08S18Y,Tenofovir/Lamivudina/Efavirenz; 300mg + 300mg + 600mg 30Comp; Embalagem,300mg + 300mg + 600mg Comp,Tenofovir/Lamivudina/Efavirenz
+ESS_MEDS,VIA ESSENTIAL,080ZY,Cefalexina; 250mg; Cápsulas,250mg,Cefalexina
+ESS_MEDS,VIA ESSENTIAL,04A09,Nistatina; 100 000UI/4g; Créme vaginal,100 000UI/4g,Nistatina
+ESS_MEDS,VIA ESSENTIAL,07B07,Morfina sulfato; 5mg/5mL; Xarope,5mg/5mL,Morfina sulfato
+ESS_MEDS,VIA ESSENTIAL,23B01,Algodao Hidrofilo ; 500g; Rolo,500g,Algodao Hidrofilo
+ESS_MEDS,VIA ESSENTIAL,07J04,"Flufenazina; 2,5mg; Comprimidos","2,5mg",Flufenazina
+ESS_MEDS,VIA ESSENTIAL,15E02,Peroxido de benzoilo; 5%; Créme,5%,Peroxido de benzoilo
+ESS_MEDS,VIA ESSENTIAL,08O15,Artesunato+Amodiaquina; 100mg+270mg; Comprimidos,100mg+270mg,Artesunato+Amodiaquina
+ESS_MEDS,VIA ESSENTIAL,18B05Z,Tiopental; 500mg/20mL; Injectável,500mg/20mL,Tiopental
+ESS_MEDS,VIA ESSENTIAL,17F01,Acetilcolina; 1%; Solução Oftálmica,1%,Acetilcolina
+ESS_MEDS,VIA ESSENTIAL,08S25,Amprenavir (APV); 15mg/mL; Solução,15mg/mL,Amprenavir (APV)
+ESS_MEDS,VIA ESSENTIAL,18C07Z,Lidocaina; 2%-2g/100ml; Gel,2%-2g/100ml,Lidocaina
+ESS_MEDS,VIA ESSENTIAL,12D08,"Complexo B; 0,2%; Comprimidos","0,2%",Complexo B
+ESS_MEDS,VIA ESSENTIAL,15D05,"Calcipotriol; 0,005%; Créme","0,005%",Calcipotriol
+ESS_MEDS,VIA ESSENTIAL,15C03Z,"Acido Benzoico; 0,2%; Pomada","0,2%",Acido Benzoico
+ESS_MEDS,VIA ESSENTIAL,15C16,Iodo+Acido salicilico; 1g + 3g; Solução alcoólica,1g + 3g,Iodo+Acido salicilico
+ESS_MEDS,VIA ESSENTIAL,09C08,Metotrexato; 5mg/2mL; Injectável,5mg/2mL,Metotrexato
+ESS_MEDS,VIA ESSENTIAL,02D06,Lactulose; 100g/200mL; Xarope,100g/200mL,Lactulose
+ESS_MEDS,VIA ESSENTIAL,17D0YZ,"Prednisolona; 0,02%; Colírio","0,02%",Prednisolona
+ESS_MEDS,VIA ESSENTIAL,08O11,Quinina sulfato; 300mg; Comprimidos,300mg,Quinina sulfato
+ESS_MEDS,VIA ESSENTIAL,18C02,"Bupivacaina HCL+Adrenalina; 10mg+0,01mg; Injectável","10mg+0,01mg",Bupivacaina HCL+Adrenalina
+ESS_MEDS,VIA ESSENTIAL,04H03,Oxibutinina; 20mg; Comprimidos,20mg,Oxibutinina
+ESS_MEDS,VIA ESSENTIAL,23D07,"Ligadura Gessada  ; 7,5cmx3m; Rolo","7,5cmx3m",Ligadura Gessada
+ESS_MEDS,VIA ESSENTIAL,01C03,Labetalol; 5mg/mL; Injectável,5mg/mL,Labetalol
+ESS_MEDS,VIA ESSENTIAL,25A03,Ficha de  Stock ; SEM DOSAGEM; Papel,Sem Dosagem,Ficha de  Stock
+ESS_MEDS,VIA ESSENTIAL,03B13,Diazoxido; 50mg; Comprimidos,50mg,Diazoxido
+ESS_MEDS,VIA ESSENTIAL,18B03,"Propofol; 10mg/mL, 20 ml; Injectável","10mg/mL, 20 ml",Propofol
+ESS_MEDS,VIA ESSENTIAL,24B01,Seringa para insulina 1 ml com; 100 UI; Embalagem,100 UI,Seringa para insulina 1 ml com agulha
+ESS_MEDS,VIA ESSENTIAL,09C01,Citarabina (citosina arabinosi; 100mg/5mL; Injectável,100mg/5mL,Citarabina (citosina arabinosido)
+ESS_MEDS,VIA ESSENTIAL,03B12,Insulina accao prolongada (gla; 100UI/mL; Injectável,100UI/mL,Insulina accao prolongada (glargina)
+ESS_MEDS,VIA ESSENTIAL,12D02Z,Acido Ascorbico (VIT C); 100mg/5mL; Injectável,100mg/5mL,Acido Ascorbico (VIT C)
+ESS_MEDS,VIA ESSENTIAL,08F08Z,Eritromicina; 200mg/5mL; Suspensão,200mg/5mL,Eritromicina
+ESS_MEDS,VIA ESSENTIAL,09B03,Daunorubicina; 20mg; Injectável,20mg,Daunorubicina
+ESS_MEDS,VIA ESSENTIAL,01J02,Sinvastatina; 20mg; Comprimidos,20mg,Sinvastatina
+ESS_MEDS,VIA ESSENTIAL,09D04,"Vincristina,sulfato; 2mg/2mL; Injectável",2mg/2mL,"Vincristina,sulfato"
+ESS_MEDS,VIA ESSENTIAL,07J11,Trifluorperazina; 5mg; Comprimidos,5mg,Trifluorperazina
+ESS_MEDS,VIA ESSENTIAL,14A05,Indometacina; 25mg; Comprimidos,25mg,Indometacina
+ESS_MEDS,VIA ESSENTIAL,07D07,Fenobarbital; 100mg; Comprimidos,100mg,Fenobarbital
+ESS_MEDS,VIA ESSENTIAL,24B04,"Seringa Hipodermica 2,5 ml com; 0,60x25mm; Embalagem","0,60x25mm","Seringa Hipodermica 2,5 ml com agulha"
+ESS_MEDS,VIA ESSENTIAL,01E03,Propranolol; 40mg; Comprimidos,40mg,Propranolol
+ESS_MEDS,VIA ESSENTIAL,20A14,Permanganato de potassio 500mg Comp,500mg,Permanganato de potassio
+ESS_MEDS,VIA ESSENTIAL,16C06,"Tint atrop beladon+Tint eucali; 0,2%; Soluto","0,2%",Tint atrop beladon+Tint eucalip+Ess de Timos
+ESS_MEDS,VIA ESSENTIAL,26A06Z,Blocos de Receitas Sem Dosagem Papel,Sem Dosagem,Blocos de Receitas
+ESS_MEDS,VIA ESSENTIAL,23A07,Adesivo Transparente; 72mmx5m; Rolo,72mmX5m,Adesivo Transparente
+ESS_MEDS,VIA ESSENTIAL,07G04,Imipramina; 25mg; Comprimidos,25mg,Imipramina
+ESS_MEDS,VIA ESSENTIAL,02H0YY,Dimetilpolissiloxano; 10mg/25mL; Gotas Orais,10mg/25mL,Dimetilpolissiloxano
+ESS_MEDS,VIA ESSENTIAL,06F05,Fibrinogenio; 100mg/250mL; Injectável,100mg/250mL,Fibrinogenio
+ESS_MEDS,VIA ESSENTIAL,08S23Z,Nevirapina (NVP); 50mg 60Comp Disp; Embalagem,50mg 60Comp Disp,Nevirapina (NVP)
+ESS_MEDS,VIA ESSENTIAL,08Q03,Fluconazol 200mg Caps,200mg,Fluconazol
+ESS_MEDS,VIA ESSENTIAL,12C03,Gluconato de cálcio; 10%-ampola; Injectável,10%-ampola,Gluconato de càlcio
+ESS_MEDS,VIA ESSENTIAL,07I06,Diazepam; 10mg; Comprimidos,10mg,Diazepam
+ESS_MEDS,VIA ESSENTIAL,08M0XX,Dapsona+Rifampicina; 100mg+300mg; Comprimidos,100mg+300mg,Dapsona+Rifampicina
+ESS_MEDS,VIA ESSENTIAL,17D01,"Dexametasona; 0,5%; Colírio","0,5%",Dexametasona
+ESS_MEDS,VIA ESSENTIAL,04D05,Estradiol+Noretisterona; 2mg+2mg+1mg+1mg; Ciclo,2mg+2mg+1mg+1mg,Estradiol+Noretisterona
+ESS_MEDS,VIA ESSENTIAL,07E01,Cinarizina; 25mg; Comprimidos,25mg,Cinarizina
+ESS_MEDS,VIA ESSENTIAL,08R0YZ,Tamiflu; 75mg; Cápsulas,75mg,Tamiflu
+ESS_MEDS,VIA ESSENTIAL,07D12,Topiramato; 50mg; Comprimidos,50mg,Topiramato
+ESS_MEDS,VIA ESSENTIAL,09F04,Rituximab; 100mg/10mL; Injectável,100mg/10mL,Rituximab
+ESS_MEDS,VIA ESSENTIAL,08D0ZZ,Gentamicina; 40mg/2mL-ampola; Injectável,40mg/2mL-ampola,Gentamicina
+ESS_MEDS,VIA ESSENTIAL,18F04,Midazolam; 15mg/3mL; Injectável,15mg/3mL,Midazolam
+ESS_MEDS,VIA ESSENTIAL,08S10,Estavudina(D4T); 30mg 60Caps; Embalagem,30mg 60Caps,Estavudina(D4T)
+ESS_MEDS,VIA ESSENTIAL,04K08,Stilbestrol (Dietilstilbestrol; 3mg; Comprimidos,3mg,Stilbestrol (Dietilstilbestrol)
+ESS_MEDS,VIA ESSENTIAL,01A03,"Digoxina; 0,5mg/2mL; Injectável","0,5mg/2mL",Digoxina
+ESS_MEDS,VIA ESSENTIAL,24A05Z,"Agulha Hipodermica 16G; 1,60x38mm; Embalagem","1,60x38mm",Agulha Hipodermica 16G
+ESS_MEDS,VIA ESSENTIAL,23D01,Ligadura De Cambraia ; 5cm X 5m; Rolo,5cm X 5m,Ligadura De Cambraia
+ESS_MEDS,VIA ESSENTIAL,01C01,Hidralazina; 25mg/5mL; Injectável,25mg/5mL,Hidralazina
+ESS_MEDS,VIA ESSENTIAL,09A05,Clormetina ; 10mg; Injectável,10mg,Clormetina
+ESS_MEDS,VIA ESSENTIAL,03B10,Insulina accao interm Bifasica; 100UI/mL; Injectável,100UI/mL,Insulina accao interm Bifasica(Actraphane70/30)
+ESS_MEDS,VIA ESSENTIAL,01H02,Enalapril; 20mg; Comprimidos,20mg,Enalapril
+ESS_MEDS,VIA ESSENTIAL,13A05,Hidroxizina HCl; 25mg; Comprimidos,25mg,Hidroxizina HCl
+ESS_MEDS,VIA ESSENTIAL,08O0ZY,Trimetoprim; 20mg; Comprimidos,20mg,Trimetoprim
+ESS_MEDS,VIA ESSENTIAL,08O02,Artemeter; 20mg/mL; Injectável,20mg/mL,Artemeter
+ESS_MEDS,VIA ESSENTIAL,09F03,"Interferon alfa-2a recombinado; 3000000 IU/0,5mL; Injectável","3000000 IU/0,5mL",Interferon alfa-2a recombinado
+ESS_MEDS,VIA ESSENTIAL,26A01,KIT PME US; SEM DOSAGEM; KIT,Sem Dosagem,KIT PME US
+ESS_MEDS,VIA ESSENTIAL,14B01,Alopurinol; 100mg; Comprimidos,100mg,Alopurinol
+ESS_MEDS,VIA ESSENTIAL,10A03,Furosemida; 40mg; Comprimidos,40mg,Furosemida
+ESS_MEDS,VIA ESSENTIAL,07J09,Tioridazina; 10mg; Comprimidos,10mg,Tioridazina
+ESS_MEDS,VIA ESSENTIAL,08M6ZZ,Prednisolona; 2X14Comprimidos40+30+20+15+10+; Comprimidos,2X14Comprimidos40+30+20+15+10+5mg,Prednisolona
+ESS_MEDS,VIA ESSENTIAL,08S33,Estavudina/Lamivudina; 40mg+150mg 60Comp; Embalagem,40mg+150mg 60Comp,Estavudina/Lamivudina
+ESS_MEDS,VIA ESSENTIAL,08G01Z,Doxicilina; 50mg; Cápsulas,50mg,Doxicilina
+ESS_MEDS,VIA ESSENTIAL,02E02,Loperamida; 2mg; Comprimidos,2mg,Loperamida
+ESS_MEDS,VIA ESSENTIAL,04K07,Stilbestrol (Dietilstilbestrol; 1mg; Comprimidos,1mg,Stilbestrol (Dietilstilbestrol)
+ESS_MEDS,VIA ESSENTIAL,08K05,Metronidazol; 500mg/100mL; Injectável,500mg/100mL,Metronidazol
+ESS_MEDS,VIA ESSENTIAL,11A18,Hidroxietilamido; 6%; Injectável,6%,Hidroxietilamido
+ESS_MEDS,VIA ESSENTIAL,12D04,Axeroftol (Vitamina A); 200 000 UI; Cápsulas,200 000 UI,Axeroftol (Vitamina A)
+ESS_MEDS,VIA ESSENTIAL,14A03Z,Ibuprofeno; 400mg; Comprimidos,400mg,Ibuprofeno
+ESS_MEDS,VIA ESSENTIAL,24B03,Seringa para Medroxiprogestero; SEM DOSAGEM; Embalagem,Sem Dosagem,Seringa para Medroxiprogesterona injectavel 1 ml com agulha
+ESS_MEDS,VIA ESSENTIAL,07I08,Flunitrazepam; 2mg; Comprimidos,2mg,Flunitrazepam
+ESS_MEDS,VIA ESSENTIAL,08L02X,Etambutol+Isoniazida; 400mg+150mg; Comprimidos,400mg+150mg,Etambutol+Isoniazida
+ESS_MEDS,VIA ESSENTIAL,07A04,Paracetamol; 1g/100mL; Injectável,1g/100mL,Paracetamol
+ESS_MEDS,VIA ESSENTIAL,09G03,"Goserelina, acetato; 10,8mg; Implante","10,8mg","Goserelina, acetato"
+ESS_MEDS,VIA ESSENTIAL,11A19,Lactato de Ringer+AD set; 1000ml; Injectável,1000ml,Lactato de Ringer+AD set
+ESS_MEDS,VIA ESSENTIAL,18C10X,Lidocaina com Adernalina; 1:200 000 30 ML; Injectável,1:200 000 30 ML,Lidocaina+Adrenalina
+ESS_MEDS,VIA ESSENTIAL,12A14,"Dietapolimerica  para insufici; 0,2%; Solução","0,2%",Dietapolimerica  para insuficientes renais
+ESS_MEDS,VIA ESSENTIAL,15C19,Metronidazol; 1%; Créme,1%,Metronidazol
+ESS_MEDS,VIA ESSENTIAL,01G03,Nitroglicerina; 5mg/mL; Injectável,5mg/mL,Nitroglicerina
+ESS_MEDS,VIA ESSENTIAL,07L01,Baclofeno; 10mg; Comprimidos,10mg,Baclofeno
+ESS_MEDS,VIA ESSENTIAL,04F01,Ciproterona+Etinilestradiol; 2mg + 35mcg; Comprimidos,2mg + 35mcg,Ciproterona+Etinilestradiol
+ESS_MEDS,VIA ESSENTIAL,15C0ZX,Benzoato de benzilo; 25% 250mg/mL; Emulsão,25% 250mg/mL,Benzoato de benzilo
+ESS_MEDS,VIA ESSENTIAL,25A08,Mapa Finaceiro; SEM DOSAGEM; Papel,Sem Dosagem,Mapa Finaceiro
+ESS_MEDS,VIA ESSENTIAL,09H04,Ondansetron; 8mg/4mL; Injectável,8mg/4mL,Ondansetron
+ESS_MEDS,VIA ESSENTIAL,02A06,Ranitidina; 150mg; Comprimidos,150mg,Ranitidina
+ESS_MEDS,VIA ESSENTIAL,01A02,"Digoxina; 2,5mg/50mL; Gotas Orais","2,5mg/50mL",Digoxina
+ESS_MEDS,VIA ESSENTIAL,20A01,Agua oxigenada; 20 volumes 6% 100ml; Solução,20 volumes 6% 100ml,Agua oxigenada
+ESS_MEDS,VIA ESSENTIAL,04D02,"Estrogenios conjugados; 0,625mg; Comprimidos","0,625mg",Estrogenios conjugados
+ESS_MEDS,VIA ESSENTIAL,04E12,Danazol; 200mg; Comprimidos,200mg,Danazol
+ESS_MEDS,VIA ESSENTIAL,08A11Z,Amoxicilina +Ac clavulanico; 875mg+125mg; Comprimidos,875mg+125mg,Amoxicilina +Ac clavulanico
+ESS_MEDS,VIA ESSENTIAL,07B02,Codeina fosfato; 25mg/5mL; Xarope,25mg/5mL,Codeina fosfato
+ESS_MEDS,VIA ESSENTIAL,07I11,Zolpidem; 10mg; Comprimidos,10mg,Zolpidem
+ESS_MEDS,VIA ESSENTIAL,06A0ZY,Acido Folico+Vit B12; 1mg+25mcg; Cápsulas,1mg+25mcg,Acido Folico+Vit B12
+ESS_MEDS,VIA ESSENTIAL,15B22Z,Triamcinolona Hexacetonido; 40mg/mL; Injectável,40mg/mL,Triamcinolona Hexacetonido
+ESS_MEDS,VIA ESSENTIAL,08M04,Dapsona; 100mg; Comprimidos,100mg,Dapsona
+ESS_MEDS,VIA ESSENTIAL,08R0X,Tamiflu; 30mg; Comprimidos,30mg,Tamiflu
+ESS_MEDS,VIA ESSENTIAL,08S26,"Indinavir (IDV) ; 400mg, 180 Caps; Embalagem","400mg, 180 Caps",Indinavir (IDV)
+ESS_MEDS,VIA ESSENTIAL,17E01,Proparacaina (Proxymetacaine); Proxymetacaine;gotas oftalmica; Frasco,"Proxymetacaine;gotas oftalmicas 0,5%Frasco 5mL",Proparacaina (Proxymetacaine)
+ESS_MEDS,VIA ESSENTIAL,07B03,Dextropopoxifeno; 65mg; Cápsulas,65mg,Dextropopoxifeno
+ESS_MEDS,VIA ESSENTIAL,15B04,"Betametasona+Acido salicilico; 0,05%+3%; Loção","0,05%+3%",Betametasona+Acido salicilico
+ESS_MEDS,VIA ESSENTIAL,08S18,Tenofovir (TDF); 300mg 30Comp; Embalagem,300mg 30Comp,Tenofovir (TDF)
+ESS_MEDS,VIA ESSENTIAL,04E05,Ciproterona; 300 mg/3mL; Injectável,300 mg/3mL,Ciproterona
+ESS_MEDS,VIA ESSENTIAL,18C07B,Lidocaina Hidrocloride Carpule; 2%; Injectável,2%,Lidocaina Hidrocloride Carpule
+ESS_MEDS,VIA ESSENTIAL,07I06Z,Diazepam; 10mg; Cápsulas de Libertação Prolong,10mg,Diazepam
+ESS_MEDS,VIA ESSENTIAL,18F0ZZ,"Droperidol (sol Aquosa); 0,2%; Injectável","0,2%",Droperidol (sol Aquosa)
+ESS_MEDS,VIA ESSENTIAL,23D09,Ligadura Gessada  ; 15cm X 3m; Rolo,15cm X 3m,Ligadura Gessada
+ESS_MEDS,VIA ESSENTIAL,08E02,Clindamicina; 150mg/mL-ampola; Injectável,150mg/mL-ampola,Clindamicina
+ESS_MEDS,VIA ESSENTIAL,06A06,Sal ferroso; 200mg (65 mg de ferro elementa; Comprimidos,200mg (65 mg de ferro elementar,Sal ferroso
+ESS_MEDS,VIA ESSENTIAL,18C02Z,Bupivacaina+ Dextrose (Hiperba; 20mg/4ml; Injectável,20mg/4ml,Bupivacaina+ Dextrose (Hiperbarica)
+ESS_MEDS,VIA ESSENTIAL,08Q0ZZ,Fluconazol; 10mg/mL; Xarope,10mg/mL,Fluconazol
+ESS_MEDS,VIA ESSENTIAL,12A0XX,Sacarina; 20mg; Comprimidos,20mg,Sacarina
+ESS_MEDS,VIA ESSENTIAL,07B01,Codeina fosfato; 30mg; Comprimidos,30mg,Codeina fosfato
+ESS_MEDS,VIA ESSENTIAL,18C01Z,Bupivacaina HCL+Adrenalina; 100mg + 1:200.000/20mL; Injectável,100mg + 1:200.000/20mL,Bupivacaina HCL+Adrenalina
+ESS_MEDS,VIA ESSENTIAL,09C09,Metotrexato; 50mg/2mL; Injectável,50mg/2mL,Metotrexato
+ESS_MEDS,VIA ESSENTIAL,15C17,"Iodopovidona; 0,2%; Solução","0,2%",Iodopovidona
+ESS_MEDS,VIA ESSENTIAL,04A03,Clotrimazol; 100mg; Óvulo vaginal,100mg,Clotrimazol
+ESS_MEDS,VIA ESSENTIAL,09E07,Dacarbazina; 200mg; Injectável,200mg,Dacarbazina
+ESS_MEDS,VIA ESSENTIAL,12D05,Axeroftol (Vitamina A); 100 000UI/ml; Solução,100 000UI/ml,Axeroftol (Vitamina A)
+ESS_MEDS,VIA ESSENTIAL,08K03,Cloranfenicol; 250mg/5mL; Suspensão,250mg/5mL,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,12A13,Dietapolimérica  para doentes ; SEM DOSAGEM; Solução,Sem Dosagem,Dietapolim_rica  para doentes Diabeticos
+ESS_MEDS,VIA ESSENTIAL,25A07,Mapa Resumo Mensal Caixa; SEM DOSAGEM; Papel,Sem Dosagem,Mapa Resumo Mensal Caixa
+ESS_MEDS,VIA ESSENTIAL,07A0ZZ,Paracetamol+Cafeina+Ergotamina; 250+100+1mg; Comprimidos,250+100+1mg,Paracetamol+Cafeina+Ergotamina
+ESS_MEDS,VIA ESSENTIAL,15C23,Piritionato de zinco; 2%; Champo,2%,Piritionato de zinco
+ESS_MEDS,VIA ESSENTIAL,06F03,"Esponja de Gelatina; 0,2%; Cubos","0,2%",Esponja de Gelatina
+ESS_MEDS,VIA ESSENTIAL,04B07Z,Sulfato de magnesio; 500mg/mL 50%; Injectável,500mg/mL 50%,Sulfato de magnesio
+ESS_MEDS,VIA ESSENTIAL,07F03,"Levodopa+Benzerazida; 50mg + 12,5mg; Comprimidos","50mg + 12,5mg",Levodopa+Benzerazida
+ESS_MEDS,VIA ESSENTIAL,24D03,"Cateter periferico c/ agulha, valvula de injeccao e abas 18G, Radiopaco unidade Embalagem",unidade,"Cateter periferico c/ agulha, valvula de injeccao e abas 18G, Radiopaco"
+ESS_MEDS,VIA ESSENTIAL,07D06,Fenobarbital; 15mg; Comprimidos,15mg,Fenobarbital
+ESS_MEDS,VIA ESSENTIAL,09C05,Fluorouracilo; 500mg/10mL; Injectável,500mg/10mL,Fluorouracilo
+ESS_MEDS,VIA ESSENTIAL,12D12,Nicotinamida (Vitamina PP); 100mg; Comprimidos,100mg,Nicotinamida (Vitamina PP)
+ESS_MEDS,VIA ESSENTIAL,08H01Z,Acido Nalidíxico; 125mg; Comprimidos,125mg,Acido NalidÕxico
+ESS_MEDS,VIA ESSENTIAL,08H07Z,Levofloxacina 500mg Comp,500mg,Levofloxacina
+ESS_MEDS,VIA ESSENTIAL,15D08,"Ditranol; 0,1%; Créme","0,1%",Ditranol
+ESS_MEDS,VIA ESSENTIAL,07L03,Dissulfiram; 200mg; Comprimidos,200mg,Dissulfiram
+ESS_MEDS,VIA ESSENTIAL,17E0ZZ,"Oxibuprocaina; 0,4%; Colírio","0,4%",Oxibuprocaina
+ESS_MEDS,VIA ESSENTIAL,04E06,Testosterona; 50mg/5g; Gel,50mg/5g,Testosterona
+ESS_MEDS,VIA ESSENTIAL,15C21,Miconazol muco-adesivo bucal; 10mg; Comprimidos,10mg,Miconazol muco-adesivo bucal
+ESS_MEDS,VIA ESSENTIAL,02C03,Metoclopramida; 5mg/5mL; Xarope,5mg/5mL,Metoclopramida
+ESS_MEDS,VIA ESSENTIAL,16C08,"Triprolina+Pseudoefedrina; 1,25mg+30mg/5mL; Xarope","1,25mg+30mg/5mL",Triprolina+Pseudoefedrina
+ESS_MEDS,VIA ESSENTIAL,12D03Z,Alfa tocoferol (Vitamina E); 50mg; Cápsulas,50mg,Alfa tocoferol (Vitamina E)
+ESS_MEDS,VIA ESSENTIAL,17C02,"Ciprofloxacina; 0,3%; Colírio","0,3%",Ciprofloxacina
+ESS_MEDS,VIA ESSENTIAL,05A09,Salbutamol; 2mg; Comprimidos,2mg,Salbutamol
+ESS_MEDS,VIA ESSENTIAL,17B04,Tropicamida; 1%; Colírio,1%,Tropicamida
+ESS_MEDS,VIA ESSENTIAL,01H01,Enalapril; 5mg; Comprimidos,5mg,Enalapril
+ESS_MEDS,VIA ESSENTIAL,08H02,Acido Nalidíxico; 300mg/5mL; Xarope,300mg/5mL,Acido NalidÕxico
+ESS_MEDS,VIA ESSENTIAL,15D02,Alcatrao de Hulha (Coaltar); 5% + 2%; Créme,5% + 2%,Alcatrao de Hulha (Coaltar)
+ESS_MEDS,VIA ESSENTIAL,24D02,"Cateter periferico c/ agulha, valvula de injeccao e abas 16G, Radiopaco unidade Embalagem",unidade,"Cateter periferico c/ agulha, valvula de injeccao e abas 16G, Radiopaco"
+ESS_MEDS,VIA ESSENTIAL,09E06Z,Cisplatina; 50mg/100mL; Injectável,50mg/100mL,Cisplatina
+ESS_MEDS,VIA ESSENTIAL,04D04,"Estradiol+Noretisterona; 1mg + 0,5mg; Comprimidos","1mg + 0,5mg",Estradiol+Noretisterona
+ESS_MEDS,VIA ESSENTIAL,02I02,Anti hemorroidario; 400/40mg; Supositório,400/40mg,Anti hemorroidario
+ESS_MEDS,VIA ESSENTIAL,08A0ZX,Cloxacilina; 250mg; Comprimidos,250mg,Cloxacilina
+ESS_MEDS,VIA ESSENTIAL,08R0Z,Tamiflu; 45mg; Comprimidos,45mg,Tamiflu
+ESS_MEDS,VIA ESSENTIAL,19A04,Imunoglobulina humana anti-tetano; 250 UI/2mL; Injectável,250 UI/2mL,Imunoglobulina humana anti-tetano
+ESS_MEDS,VIA ESSENTIAL,08A0XY,Pefloxacina; 400mg; Comprimidos,400mg,Pefloxacina
+ESS_MEDS,VIA ESSENTIAL,12D06Z,Colecalciferol (Vit D); 200 000 UI; Injectável,200 000 UI,Colecalciferol (Vit D)
+ESS_MEDS,VIA ESSENTIAL,09F02,Ciclosporina; 50mg; Cápsulas,50mg,Ciclosporina
+ESS_MEDS,VIA ESSENTIAL,15F04,"Nitrato de prata; 0,2%; Lápis","0,2%",Nitrato de prata
+ESS_MEDS,VIA ESSENTIAL,15C15Z,Hexacloreto de benzeno; 1%; Loção,1%,Hexacloreto de benzeno
+ESS_MEDS,VIA ESSENTIAL,08L07X,Rifampicina+Isoniazida; 300mg+150mg; Comprimidos,300mg+150mg,Rifampicina+Isoniazida
+ESS_MEDS,VIA ESSENTIAL,14C01,"Mentol+Salicilato de metilo; 0,2% 20g; Pomada","0,2% 20g",Mentol+Salicilato de metilo
+ESS_MEDS,VIA ESSENTIAL,07G09,Trazodona; 50mg; Cápsulas,50mg,Trazodona
+ESS_MEDS,VIA ESSENTIAL,04D06,Estradiol+Noretisterona; 4% 4g/100ml; Sistemas transdérmicos,4% 4g/100ml,Estradiol+Noretisterona
+ESS_MEDS,VIA ESSENTIAL,21A06,Dimercaprol (B.A.L); 100 mg/mL; Injectável,100 mg/mL,Dimercaprol (B.A.L)
+ESS_MEDS,VIA ESSENTIAL,08A05Z,Penicilina G sodica; 5 000 000UI; Injectável Frasco,5 000 000UI,Penicilina G sodica
+ESS_MEDS,VIA ESSENTIAL,09E09,"Imatinib, mesilato; 100mg; Comprimidos",100mg,"Imatinib, mesilato"
+ESS_MEDS,VIA ESSENTIAL,21A13,Protamina sulfato; 1000UI; Injectável,1000UI,Protamina sulfato
+ESS_MEDS,VIA ESSENTIAL,18B05,Tiopental; 500mg/20mL; Injectável,500mg/20mL,Tiopental
+ESS_MEDS,VIA ESSENTIAL,23A08,Adesivo Transparente 96mm x 5m Rolo,96mm x 5m,Adesivo Transparente
+ESS_MEDS,VIA ESSENTIAL,05A05,Brometo de ipratropio; 20mcg/inalacao; Aerosol,20mcg/inalacao,Brometo de ipratropio
+ESS_MEDS,VIA ESSENTIAL,15B0XZ,Dexametasona+Clotrimazol+ Beta; 1%+1%; Créme,1%+1%,Dexametasona+Clotrimazol+ Betametasona
+ESS_MEDS,VIA ESSENTIAL,12A04,Leite adaptado ou semi-adaptad; SEM DOSAGEM; Pó,Sem Dosagem,Leite adaptado ou semi-adaptado
+ESS_MEDS,VIA ESSENTIAL,15A03Z,Vaselina branca; 20g; Pomada,20g,Vaselina branca
+ESS_MEDS,VIA ESSENTIAL,04K01,"BCG Intravesical; 0,2%; Pó","0,2%",BCG Intravesical
+ESS_MEDS,VIA ESSENTIAL,07I10,Oxazepam; 15mg; Comprimidos,15mg,Oxazepam
+ESS_MEDS,VIA ESSENTIAL,09G01,Bicalutamida; 50mg; Comprimidos,50mg,Bicalutamida
+ESS_MEDS,VIA ESSENTIAL,11A22,Resomal (SRO); Sodium 45mmol/L + Potassium 40; Pó,Sodium 45mmol/L + Potassium 40,Resomal (SRO)
+ESS_MEDS,VIA ESSENTIAL,11A16,"Glicose+Cloreto de Sódio; 4,3% + 0,18%/250ml; Injectável","4,3% + 0,18%/250ml",Glicose+Cloreto de SÑdio
+ESS_MEDS,VIA ESSENTIAL,14A02,Diclofenac; 75mg/3mL; Injectável,75mg/3mL,Diclofenac
+ESS_MEDS,VIA ESSENTIAL,15C14,Eritromicina estearato; 4%; Loção,4%,Eritromicina estearato
+ESS_MEDS,VIA ESSENTIAL,25C01,Mapa  Mensal de TDRs; SEM DOSAGEM; Papel,Sem Dosagem,Mapa  Mensal de TDRs
+ESS_MEDS,VIA ESSENTIAL,12D09,"Complexo B; 0,2%; Injectável","0,2%",Complexo B
+ESS_MEDS,VIA ESSENTIAL,02F0ZZ,"Beclometasona; 0,2%; Enema","0,2%",Beclometasona
+ESS_MEDS,VIA ESSENTIAL,04E01,Medroxiprogesterona acetato; 5mg; Comprimidos,5mg,Medroxiprogesterona acetato
+ESS_MEDS,VIA ESSENTIAL,11A14,Glicose (Dextrose); 500mL 5%; Injectável,500mL 5%,Glicose (Dextrose)
+ESS_MEDS,VIA ESSENTIAL,10A0XZ,Amilorido HCL; 500mg; Injectável,500mg,Amilorido HCL
+ESS_MEDS,VIA ESSENTIAL,19A06,Soro Anti-Ofidico polivalente; 10ml; Injectável,10ml,Soro Anti-Ofidico polivalente
+ESS_MEDS,VIA ESSENTIAL,16A07,"Gentamicina; 0,3%; Gotas auriculares","0,3%",Gentamicina
+ESS_MEDS,VIA ESSENTIAL,09G02,"Goserelina, acetato; 3,6mg; Implante","3,6mg","Goserelina, acetato"
+ESS_MEDS,VIA ESSENTIAL,20A09,Gluteraldeído; 2%; Solução,2%,GluteraldeÕdo
+ESS_MEDS,VIA ESSENTIAL,08R01Z,Aciclovir; 200mg; Comprimidos,200mg,Aciclovir
+ESS_MEDS,VIA ESSENTIAL,18C01,"Bupivacaina Hidrocloreto; 5mg/ml; 0,5%; Injectável","5mg/ml; 0,5%",Bupivacaina Hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,04B03,"Metilergometrina; 0,125mg; Comprimidos","0,125mg",Metilergometrina
+ESS_MEDS,VIA ESSENTIAL,07G08,Sertralina; 50mg; Comprimidos,50mg,Sertralina
+ESS_MEDS,VIA ESSENTIAL,02A0ZY,Cimetidina; 200mg/2mL; Injectável,200mg/2mL,Cimetidina
+ESS_MEDS,VIA ESSENTIAL,07A01,Acetilsalicilato de lisina; 900mg/5mL; Injectável,900mg/5mL,Acetilsalicilato de lisina
+ESS_MEDS,VIA ESSENTIAL,15B13,Hidrocortisona acetato; 1%; Pomada,1%,Hidrocortisona acetato
+ESS_MEDS,VIA ESSENTIAL,17F03,Cromoglicato de Sodio; 4%; Colírio,4%,Cromoglicato de Sodio
+ESS_MEDS,VIA ESSENTIAL,09F03Z,Interferon alfa; 5 000 000UI; Injectável,5 000 000UI,Interferon alfa
+ESS_MEDS,VIA ESSENTIAL,09E06,Cisplatina; 50mg/50mL; Injectável,50mg/50mL,Cisplatina
+ESS_MEDS,VIA ESSENTIAL,22B05Y,Sulfato de Bario; 95g/100g; Pó para Suspensão,95g/100g,Sulfato de Bario
+ESS_MEDS,VIA ESSENTIAL,11A05,"Cloreto de sódio; 10 mL 0,9%; Injectável","10 mL 0,9%",Cloreto de sÑdio
+ESS_MEDS,VIA ESSENTIAL,15B21,"Mometasona; 0,1%; Pomada","0,1%",Mometasona
+ESS_MEDS,VIA ESSENTIAL,23D05,Ligadura De Gaze ; 10cm X 5m; Rolo,10cm X 5m,Ligadura De Gaze
+ESS_MEDS,VIA ESSENTIAL,18A01,"Halotano; 0,2%; Líquido","0,2%",Halotano
+ESS_MEDS,VIA ESSENTIAL,01A0ZZ,Noradrenalina( Norepinefrina) 2mg/mL Inj,2mg/mL,Noradrenalina( Norepinefrina)
+ESS_MEDS,VIA ESSENTIAL,08L04,Isoniazida; 100mg; Comprimidos,100mg,Isoniazida
+ESS_MEDS,VIA ESSENTIAL,08D05X,Kanamicina; 2 g/8mL-ampola; Injectável,2 g/8mL-ampola,Kanamicina
+ESS_MEDS,VIA ESSENTIAL,08S37,Estavudina/Lamivudina/Nevirapi; 200mg + 150mg + 40mg 60Cps; Embalagem,200mg + 150mg + 40mg 60Cps,Estavudina/Lamivudina/Nevirapina
+ESS_MEDS,VIA ESSENTIAL,07D04Z,Fenitoina; 50mg; Comprimidos,50mg,Fenitoina
+ESS_MEDS,VIA ESSENTIAL,07G07,Paroxetina; 20mg; Comprimidos,20mg,Paroxetina
+ESS_MEDS,VIA ESSENTIAL,18F01,"Atropina sulfato 0,5mg/mL Inj","0,5mg/mL",Atropina sulfato
+ESS_MEDS,VIA ESSENTIAL,12A05Z,Dextrano 40+Glicose; 5%; Injectável,5%,Dextrano 40+Glicose
+ESS_MEDS,VIA ESSENTIAL,09B06,"Mitoxantrona, hidrocloreto; 10mg; Injectável",10mg,"Mitoxantrona, hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,09F01Z,Azatioprina; 50mg; Comprimidos,50mg,Azatioprina
+ESS_MEDS,VIA ESSENTIAL,08M05,Rifampicina; 150mg; Cápsulas,150mg,Rifampicina
+ESS_MEDS,VIA ESSENTIAL,02I02X,Anti hemorroidario Bismuto+Zn ; 100mg+100mg+60g; Supositório,100mg+100mg+60g,Anti hemorroidario Bismuto+Zn ox+Lidocaina
+ESS_MEDS,VIA ESSENTIAL,15G0ZZ,"Cloreto de Benzalconio; 0,2%; Champo","0,2%",Cloreto de Benzalconio
+ESS_MEDS,VIA ESSENTIAL,03A05,Prednisolona; 20mg; Comprimidos,20mg,Prednisolona
+ESS_MEDS,VIA ESSENTIAL,04K02,Bicalutamida; 50mg; Comprimidos,50mg,Bicalutamida
+ESS_MEDS,VIA ESSENTIAL,02G01,"Colestiramina; 0,2%; Pó","0,2%",Colestiramina
+ESS_MEDS,VIA ESSENTIAL,12B06,Glicose; 50ml 50%; Injectável,50ml 50%,Glicose
+ESS_MEDS,VIA ESSENTIAL,06F0ZZ,Acido aminocaproico; 250mg/2mL; Injectável,250mg/2mL,Acido aminocaproico
+MMIA,MMIA,08S32Z,"Estavudina/Lamivudina; 6mg+30mg, 60 Comp (Baby); Embalagem","6mg+30mg, Comp (Baby)",Estavudina/Lamivudina
+ESS_MEDS,VIA ESSENTIAL,03B11,Insulina accao prolongada susp; 100UI/mL; Injectável,100UI/mL,Insulina accao prolongada susp de zinco
+ESS_MEDS,VIA ESSENTIAL,03A03,Hidrocortisona; 100mg/mL; Injectável,100mg/mL,Hidrocortisona
+ESS_MEDS,VIA ESSENTIAL,04D10,Alendronato Sodico; 70 mg; Comprimidos,70 mg,Alendronato Sodico
+ESS_MEDS,VIA ESSENTIAL,08A08,Amoxicilina trihidrato; 250mg/5mL; Suspensão,250mg/5mL,Amoxicilina trihidrato
+ESS_MEDS,VIA ESSENTIAL,07A06,Paracetamol; 120mg/5mL; Suspensão,120mg/5mL,Paracetamol
+ESS_MEDS,VIA ESSENTIAL,08S03Z,Didanosina (DDI); 25mg 60comp; Embalagem,25mg 60comp,Didanosina (DDI)
+ESS_MEDS,VIA ESSENTIAL,11A12,Glicose (Dextrose); 100mL 5%; Injectável,100mL 5%,Glicose (Dextrose)
+ESS_MEDS,VIA ESSENTIAL,24B02,Seringa para Tuberculina 1 ml ; 100 UI; Embalagem,100 UI,Seringa para Tuberculina 1 ml com agulha
+ESS_MEDS,VIA ESSENTIAL,12D11,"Multivitaminas; 0,2%-frasco; Xarope","0,2%-frasco",Multivitaminas
+ESS_MEDS,VIA ESSENTIAL,12A05,Leite hipoalergenico; SEM DOSAGEM; Pó,Sem Dosagem,Leite hipoalergenico
+ESS_MEDS,VIA ESSENTIAL,03B14,Glucagon; 1UI/ml; Injectável,1UI/ml,Glucagon
+ESS_MEDS,VIA ESSENTIAL,22B01,Diatrizoato; 76% (iodeto 290mg + 370mg/mL; Injectável,76% (iodeto 290mg + 370mg/mL,Diatrizoato
+ESS_MEDS,VIA ESSENTIAL,25B01,Ficha  Individual Levantamento; SEM DOSAGEM; Papel,Sem Dosagem,Ficha  Individual Levantamento ARVs
+MMIA,MMIA,08S34B,"Estavudina+Lamivudina+Nevirapi; 6mg + 30mg +50mg, 60 Cps (Baby; Embalagem","6mg + 30mg +50mg, Cps (Baby)",Estavudina+Lamivudina+Nevirapina
+ESS_MEDS,VIA ESSENTIAL,06F01,Acido tranexamico; 500mg; Comprimidos,500mg,Acido tranexamico
+ESS_MEDS,VIA ESSENTIAL,15A12,Ureia; 10%; Créme,10%,Ureia
+ESS_MEDS,VIA ESSENTIAL,08L12X,Protionamida; 250mg; Comprimidos,250mg,Protionamida
+ESS_MEDS,VIA ESSENTIAL,14E01,Alendronato Sodico; 10mg; Comprimidos,10mg,Alendronato Sodico
+ESS_MEDS,VIA ESSENTIAL,03E01,Vasopressina; 10UI/mL; Injectável,10UI/mL,Vasopressina
+ESS_MEDS,VIA ESSENTIAL,08S12,Estavudine(D4T) solução; 1mg/mL; Pó,1mg/mL,Estavudine(D4T) soluÜo
+MMIA,MMIA,08S39Z,Lopinavir/Ritonavir; 200mg+50mg 120Comp; Embalagem,200mg+50mg Comp,Lopinavir/Ritonavir
+ESS_MEDS,VIA ESSENTIAL,05A02Z,Aminofilina; 250mg/10mL; Injectável,250mg/10mL,Aminofilina
+ESS_MEDS,VIA ESSENTIAL,20A09ZY,Sabonete de maos 100-125g,100-125g,Sabonete de maos
+ESS_MEDS,VIA ESSENTIAL,07A06Z,Paracetamol; 125mg/5mL; Xarope,125mg/5mL,Paracetamol
+ESS_MEDS,VIA ESSENTIAL,17F06,Fluoresceina; 600mg/3mL; Injectável,600mg/3mL,Fluoresceina
+ESS_MEDS,VIA ESSENTIAL,09D01Z,Etoposido; 50mg; Cápsulas,50mg,Etoposido
+ESS_MEDS,VIA ESSENTIAL,08A05,Penicilina G sodica; 10 000 000UI; Injectável Frasco,10 000 000UI,Penicilina G sodica
+ESS_MEDS,VIA ESSENTIAL,24A04Z,"Agulha Hipodermica 18G; 1,20x38mm; Embalagem","1,20x38mm",Agulha Hipodermica 18G
+ESS_MEDS,VIA ESSENTIAL,08Q02,Fluconazol; 50mg; Comprimidos,50mg,Fluconazol
+ESS_MEDS,VIA ESSENTIAL,06A04,Gluconato de ferro; 30mg/5mL; Xarope,30mg/5mL,Gluconato de ferro
+ESS_MEDS,VIA ESSENTIAL,08R02,Aciclovir; 25mg/mL; Injectável,25mg/mL,Aciclovir
+ESS_MEDS,VIA ESSENTIAL,18B02Z,Ketamina Hidrocloreto; 50mg/10mL; Injectável,50mg/10mL,Ketamina Hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,18C05,Lidocaina; 2%-20mg/ml- Ampola; Injectável,2%-20mg/ml- Ampola,Lidocaina
+ESS_MEDS,VIA ESSENTIAL,09A02,Ciclofosfamida; 50mg; Comprimidos,50mg,Ciclofosfamida
+ESS_MEDS,VIA ESSENTIAL,04A04,Econazol; 1g/100g; Créme vaginal,1g/100g,Econazol
+ESS_MEDS,VIA ESSENTIAL,09B04,Doxorubicina (Adriamicina); 10mg; Injectável,10mg,Doxorubicina (Adriamicina)
+ESS_MEDS,VIA ESSENTIAL,12D14Z,Piridoxina (Vit B6); Vit B6; Comprimidos 100mg; Comprimidos,Vit B6; Comprimidos 100mg,Piridoxina (Vit B6)
+ESS_MEDS,VIA ESSENTIAL,08N01Z,Albendazol; 200mg; Comprimidos,200mg,Albendazol
+ESS_MEDS,VIA ESSENTIAL,1122,produto transito test  (4+10+30mg) Comp,(4+10+30mg),produto transito test
+ESS_MEDS,VIA ESSENTIAL,23D10,"Ligadura Gessada  ; 20cm X2,7m; Rolo","20cm X2,7m",Ligadura Gessada
+ESS_MEDS,VIA ESSENTIAL,17F05,Diclofenac; 1mg/mL; Colírio,1mg/mL,Diclofenac
+ESS_MEDS,VIA ESSENTIAL,12D06,Colecalciferol (Vit D); 600 000UI; Ampola Bebível,600 000UI,Colecalciferol (Vit D)
+ESS_MEDS,VIA ESSENTIAL,15B22,Triamcinolona hexacetonido; 20mg/mL; Injectável,20mg/mL,Triamcinolona hexacetonido
+ESS_MEDS,VIA ESSENTIAL,17A05,Pilocarpina; 4%; Colírio,4%,Pilocarpina
+ESS_MEDS,VIA ESSENTIAL,11A03,Cloreto de potássio; 10% 1g/ml; Injectável,10% 1g/ml,Cloreto de potàssio
+ESS_MEDS,VIA ESSENTIAL,04F0XX,"Preservativos Femininos; 0,2%; Preservativo","0,2%",Preservativos Femininos
+ESS_MEDS,VIA ESSENTIAL,18C10Z,"Lidocaina+Adrenalina carpule; 40mg + 0,02mg/2mL-ampola; Injectável","40mg + 0,02mg/2mL-ampola",Lidocaina+Adrenalina carpule
+ESS_MEDS,VIA ESSENTIAL,08A03,Penicilina benzatinica; 1 200 000UI; Injectável Ampola,1 200 000UI,Penicilina benzatinica
+ESS_MEDS,VIA ESSENTIAL,04E03,"Ciproterona, acetato; 10mg; Comprimidos",10mg,"Ciproterona, acetato"
+ESS_MEDS,VIA ESSENTIAL,15B01Z,"Betametasona dipropionato; 0,05%; Créme","0,05%",Betametasona dipropionato
+ESS_MEDS,VIA ESSENTIAL,09B01,Bleomicina; 15.000UI; Injectável,15.000UI,Bleomicina
+ESS_MEDS,VIA ESSENTIAL,08A0ZY,Cloxacilina; 500mg; Comprimidos,500mg,Cloxacilina
+ESS_MEDS,VIA ESSENTIAL,15C07,Clindamicina Fosfato; 10mg/mL; Solução,10mg/mL,Clindamicina Fosfato
+MMIA,MMIA,08S42,Zidovudina/Lamivudina/Nevirapi; 300mg+150mg+200mg 60Comp; Embalagem,300mg+150mg+200mg Comp,Zidovudina/Lamivudina/Nevirapina
+ESS_MEDS,VIA ESSENTIAL,18C03,Bupivacaina+Dextrose; 20mg + 32 mg; Injectável,20mg + 32 mg,Bupivacaina+Dextrose
+ESS_MEDS,VIA ESSENTIAL,08N04,Mebendazol; 100mg; Comprimidos,100mg,Mebendazol
+ESS_MEDS,VIA ESSENTIAL,09E11,Procarbazina; 50mg; Cápsulas,50mg,Procarbazina
+ESS_MEDS,VIA ESSENTIAL,12D02,Acido ascórbico (Vitamina C); 500mg/5mL; Injectável,500mg/5mL,Acido ascÑrbico (Vitamina C)
+ESS_MEDS,VIA ESSENTIAL,11A1X,"Lactato de potássio; 0,2%; Injectável","0,2%",Lactato de potàssio
+ESS_MEDS,VIA ESSENTIAL,08S09,Didanosina (DDI) libertacao le; 400mg 30Caps; Embalagem,400mg 30Caps,Didanosina (DDI) libertacao lenta
+ESS_MEDS,VIA ESSENTIAL,12A03,Leite adaptado para recem-nascidos de baixo peso/muito baixo peso Sem Dosagem Pó,Sem Dosagem,Leite adaptado para recem-nascidos de baixo peso/muito baixo peso
+ESS_MEDS,VIA ESSENTIAL,08L0XZ,Rifampicina+Isoniazida+Pirazin; 120mg+50mg+300mg; Comprimidos,120mg+50mg+300mg,Rifampicina+Isoniazida+Pirazinamida
+ESS_MEDS,VIA ESSENTIAL,19A03,Imunoglobulina humana anti-tet; 250 UI/2mL; Injectável,250 UI/2mL,Imunoglobulina humana anti-tetano
+ESS_MEDS,VIA ESSENTIAL,07D14,Valproato de sodio; 200mg/5mL; Xarope,200mg/5mL,Valproato de sodio
+ESS_MEDS,VIA ESSENTIAL,08D06Z,"Neomicina+Bacitracina; 35,2mg+18,25mg; Comprimidos","35,2mg+18,25mg",Neomicina+Bacitracina
+ESS_MEDS,VIA ESSENTIAL,06E03,Estreptoquinase; 1 500 000UI; Injectável,1 500 000UI,Estreptoquinase
+ESS_MEDS,VIA ESSENTIAL,17F09,Hidroxipropilmetilcelulose; 20mg/mL; Injectável,20mg/mL,Hidroxipropilmetilcelulose
+ESS_MEDS,VIA ESSENTIAL,08S30Y,Darunavir; 600mg 60Comp; Embalagem,600mg 60Comp,Darunavir
+ESS_MEDS,VIA ESSENTIAL,13A04,Difenidramina; 50mg/5mL; Injectável,50mg/5mL,Difenidramina
+ESS_MEDS,VIA ESSENTIAL,15D08Z,"Ditranol; 0,25%; Créme","0,25%",Ditranol
+ESS_MEDS,VIA ESSENTIAL,03A06,Prednisolona fosfato sodico; 50mg/10mL; Injectável,50mg/10mL,Prednisolona fosfato sodico
+ESS_MEDS,VIA ESSENTIAL,11A01,"Bicarbonato de Sodio; 8,4% 1meq HCO3/mL; Injectável","8,4% 1meq HCO3/mL",Bicarbonato de Sodio
+ESS_MEDS,VIA ESSENTIAL,23D12,Ligadura  Elastica; 8cmx3m; Rolo,8cmx3m,Ligadura  Elastica
+ESS_MEDS,VIA ESSENTIAL,14A08,Metilprednisolona acetato; 40mg/mL; Injectável,40mg/mL,Metilprednisolona acetato
+ESS_MEDS,VIA ESSENTIAL,23E02,Po Talco ; 1000 g; Pó,1000 g,Po Talco
+ESS_MEDS,VIA ESSENTIAL,21A02,"Acido acetico; 0,2%; Líquido","0,2%",Acido acetico
+ESS_MEDS,VIA ESSENTIAL,12D03,Alfa tocoferol (Vitamina E); 100mg; Cápsulas,100mg,Alfa tocoferol (Vitamina E)
+ESS_MEDS,VIA ESSENTIAL,08S05,Didanosina (DDI); 150mg; Comprimidos,150mg,Didanosina (DDI)
+ESS_MEDS,VIA ESSENTIAL,08A0ZZ,Cloxacilina; 125mg/5mL; Xarope,125mg/5mL,Cloxacilina
+ESS_MEDS,VIA ESSENTIAL,08A12,"Amoxicilina+Acido clavulanico; 250mg + 62,5mg; Suspensão","250mg + 62,5mg",Amoxicilina+Acido clavulanico
+ESS_MEDS,VIA ESSENTIAL,24C01,Sistemas para Soro IV; SEM DOSAGEM; Embalagem,Sem Dosagem,Sistemas para Soro IV
+ESS_MEDS,VIA ESSENTIAL,20A11Y,Hipoclorito de Calcio 1 000g (1kg) Granulado,1 000g (1kg),Hipoclorito de Calcio
+ESS_MEDS,VIA ESSENTIAL,09A08,Ifosfamida; 3 g; Injectável,3 g,Ifosfamida
+ESS_MEDS,VIA ESSENTIAL,08A09,Ampicilina; 500mg; Injectável,500mg,Ampicilina
+ESS_MEDS,VIA ESSENTIAL,08F07,"Eritromicina, lactobionato; 50mg/mL-frasco; Injectável",50mg/mL-frasco,"Eritromicina, lactobionato"
+ESS_MEDS,VIA ESSENTIAL,06A02,"Eritropoietina recom hum alfa/; 2000UI/0,5mL; Injectável","2000UI/0,5mL",Eritropoietina recom hum alfa/beta
+ESS_MEDS,VIA ESSENTIAL,02A04,Omeprazol; 20mg; Cápsulas,20mg,Omeprazol
+ESS_MEDS,VIA ESSENTIAL,15C02,Acido fusidico; 2%; Créme,2%,Acido fusidico
+ESS_MEDS,VIA ESSENTIAL,11A24,"Solução p/ Diálise peritoneal ; 1,5%; Injectável","1,5%",SoluÜo p/ Diàlise peritoneal c/ Glicose
+ESS_MEDS,VIA ESSENTIAL,12D13,Nicotinamida (Vitamina PP); 100 mg/mL-ampola; Injectável,100 mg/mL-ampola,Nicotinamida (Vitamina PP)
+ESS_MEDS,VIA ESSENTIAL,21A08,"Flumazenil; 0,1mg/mL; Injectável","0,1mg/mL",Flumazenil
+ESS_MEDS,VIA ESSENTIAL,13A04Z,Difenidramina; 100mg/5mL; Injectável,100mg/5mL,Difenidramina
+ESS_MEDS,VIA ESSENTIAL,01E01Y,Esmolol Hidrocloreto; 10mg; Injectável,10mg,Esmolol Hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,07I09,Hidrato de cloral; 10%; Xarope,10%,Hidrato de cloral
+ESS_MEDS,VIA ESSENTIAL,15A0Z,"Oxido de Zinco; 0,2%; Loção","0,2%",Oxido de Zinco
+ESS_MEDS,VIA ESSENTIAL,23D03,Ligadura De Cambraia ; 10cm X 10m; Rolo,10cm X 10m,Ligadura De Cambraia
+ESS_MEDS,VIA ESSENTIAL,06E01,Acido acetilsalicilico  (Aspir; 100mg; Comprimidos,100mg,Acido acetilsalicilico  (Aspirina)
+ESS_MEDS,VIA ESSENTIAL,17D03,Prednisolona; 1%; Colírio,1%,Prednisolona
+ESS_MEDS,VIA ESSENTIAL,06A07,Sulfato ferroso+Acido folico; 90mg+1mg; Comprimidos,90mg+1mg,Sulfato ferroso+Acido folico
+ESS_MEDS,VIA ESSENTIAL,03A07,Prednisolona acetato; 80mg/2mL; Injectável,80mg/2mL,Prednisolona acetato
+ESS_MEDS,VIA ESSENTIAL,14E04,Carisoprodo; l350; Comprimidos,350,Carisoprodol
+ESS_MEDS,VIA ESSENTIAL,06D0ZZ,"Enoxeparina; 40mg/0,4mL; Injectável","40mg/0,4mL",Enoxeparina
+ESS_MEDS,VIA ESSENTIAL,03B0ZZ,Insulina accao retardada (Mono; 100UI/mL; Injectável,100UI/mL,Insulina accao retardada (Monotard)
+ESS_MEDS,VIA ESSENTIAL,25A01,Requisicao / Balancete; SEM DOSAGEM; Papel,Sem Dosagem,Requisicao / Balancete
+ESS_MEDS,VIA ESSENTIAL,12B04Z,Dextrose 25% 25ml Inj,25% 25ml,Dextrose
+ESS_MEDS,VIA ESSENTIAL,22A03,Tuberculina purificada; 5 TU; Injectável,5 TU,Tuberculina purificada
+ESS_MEDS,VIA ESSENTIAL,07F02,Biperideno lactato; 5mg/mL; Injectável,5mg/mL,Biperideno lactato
+ESS_MEDS,VIA ESSENTIAL,09A03Z,Ciclofosfamida; 1000mg; Injectável,1000mg,Ciclofosfamida
+ESS_MEDS,VIA ESSENTIAL,02D02,Citrato de sodio; 450mg/5mL; Microenema,450mg/5mL,Citrato de sodio
+ESS_MEDS,VIA ESSENTIAL,07D09,Gabapentina; 100mg; Cápsulas,100mg,Gabapentina
+ESS_MEDS,VIA ESSENTIAL,04D09,Alendronato  sodico; 10mg; Comprimidos,10mg,Alendronato  sodico
+ESS_MEDS,VIA ESSENTIAL,23D04,Ligadura De Gaze ; 5cm X 5m; Rolo,5cm X 5m,Ligadura De Gaze
+ESS_MEDS,VIA ESSENTIAL,15K01,"Capsaicina; 0,075%; Créme","0,075%",Capsaicina
+ESS_MEDS,VIA ESSENTIAL,16A02,Cloranfenicol; 5%; Gotas auriculares,5%,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,18F01Z,Atropina sulfato; 1mg/mL; Injectável,1mg/mL,Atropina sulfato
+ESS_MEDS,VIA ESSENTIAL,08O05Y,Artemeter+Lumefantrina; 120mg+20mg 3x6; Comprimidos,120mg+20mg 3x6,Artemeter+Lumefantrina
+ESS_MEDS,VIA ESSENTIAL,08B02,"Cefuroxima, Sal sodico; 750mg; Injectável",750mg,"Cefuroxima, Sal sodico"
+ESS_MEDS,VIA ESSENTIAL,25B06,Mapa Mensal Distrital de Consu; SEM DOSAGEM; Papel,Sem Dosagem,Mapa Mensal Distrital de Consumo de AL
+ESS_MEDS,VIA ESSENTIAL,08S38,"Lopinavir+Ritonavir Caps Gelat; 133,3mg + 33,3mg; Embalagem","133,3mg + 33,3mg",Lopinavir+Ritonavir Caps Gelatinosas
+ESS_MEDS,VIA ESSENTIAL,07I03,Buspirona; 10mg; Comprimidos,10mg,Buspirona
+ESS_MEDS,VIA ESSENTIAL,04H02,"Desmopressina; 0,1mg/mL; Spray nasal","0,1mg/mL",Desmopressina
+ESS_MEDS,VIA ESSENTIAL,08S10Z,Estavudina(D4T); 15mg; Cápsulas,15mg,Estavudina(D4T)
+ESS_MEDS,VIA ESSENTIAL,08N03Z,Ivermectina; 3mg; Comprimidos,3mg,Ivermectina
+ESS_MEDS,VIA ESSENTIAL,16A06,"Flumetasona+Clioquinol; 0,02% + 1%; Gotas auriculares","0,02% + 1%",Flumetasona+Clioquinol
+ESS_MEDS,VIA ESSENTIAL,17B03,Fenilefrina; 10%; Colírio,10%,Fenilefrina
+ESS_MEDS,VIA ESSENTIAL,06A0ZZ,Sal ferroso; 30mg/5mL; Xarope,30mg/5mL,Sal ferroso
+ESS_MEDS,VIA ESSENTIAL,08A02Z,Fenoximetilpenicilina  125mg/5mL Susp,125mg/5mL,Fenoximetilpenicilina
+ESS_MEDS,VIA ESSENTIAL,08A0WZ,Ticarcilina Sódica; 50mg/mL; Injectável,50mg/mL,Ticarcilina SÑdica
+ESS_MEDS,VIA ESSENTIAL,04B04,Misoprostol; 200mcg ou µg; Comprimidos,200mcg ou μg,Misoprostol
+ESS_MEDS,VIA ESSENTIAL,11A0XX,Agua para Injectaveis ; 10ml; Injectável,10ml,Agua para Injectaveis
+ESS_MEDS,VIA ESSENTIAL,08L02,Etambutol; 400mg; Comprimidos,400mg,Etambutol
+ESS_MEDS,VIA ESSENTIAL,08A06,Penicilina procaina; 3 000 000UI; Injectável Ampola,3 000 000UI,Penicilina procaina
+ESS_MEDS,VIA ESSENTIAL,05A04,Beclometasona; 200mcg/inalacao; Aerosol,200mcg/inalacao,Beclometasona
+ESS_MEDS,VIA ESSENTIAL,09E04,Carboplatina; 150mg/15mL; Injectável,150mg/15mL,Carboplatina
+ESS_MEDS,VIA ESSENTIAL,07F04,Levodopa+Benzerazida; 200mg + 50mg; Comprimidos,200mg + 50mg,Levodopa+Benzerazida
+ESS_MEDS,VIA ESSENTIAL,08O07,Artesunato; 100mg; Comprimidos,100mg,Artesunato
+ESS_MEDS,VIA ESSENTIAL,17A04Z,Pilocarpina; 1%; Colírio,1%,Pilocarpina
+ESS_MEDS,VIA ESSENTIAL,23D03Z,Ligadura De Cambraia ; 20cm X 20m; Rolo,20cm X 20m,Ligadura De Cambraia
+ESS_MEDS,VIA ESSENTIAL,08L02Y,Etambutol; 500mg; Comprimidos,500mg,Etambutol
+ESS_MEDS,VIA ESSENTIAL,04E11,Hormona foliculo-estimulante (; 75UI; Injectável,75UI,Hormona foliculo-estimulante (FSH)
+ESS_MEDS,VIA ESSENTIAL,01F01,Amlodipina; 10mg; Comprimidos,10mg,Amlodipina
+ESS_MEDS,VIA ESSENTIAL,09D02,Etoposido; 100mg/5mL; Injectável,100mg/5mL,Etoposido
+ESS_MEDS,VIA ESSENTIAL,15C11,Crotamitona; 10%; Loção,10%,Crotamitona
+ESS_MEDS,VIA ESSENTIAL,02E01,"Difenoxilato+Atropina; 2,5mg+0,025mg; Comprimidos","2,5mg+0,025mg",Difenoxilato+Atropina
+ESS_MEDS,VIA ESSENTIAL,18A03,"Protoxido de Azoto N20; 0,2%; Gás","0,2%",Protoxido de Azoto N_0
+ESS_MEDS,VIA ESSENTIAL,08B0YZ,Cefalexina; 250mg; Cápsulas,250mg,Cefalexina
+ESS_MEDS,VIA ESSENTIAL,12D01,Acido Ascórbico (Vitamina C); 100mg; Comprimidos,100mg,Acido AscÑrbico (Vitamina C)
+ESS_MEDS,VIA ESSENTIAL,25D01,Manual de procedimentos do Centro de Saude  Sem Dosagem Papel,Sem Dosagem,Manual de procedimentos do Centro de Saude
+ESS_MEDS,VIA ESSENTIAL,09E03,Carboplatina; 50mg/5mL; Injectável,50mg/5mL,Carboplatina
+ESS_MEDS,VIA ESSENTIAL,10A06Z,Hidroclortiazida; 25mg; Comprimidos,25mg,Hidroclortiazida
+ESS_MEDS,VIA ESSENTIAL,09E02,L-asparaginase; 10 000UI; Injectável,10 000UI,L-asparaginase
+ESS_MEDS,VIA ESSENTIAL,07L04,Metilfenidato Hidrocloreto; 10mg; Comprimidos,10mg,Metilfenidato Hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,03A07Z,Prednisolona acetato; 100mg/2mL; Injectável,100mg/2mL,Prednisolona acetato
+ESS_MEDS,VIA ESSENTIAL,09E13,Tretinoina; 10mg; Cápsulas,10mg,Tretinoina
+ESS_MEDS,VIA ESSENTIAL,08M0ZY,Dapsona+Clofazimina+Rifampicin; 100+100+300mg; Comprimidos,100+100+300mg,Dapsona+Clofazimina+Rifampicina
+ESS_MEDS,VIA ESSENTIAL,24A02Z,"Agulha Hipodermica 22G; 0,70x38mm; Embalagem","0,70x38mm",Agulha Hipodermica 22G
+ESS_MEDS,VIA ESSENTIAL,08L12,Rifabutina; 150mg; Cápsulas,150mg,Rifabutina
+ESS_MEDS,VIA ESSENTIAL,23B03,Algodao Ortopedico; 500mg; Rolo,500mg,Algodao Ortopedico
+ESS_MEDS,VIA ESSENTIAL,08N01,Albendazol; 400mg; Comprimidos,400mg,Albendazol
+ESS_MEDS,VIA ESSENTIAL,13A01,Adrenalina; 1mg/mL (1:1000); Injectável,1mg/mL (1:1000),Adrenalina
+ESS_MEDS,VIA ESSENTIAL,15D0ZY,"Acido Salicilico; 0,2%; Pó","0,2%",Acido Salicilico
+ESS_MEDS,VIA ESSENTIAL,08R02Z,Aciclovir; 400mg; Injectável,400mg,Aciclovir
+ESS_MEDS,VIA ESSENTIAL,10A05,Furosemida pediatrica; 1mg/mL; Solução,1mg/mL,Furosemida pediatrica
+ESS_MEDS,VIA ESSENTIAL,12B10Z,Albumina; 20% 100ml 20g; Injectável,20% 100ml 20g,Albumina
+ESS_MEDS,VIA ESSENTIAL,20A0X,Clorohexidina  7.1% 25g gel,7.1% 25g,Clorohexidina
+ESS_MEDS,VIA ESSENTIAL,04F0YZ,"Levonor+Etinilest(Neogynon); 0,25+0,05mg; Ciclo","0,25+0,05mg",Levonor+Etinilest(Neogynon)
+ESS_MEDS,VIA ESSENTIAL,22A04,"Tuberculina purificada; 2UI/1,5mL; Injectável","2UI/1,5mL",Tuberculina purificada
+ESS_MEDS,VIA ESSENTIAL,12A0ZX,"Plump' Nut (manteiga); 0,2%; Pó","0,2%",Plump' Nut (manteiga)
+ESS_MEDS,VIA ESSENTIAL,05A13,Salmeterol; 25mcg/inalacao; Aerosol,25mcg/inalacao,Salmeterol
+ESS_MEDS,VIA ESSENTIAL,02D05,"Ispaghula; 0,2%; Pó","0,2%",Ispaghula
+ESS_MEDS,VIA ESSENTIAL,08K02,Cloranfenicol; 1g/10mL; Injectável,1g/10mL,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,07G03,Fluoxetina HCL; 20mg; Cápsulas,20mg,Fluoxetina HCL
+ESS_MEDS,VIA ESSENTIAL,08D03,"Gentamicina, sulfato; 80mg/2mL-ampola; Injectável",80mg/2mL-ampola,"Gentamicina, sulfato"
+ESS_MEDS,VIA ESSENTIAL,08L09,"Capreomicina,sulfato; 1 000 000UI(1g); Injectável",1 000 000UI(1g),"Capreomicina,sulfato"
+ESS_MEDS,VIA ESSENTIAL,23A02Y,Adesivo Esparadrapo(Transpore); Transpore; Rolo 5cm X5m; Rolo,Transpore; Rolo 5cm X5m,Adesivo Esparadrapo(Transpore)
+ESS_MEDS,VIA ESSENTIAL,26B02,KIT AL/APE (Artemeter+Lumefant; 75 Tratamentos+ 200 Tests; KIT,75 Tratamentos+ 200 Tests,KIT AL/APE (Artemeter+Lumefantrina)
+ESS_MEDS,VIA ESSENTIAL,04G02,Doxazosina de accao prolongada; 4mg; Comprimidos,4mg,Doxazosina de accao prolongada
+ESS_MEDS,VIA ESSENTIAL,04J03,Sildenafil; 50mg; Comprimidos,50mg,Sildenafil
+ESS_MEDS,VIA ESSENTIAL,08G02,"Minociclina, hidrocloreto; 50mg; Cápsulas",50mg,"Minociclina, hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,03A04,Prednisolona; 5mg; Comprimidos,5mg,Prednisolona
+ESS_MEDS,VIA ESSENTIAL,03B03,Gliclazida; 80mg; Comprimidos,80mg,Gliclazida
+ESS_MEDS,VIA ESSENTIAL,25B02Z,Livro de  Registo  Diario de  ARVs-Pediatrico Sem Dosagem Papel,Sem Dosagem,Livro de  Registo  Diario de  ARVs-Pediatrico
+ESS_MEDS,VIA ESSENTIAL,14A04,Ibuprofeno; 100mg/5mL; Suspensão,100mg/5mL,Ibuprofeno
+ESS_MEDS,VIA ESSENTIAL,18C10,Lidocaina+Adrenalina; 2%; Injectável,2%,Lidocaina+Adrenalina
+ESS_MEDS,VIA ESSENTIAL,16D02,Acido tricloroacetico; 50%; Solução,50%,Acido tricloroacetico
+ESS_MEDS,VIA ESSENTIAL,09H02,Mesna; 400mg; Comprimidos,400mg,Mesna
+ESS_MEDS,VIA ESSENTIAL,09F01,Azatioprina; 25mg; Comprimidos,25mg,Azatioprina
+ESS_MEDS,VIA ESSENTIAL,25B07,Mapa de  Resumo Mensal de Deposito AL Sem Dosagem Papel,Sem Dosagem,Mapa de  Resumo Mensal de Deposito AL
+ESS_MEDS,VIA ESSENTIAL,21A14,Tiosulfato de sodio; 250mg/mL; Injectável,250mg/mL,Tiosulfato de sodio
+ESS_MEDS,VIA ESSENTIAL,12B10,"Suplemento multivitamfnico par; 0,2% -Ampola; Injectável","0,2% -Ampola",Suplemento multivitamfnico parenteral
+ESS_MEDS,VIA ESSENTIAL,16C07,"Triprolina e Pseudoefedrina; 1,25mg+30mg; Comprimidos","1,25mg+30mg",Triprolina e Pseudoefedrina
+ESS_MEDS,VIA ESSENTIAL,11A20,"Polielectrolítico de restituiç; 0,2% (500ml); Injectável","0,2% (500ml)",PolielectrolÕtico de restituiÜo (H/S Darrol)
+ESS_MEDS,VIA ESSENTIAL,12D17,Tiamina (Vitamina B1); 100mg/2mL; Injectável,100mg/2mL,Tiamina (Vitamina B1)
+ESS_MEDS,VIA ESSENTIAL,11A02,Cloreto de potassio; 500mg; Comprimidos,500mg,Cloreto de potassio
+ESS_MEDS,VIA ESSENTIAL,17C05Z,Gentamicina; SEM DOSAGEM; Gotas auriculares,Sem Dosagem,Gentamicina
+ESS_MEDS,VIA ESSENTIAL,21A09,Ipecacuanha; 7g + 10mL; Xarope,7g + 10mL,Ipecacuanha
+ESS_MEDS,VIA ESSENTIAL,02A03,Hidrox de magn+Aluminio; 665mg/5mL + 1200mg/5mL; Gel,665mg/5mL + 1200mg/5mL,Hidrox de magn+Aluminio
+ESS_MEDS,VIA ESSENTIAL,14D01,Piridostigmina; 60mg; Comprimidos,60mg,Piridostigmina
+ESS_MEDS,VIA ESSENTIAL,15D0ZW,"Iodo sublimado; 0,2%; Cristais","0,2%",Iodo sublimado
+ESS_MEDS,VIA ESSENTIAL,08S07,Didanosina (DDI) libertacao le; 125mg 30Caps; Embalagem,125mg 30Caps,Didanosina (DDI) libertacao lenta
+ESS_MEDS,VIA ESSENTIAL,15A05,"Oleo amendoas doces; 0,2%; Líquido","0,2%",Oleo amendoas doces
+ESS_MEDS,VIA ESSENTIAL,07J12,Clozapina; 25mg; Comprimidos,25mg,Clozapina
+ESS_MEDS,VIA ESSENTIAL,08L0ZZ,Rifamp+Isoniaz+Etam; 150+75+275mg; Comprimidos,150+75+275mg,Rifamp+Isoniaz+Etam
+ESS_MEDS,VIA ESSENTIAL,04K06,"Glicina; 1,5%; Solução Aquosa","1,5%",Glicina
+ESS_MEDS,VIA ESSENTIAL,18F03,"Fentanil; 0,5mg/10mL; Injectável","0,5mg/10mL",Fentanil
+ESS_MEDS,VIA ESSENTIAL,04D07,"Estrogénios esquino conj+Medro; 0,635mg + 5mg; Ciclo","0,635mg + 5mg",Estrog_nios esquino conj+Medrogestona
+ESS_MEDS,VIA ESSENTIAL,06A01,Acido Folico; 5mg; Comprimidos,5mg,Acido Folico
+ESS_MEDS,VIA ESSENTIAL,12A06,Leite sem lactose; SEM DOSAGEM; Pó,Sem Dosagem,Leite sem lactose
+ESS_MEDS,VIA ESSENTIAL,14A03,Ibuprofeno; 200mg; Comprimidos,200mg,Ibuprofeno
+MMIA,MMIA,08S01ZZ,Abacavir (ABC)+Lamivudina (3TC; 60mg+30mg 60Comp; Embalagem,60mg+30mg Comp,Abacavir (ABC)+Lamivudina (3TC)
+ESS_MEDS,VIA ESSENTIAL,12D10,"Multivitaminas; 0,2%; Comprimidos","0,2%",Multivitaminas
+ESS_MEDS,VIA ESSENTIAL,23D12Z,Ligadura  Elastica; 70% (700mg/mL); Rolo,70% (700mg/mL),Ligadura  Elastica
+ESS_MEDS,VIA ESSENTIAL,25D04,Manual de procedimentos do Deposito Provincial de Medicamentos Sem Dosagem Papel,Sem Dosagem,Manual de procedimentos do Deposito Provincial de Medicamentos
+ESS_MEDS,VIA ESSENTIAL,08Q07,Nistatina; 100 000UI/ml; Suspensão,100 000UI/ml,Nistatina
+ESS_MEDS,VIA ESSENTIAL,26B03,Saquinhos para reembalagem de ; 8cmx6cm; Embalagem,8cmx6cm,Saquinhos para reembalagem de medicamentos
+ESS_MEDS,VIA ESSENTIAL,03B0ZY,Insulina accao retardada (Ultr; 100UI/mL; Injectável,100UI/mL,Insulina accao retardada (Ultratard)
+ESS_MEDS,VIA ESSENTIAL,05A06,Cromoglicato de sodio; 5mg/Inalacao; Aerosol,5mg/Inalacao,Cromoglicato de sodio
+ESS_MEDS,VIA ESSENTIAL,04E08,Tamoxifeno citrato; 20mg; Comprimidos,20mg,Tamoxifeno citrato
+ESS_MEDS,VIA ESSENTIAL,11A1Y,Lactato de sódio inj (5%); 5%; Injectável,5%,Lactato de sÑdio inj (5%)
+ESS_MEDS,VIA ESSENTIAL,15D0ZX,Oleo de Cade; 2% 20mg/mL; Pomada,2% 20mg/mL,Oleo de Cade
+ESS_MEDS,VIA ESSENTIAL,24D05,"Cateter periferico c/ agulha, valvula de injeccao e abas 22G, Radiopaco unidade Embalagem",unidade,"Cateter periferico c/ agulha, valvula de injeccao e abas 22G, Radiopaco"
+ESS_MEDS,VIA ESSENTIAL,02A07,Ranitidina; 50mg/2mL; Injectável,50mg/2mL,Ranitidina
+ESS_MEDS,VIA ESSENTIAL,07D01Z,Carbamazepina; 400mg; Comprimidos,400mg,Carbamazepina
+ESS_MEDS,VIA ESSENTIAL,08L02Z,Etambutol 100mg Comp,100mg,Etambutol
+ESS_MEDS,VIA ESSENTIAL,08N0YZ,Metrifonato; 100mg; Comprimidos,100mg,Metrifonato
+ESS_MEDS,VIA ESSENTIAL,23C03,Gaze Hidrofila ; 90 cm x 100 m; Rolo,90 cm x 100 m,Gaze Hidrofila
+ESS_MEDS,VIA ESSENTIAL,15A08,Oxido de zinco + Oleo de amêdoas doces; 50g + 50g; Suspensão,50g + 50g,Oxido de zinco + Oleo de amdoas doces
+ESS_MEDS,VIA ESSENTIAL,03B06,Rosiglitazona; 1mg; Comprimidos,1mg,Rosiglitazona
+ESS_MEDS,VIA ESSENTIAL,26B01,KIT AL/US (Artemeter+Lumefantr; 170 Tratamentos+ 400 Testes; KIT,170 Tratamentos+ 400 Testes,KIT AL/US (Artemeter+Lumefantrina)
+ESS_MEDS,VIA ESSENTIAL,17C08,"Tobramicina sulfato; 0,3%; Colírio","0,3%",Tobramicina sulfato
+ESS_MEDS,VIA ESSENTIAL,08A02,Fenoximetilpenicilina; 250mg/5mL; Suspensão,250mg/5mL,Fenoximetilpenicilina
+ESS_MEDS,VIA ESSENTIAL,08O0ZZ,Trimetoprim; 100mg; Comprimidos,100mg,Trimetoprim
+ESS_MEDS,VIA ESSENTIAL,15A0ZY,Oxido de Zinco pom (10%); 2% (20mg/mL); Pomada,2% (20mg/mL),Oxido de Zinco pom (10%)
+ESS_MEDS,VIA ESSENTIAL,15E0Z,"Tretinoina; 0,05%; Pomada","0,05%",Tretinoina
+ESS_MEDS,VIA ESSENTIAL,04F0YW,"Norgestrel+Ethinylestradiol; 0,3mg + 0,003mg; Ciclo","0,3mg + 0,003mg",Norgestrel+Ethinylestradiol
+ESS_MEDS,VIA ESSENTIAL,08L07Z,Rifampicina+Isoniazida; 60mg+30mg; Comprimidos,60mg+30mg,Rifampicina+Isoniazida
+ESS_MEDS,VIA ESSENTIAL,06A0YZ,Acido Folico+Vit B12; 1mg+25mcg; Cápsulas,1mg+25mcg,Acido Folico+Vit B12
+ESS_MEDS,VIA ESSENTIAL,08R03,"Ganciclovir, sal sódico; 250mg; Cápsulas",250mg,"Ganciclovir, sal sÑdico"
+ESS_MEDS,VIA ESSENTIAL,02D04Z,Glicerina adulto; 4g; Supositório,4g,Glicerina adulto
+ESS_MEDS,VIA ESSENTIAL,18F02X,Efedrina; 30mg/mL; Injectável,30mg/mL,Efedrina
+ESS_MEDS,VIA ESSENTIAL,13A09,Prometazina exilir  5mg /5mL F; 5mg/5mL; Elixir,5mg/5mL,Prometazina exilir  5mg /5mL Fr.100 mL
+ESS_MEDS,VIA ESSENTIAL,07G02,Amitriptilina; 25mg; Comprimidos,25mg,Amitriptilina
+ESS_MEDS,VIA ESSENTIAL,04G03,Doxazosina de accao prolongada; 8mg; Comprimidos,8mg,Doxazosina de accao prolongada
+ESS_MEDS,VIA ESSENTIAL,11A11,"Gelatina polimerizada; 17,5 g/500mL; Injectável","17,5 g/500mL",Gelatina polimerizada
+MMIA,MMIA,08S42B,Zidovudina/Lamivudina/Nevirapi; 60mg+30mg+50mg 60 Comprimidos; Embalagem,60mg+30mg+50mg Comprimidos,Zidovudina/Lamivudina/Nevirapina
+ESS_MEDS,VIA ESSENTIAL,08Q05,Griseofulvina; 500mg; Comprimidos,500mg,Griseofulvina
+ESS_MEDS,VIA ESSENTIAL,17C04,Cloranfenicol; 1%; Pomada oftálmica,1%,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,08A0YZ,Amoxicilina; 125mg/5mL; Suspensão,125mg/5mL,Amoxicilina
+ESS_MEDS,VIA ESSENTIAL,08S04,Didanosina (DDI); 100mg; Embalagem,100mg,Didanosina (DDI)
+ESS_MEDS,VIA ESSENTIAL,23C04,Gaze Oftalmologica; 58x82mm; Compressa,58x82mm,Gaze Oftalmologica
+ESS_MEDS,VIA ESSENTIAL,07A02,Acido acetilsalicilico (Aspiri; 500mg; Comprimidos,500mg,Acido acetilsalicilico (Aspirina)
+ESS_MEDS,VIA ESSENTIAL,08I02,Cotrimoxazol (Sulfametazol+Tri; 480mg/5mL; Injectável,480mg/5mL,Cotrimoxazol (Sulfametazol+Trimetoprim)
+ESS_MEDS,VIA ESSENTIAL,01F01Z,Amlodipina besilato; 5mg; Comprimidos,5mg,Amlodipina besilato
+ESS_MEDS,VIA ESSENTIAL,19A01,Imunoglobulina humana anti-D; 300 mcg/mL; Injectável,300 mcg/mL,Imunoglobulina humana anti-D
+ESS_MEDS,VIA ESSENTIAL,08Q06Z,Ketoconazol; 200mg/5mL; Xarope,200mg/5mL,Ketoconazol
+ESS_MEDS,VIA ESSENTIAL,06F07,"Fitomenadiona (Vit K1); 2mg/0,2mL; Injectável","2mg/0,2mL",Fitomenadiona (Vit K1)
+ESS_MEDS,VIA ESSENTIAL,19A01Z,"Imunoglobulina humana normal; 16,5%; Injectável","16,5%",Imunoglobulina humana normal
+ESS_MEDS,VIA ESSENTIAL,16A05,"Framicet+Gramici+Dexamet; (5+0,05+0,5)mg; Gotas auriculares","(5+0,05+0,5)mg",Framicet+Gramici+Dexamet
+ESS_MEDS,VIA ESSENTIAL,01G01Z,Mononitrato de isossorbido; 40mg; Comprimidos,40mg,Mononitrato de isossorbido
+ESS_MEDS,VIA ESSENTIAL,24A01,"Agulha Hipodermica ; 0,55x25mm; Embalagem","0,55x25mm",Agulha Hipodermica
+ESS_MEDS,VIA ESSENTIAL,15B03Z,"Betametasona dipropionato  ; 0,05%; Pomada","0,05%",Betametasona dipropionato
+ESS_MEDS,VIA ESSENTIAL,18B02,Ketamina Hidrocloreto; 500mg/10mL; Injectável,500mg/10mL,Ketamina Hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,15A09,Oxido de zinco+Talco+Glicerina; 15g + 15g + 5g; Suspensão,15g + 15g + 5g,Oxido de zinco+Talco+Glicerina
+ESS_MEDS,VIA ESSENTIAL,04B07,Sulfato de magnesio; 100mg/mL (10%; Injectável,100mg/mL (10%,Sulfato de magnesio
+ESS_MEDS,VIA ESSENTIAL,20A03,Alcool; 90% (900mg/mL); Líquido,90% (900mg/mL),Alcool
+ESS_MEDS,VIA ESSENTIAL,17B04Z,"Tropicamida; 0,5%; Colírio","0,5%",Tropicamida
+ESS_MEDS,VIA ESSENTIAL,12B0XZ,"Mistura Intraven para nutritao; 0,2%; Injectável","0,2%",Mistura Intraven para nutritao parent (1900Kcal)
+MMIA,MMIA,08S22,Nevirapina (NVP); 200mg 60Comp; Embalagem,200mg Comp,Nevirapina (NVP)
+ESS_MEDS,VIA ESSENTIAL,08D02,Amikacina sulfato; 100mg/2mL-ampola; Injectável,100mg/2mL-ampola,Amikacina sulfato
+ESS_MEDS,VIA ESSENTIAL,07L02,Betanecol; 10mg; Comprimidos,10mg,Betanecol
+ESS_MEDS,VIA ESSENTIAL,19B10,"Vacina Triplice (D.P.T.); 0,2%; Injectável","0,2%",Vacina Triplice (D.P.T.)
+ESS_MEDS,VIA ESSENTIAL,08O15Y,"Artesunato+Amodiaquina; 25mg+67,5mg; Comprimidos","25mg+67,5mg",Artesunato+Amodiaquina
+ESS_MEDS,VIA ESSENTIAL,08H07,Levofloxacina; 250mg; Comprimidos,250mg,Levofloxacina
+ESS_MEDS,VIA ESSENTIAL,08I01,Cotrimoxazol (Sulfametazol+Tri; 480mg; Comprimidos,480mg,Cotrimoxazol (Sulfametazol+Trimetoprim)
+ESS_MEDS,VIA ESSENTIAL,08E03,Clindamicina; 75mg/5mL; Solução,75mg/5mL,Clindamicina
+ESS_MEDS,VIA ESSENTIAL,15C03,Acido benzóico+Acido salicílic; 6+ 3g; Pomada,6+ 3g,Acido benzÑico+Acido salicÕlico
+ESS_MEDS,VIA ESSENTIAL,03D02,Iodo+Iodeto de Potassio(Lugol); 5% + 10%; Solução,5% + 10%,Iodo+Iodeto de Potassio(Lugol)
+ESS_MEDS,VIA ESSENTIAL,15B08,"Clobetasol propionato; 0,05%; Créme","0,05%",Clobetasol propionato
+ESS_MEDS,VIA ESSENTIAL,09B02,"Dactinomicina (Actinomicina D); 0,5mg; Injectável","0,5mg",Dactinomicina (Actinomicina D)
+MMIA,MMIA,08S36,Estavudina/Lamivudina/Nevirapi; 200mg+150mg+30mg 60Comp; Embalagem,200mg+150mg+30mg 60Comp,Estavudina/Lamivudina/Nevirapina
+ESS_MEDS,VIA ESSENTIAL,13A02,Clorfeniramina; 4mg; Comprimidos,4mg,Clorfeniramina
+ESS_MEDS,VIA ESSENTIAL,08F07Z,Eritromicina; 1g; Injectável,1g,Eritromicina
+ESS_MEDS,VIA ESSENTIAL,08K08,Nitrofurantoína; 50mg; Comprimidos,50mg,NitrofurantoÕna
+ESS_MEDS,VIA ESSENTIAL,12D14,Piridoxina (Vitamina B6); 50mg; Comprimidos,50mg,Piridoxina (Vitamina B6)
+ESS_MEDS,VIA ESSENTIAL,11A06,"Cloreto de sodio 100 mL 0,9% Inj","100 mL 0,9%",Cloreto de sodio
+ESS_MEDS,VIA ESSENTIAL,01C0XZ,"Indapamida; 2,5mg; Comprimidos","2,5mg",Indapamida
+ESS_MEDS,VIA ESSENTIAL,07J08,Tiapride; 100mg; Comprimidos,100mg,Tiapride
+ESS_MEDS,VIA ESSENTIAL,17D01Z,"Dexametasona; 0,1%; Colírio","0,1%",Dexametasona
+ESS_MEDS,VIA ESSENTIAL,01A01,"Digoxina 0,25mg Comp","0,25mg",Digoxina
+ESS_MEDS,VIA ESSENTIAL,07D05,Fenitoina; 250mg/5mL; Injectável,250mg/5mL,Fenitoina
+ESS_MEDS,VIA ESSENTIAL,03A02,"Fludrocortisona acetato; 0,1mg; Comprimidos","0,1mg",Fludrocortisona acetato
+ESS_MEDS,VIA ESSENTIAL,06A07Y,"Sulfato Ferroso + Acido Folico; 60mg+0,4mg; Comprimidos","60mg+0,4mg",Sulfato Ferroso + Acido Folico
+ESS_MEDS,VIA ESSENTIAL,04F10,Nonoxinol; 2%; Gel,2%,Nonoxinol
+ESS_MEDS,VIA ESSENTIAL,23C02,Gaze Gordurosa ; 20cm X 20cm; Compressa,20cm X 20cm,Gaze Gordurosa
+ESS_MEDS,VIA ESSENTIAL,23A03,"Adesivo Elastico; 5cmx2,5m; Rolo","5cmx2,5m",Adesivo Elastico
+ESS_MEDS,VIA ESSENTIAL,08K07,Metronidazol; 200mg/2mL; Suspensão,200mg/2mL,Metronidazol
+ESS_MEDS,VIA ESSENTIAL,08K06,Metronidazol; 1g; Supositório,1g,Metronidazol
+ESS_MEDS,VIA ESSENTIAL,03B06X,Rosiglitazona; 2mg; Comprimidos,2mg,Rosiglitazona
+ESS_MEDS,VIA ESSENTIAL,08B05,Cefixima; 100mg/5mL; Suspensão,100mg/5mL,Cefixima
+ESS_MEDS,VIA ESSENTIAL,08F01,Azitromicina; 500mg; Comprimidos,500mg,Azitromicina
+ESS_MEDS,VIA ESSENTIAL,08B06Z,Cefotaxime de sodio; 1g; Injectável,1g,Cefotaxime de sodio
+ESS_MEDS,VIA ESSENTIAL,18A05,Oxigenio Medicinal 100% v/v Gas,100% v/v,Oxigenio Medicinal
+ESS_MEDS,VIA ESSENTIAL,08F03,Claritromicina; 250mg; Comprimidos,250mg,Claritromicina
+ESS_MEDS,VIA ESSENTIAL,08F08,Eritromicina; 250mg/5mL; Suspensão,250mg/5mL,Eritromicina
+ESS_MEDS,VIA ESSENTIAL,08L11,Etionamida; 250mg; Comprimidos,250mg,Etionamida
+ESS_MEDS,VIA ESSENTIAL,05B02,Bromidrato de Dextrometorfano; 27mg/15ml; Xarope,27mg/15ml,Bromidrato de Dextrometorfano
+ESS_MEDS,VIA ESSENTIAL,15B19,"Mometasona furoato; 0,1%; Créme","0,1%",Mometasona furoato
+ESS_MEDS,VIA ESSENTIAL,12B04,Glicose; 20ml 30%; Injectável,20ml 30%,Glicose
+ESS_MEDS,VIA ESSENTIAL,01I01,Irbesartam; 150mg; Comprimidos,150mg,Irbesartam
+ESS_MEDS,VIA ESSENTIAL,24A02,"Agulha Hipodermica ; 0,70x38mm; Embalagem","0,70x38mm",Agulha Hipodermica
+ESS_MEDS,VIA ESSENTIAL,04F0ZY,"Etinilestradiol; 0,05mg 50mcg; Comprimidos","0,05mg 50mcg",Etinilestradiol
+MMIA,MMIA,08S40,Zidovudina/Lamivudina; 300mg+150mg 60Comp; Embalagem,"300mg+150mg,Comp",Zidovudina/Lamivudina
+ESS_MEDS,VIA ESSENTIAL,08K04X,Metronidazol; 500mg; Comprimidos,500mg,Metronidazol
+ESS_MEDS,VIA ESSENTIAL,23E01,Vaselina solida esterilizada; 500g; Pomada,500g,Vaselina solida esterilizada
+ESS_MEDS,VIA ESSENTIAL,11A21,"Polistireno sulfonato de Sódio; 0,2% (454g); Pó","0,2% (454g)",Polistireno sulfonato de SÑdio
+ESS_MEDS,VIA ESSENTIAL,15C12,Enxofre+Acido salicílico; 3g + 3g; Pomada,3g + 3g,Enxofre+Acido salicÕlico
+ESS_MEDS,VIA ESSENTIAL,24B10,Seringa 100 ml  ; SEM DOSAGEM; Embalagem,Sem Dosagem,Seringa 100 ml
+ESS_MEDS,VIA ESSENTIAL,08Q0ZX,Fluconazol; 200mg; Cápsulas,200mg,Fluconazol
+ESS_MEDS,VIA ESSENTIAL,11A01Z,"Bicarbonato de sodio; 4,2%; Injectável","4,2%",Bicarbonato de sodio
+ESS_MEDS,VIA ESSENTIAL,02A03Z,Hidrox de Alumin+Magn; 405mg+100mg/mL; Suspensão,405mg+100mg/mL,Hidrox de Alumin+Magn
+ESS_MEDS,VIA ESSENTIAL,06F08,Fitomenadiona (Vit K1); 10mg/mL; Injectável,10mg/mL,Fitomenadiona (Vit K1)
+ESS_MEDS,VIA ESSENTIAL,15E03,"Tretinoina; 0,025%; Créme","0,025%",Tretinoina
+ESS_MEDS,VIA ESSENTIAL,12A11,"Dietapolimerica  hiperproteica; 0,2%; Solução","0,2%",Dietapolimerica  hiperproteica e hipercalorica
+ESS_MEDS,VIA ESSENTIAL,03B05,Repaglinida; 1mg; Comprimidos,1mg,Repaglinida
+ESS_MEDS,VIA ESSENTIAL,04F05,Etinilest+Levonorgestrel; 30mcg + 50 mcg/40mcg + 75mcg/3; Comprimidos,30mcg + 50 mcg/40mcg + 75mcg/30mcg+125mcg,Etinilest+Levonorgestrel
+MMIA,MMIA,08S32,Estavudina/Lamivudina; 30mg +150mg 60Comp; Embalagem,30mg +150mgComp,Estavudina/Lamivudina
+ESS_MEDS,VIA ESSENTIAL,01E01,Atenolol; 50mg; Comprimidos,50mg,Atenolol
+ESS_MEDS,VIA ESSENTIAL,08H03Z,Ciprofloxacina; 250mg; Comprimidos,250mg,Ciprofloxacina
+ESS_MEDS,VIA ESSENTIAL,04E09,Clomifeno citrato; 50mg; Comprimidos,50mg,Clomifeno citrato
+ESS_MEDS,VIA ESSENTIAL,24A05,"Agulha Hipodermica ; 1,60x38mm; Embalagem","1,60x38mm",Agulha Hipodermica
+ESS_MEDS,VIA ESSENTIAL,22A06,TDR de Determine; kit de 100; Tests,kit de 100,TDR de Determine
+ESS_MEDS,VIA ESSENTIAL,07A05Z,Paracetamol ; 125mg; Supositório,125mg,Paracetamol
+ESS_MEDS,VIA ESSENTIAL,08A04,Penicilina benzatinica; 2 400 000UI; Injectável Ampola,2 400 000UI,Penicilina benzatinica
+ESS_MEDS,VIA ESSENTIAL,15B09,"Clobetasol propionato; 0,05%; Pomada","0,05%",Clobetasol propionato
+ESS_MEDS,VIA ESSENTIAL,01B04,Verapamil; 40mg; Comprimidos,40mg,Verapamil
+ESS_MEDS,VIA ESSENTIAL,09E05,Carboplatina; 450mg/45mL; Injectável,450mg/45mL,Carboplatina
+ESS_MEDS,VIA ESSENTIAL,23E02Z,Pó Talco 30 KG Pó,30 KG,PÑ Talco
+ESS_MEDS,VIA ESSENTIAL,01B01,Adenosina; 6mg/2mL; Injectável,6mg/2mL,Adenosina
+ESS_MEDS,VIA ESSENTIAL,11A17Z,Dextrano 40+Glicose; 5% (50mg/mL)+50g; Injectável,5% (50mg/mL)+50g,Dextrano 40+Glicose
+ESS_MEDS,VIA ESSENTIAL,07H01,Litio carbonato; 300mg; Comprimidos,300mg,Litio carbonato
+ESS_MEDS,VIA ESSENTIAL,08N06,Praziquantel; 600mg; Comprimidos,600mg,Praziquantel
+ESS_MEDS,VIA ESSENTIAL,24D04,"Cateter periferico c/ agulha, valvula de injeccao e abas 20G, Radiopaco unidade Embalagem",unidade,"Cateter periferico c/ agulha, valvula de injeccao e abas 20G, Radiopaco"
+ESS_MEDS,VIA ESSENTIAL,08O07Y,Artesunato; 200mg; Supositório,200mg,Artesunato
+ESS_MEDS,VIA ESSENTIAL,15A14,Ureia; 30%; Créme,30%,Ureia
+ESS_MEDS,VIA ESSENTIAL,02A02,Hidroxido de Magnesio; 425mg/5mL; Suspensão,425mg/5mL,Hidroxido de Magnesio
+ESS_MEDS,VIA ESSENTIAL,14A06,Indometacina; 100mg; Supositório,100mg,Indometacina
+ESS_MEDS,VIA ESSENTIAL,07J07,Haloperidol; 5mg/mL; Injectável,5mg/mL,Haloperidol
+ESS_MEDS,VIA ESSENTIAL,15C18,Ketoconazol; 2%; Créme,2%,Ketoconazol
+ESS_MEDS,VIA ESSENTIAL,15B07,"Betametasona+Clotrimazol+Genta; 0,5mg+10mg + 1mg; Pomada","0,5mg+10mg + 1mg",Betametasona+Clotrimazol+Gentamicina
+ESS_MEDS,VIA ESSENTIAL,02A01,Hidroxido de aluminio; 500mg; Comprimidos,500mg,Hidroxido de aluminio
+ESS_MEDS,VIA ESSENTIAL,04F07,Medroxiprogesterona acet (Depo; 150mg/3mL; Injectável,150mg/3mL,Medroxiprogesterona acet (Depo-Provera)
+ESS_MEDS,VIA ESSENTIAL,03D02Z,Iodo+Iodeto de potassio; 5% + 10%; Solução,5% + 10%,Iodo+Iodeto de potassio
+ESS_MEDS,VIA ESSENTIAL,04J01,Alprostadil; 10mcg; Injectável,10mcg,Alprostadil
+MMIA,MMIA,08S21,Efavirenz (EFV); 600mg 30Comp; Embalagem,600mg Comp,Efavirenz (EFV)
+ESS_MEDS,VIA ESSENTIAL,03D03,Levotiroxina Sodica; 50 µg ou mcg; Comprimidos,50 μg ou mcg,Levotiroxina Sodica
+ESS_MEDS,VIA ESSENTIAL,08A16,"Piperacilina+Tazobactam; 4g + 0,5g; Injectável","4g + 0,5g",Piperacilina+Tazobactam
+ESS_MEDS,VIA ESSENTIAL,12D0XZ,Vitamina A e Vitamina E; 200000UI Retinol; Cápsulas,200000UI Retinol,Vitamina A e Vitamina E
+ESS_MEDS,VIA ESSENTIAL,15G02,Mentol+Etanol; 2%; Solução,2%,Mentol+Etanol
+ESS_MEDS,VIA ESSENTIAL,06E04,Tirofiban 50mcg/mL Inj,50mcg/mL,Tirofiban
+ESS_MEDS,VIA ESSENTIAL,08H05,Ofloxacina; 200mg; Comprimidos,200mg,Ofloxacina
+ESS_MEDS,VIA ESSENTIAL,15C13Z,Eosina ; 2%; Solução Aquosa,2%,Eosina
+ESS_MEDS,VIA ESSENTIAL,08P01,"Melarsoprol; 3,6% 36mg/mL; Injectável","3,6% 36mg/mL",Melarsoprol
+ESS_MEDS,VIA ESSENTIAL,08B01,"Cefuroxima,axetil; 250mg; Comprimidos",250mg,"Cefuroxima,axetil"
+ESS_MEDS,VIA ESSENTIAL,08S10Y,Estavudina(D4T); 20mg; Cápsulas,20mg,Estavudina(D4T)
+ESS_MEDS,VIA ESSENTIAL,12B01,Aminoacidos; 10%; Injectável,10%,Aminoacidos
+ESS_MEDS,VIA ESSENTIAL,02B0ZZ,"Butilescopolamina; 0,2%; Supositório","0,2%",Butilescopolamina
+ESS_MEDS,VIA ESSENTIAL,09A09,Melfalan; 5mg; Comprimidos,5mg,Melfalan
+ESS_MEDS,VIA ESSENTIAL,09H01,Acido folinico (folinato de cá; 15mg; Comprimidos,15mg,Acido folinico (folinato de càlcio)
+ESS_MEDS,VIA ESSENTIAL,21A01,Acetilcisteina; 200mg/mL; Injectável,200mg/mL,Acetilcisteina
+ESS_MEDS,VIA ESSENTIAL,04B04Z,Misoprostol blister 200mcg ou μg Comp,200mcg ou μg,Misoprostol blister
+ESS_MEDS,VIA ESSENTIAL,04C02,"Cabergolina; 0,5mg; Cápsulas","0,5mg",Cabergolina
+ESS_MEDS,VIA ESSENTIAL,07J15,Risperidona; 2mg; Comprimidos,2mg,Risperidona
+ESS_MEDS,VIA ESSENTIAL,15B10Z,"Dexametasona+Clotrimazol+ Beta; 1%+0,4%; Créme","1%+0,4%",Dexametasona+Clotrimazol+ Betametasona
+ESS_MEDS,VIA ESSENTIAL,12D09Z,Axeroftol+Alfa tocoferol; 200 000UI+40UI; Cápsulas,200 000UI+40UI,Axeroftol+Alfa tocoferol
+ESS_MEDS,VIA ESSENTIAL,08O03,Artemeter; 80mg/mL; Injectável,80mg/mL,Artemeter
+ESS_MEDS,VIA ESSENTIAL,09H04Z,Ondansetron; 2mg/4ml; Injectável,2mg/4ml,Ondansetron
+ESS_MEDS,VIA ESSENTIAL,12B03,Glicose; 500ml 10%; Injectável,500ml 10%,Glicose
+ESS_MEDS,VIA ESSENTIAL,12C0ZZ,Gluconato de calcio; 600mg; Comprimidos,600mg,Gluconato de calcio
+ESS_MEDS,VIA ESSENTIAL,08S01Z,"Abacavir sulfato (ABC); 60mg, 60comp Baby; Embalagem","60mg, 60comp Baby",Abacavir sulfato (ABC)
+ESS_MEDS,VIA ESSENTIAL,16D03,"Benzidamina HCl; 0,15%; Solução","0,15%",Benzidamina HCl
+ESS_MEDS,VIA ESSENTIAL,07I04,Clordiazepoxido; 10mg; Comprimidos,10mg,Clordiazepoxido
+ESS_MEDS,VIA ESSENTIAL,15F03,Colodio queratolitico; 1g + 1g + 1g + 10g; Líquido,1g + 1g + 1g + 10g,Colodio queratolitico
+ESS_MEDS,VIA ESSENTIAL,24A03,"Agulha Hipodermica ; 0,90x38mm; Embalagem","0,90x38mm",Agulha Hipodermica
+ESS_MEDS,VIA ESSENTIAL,06A03,Ferro dextrano; 100mg/2mL; Injectável,100mg/2mL,Ferro dextrano
+ESS_MEDS,VIA ESSENTIAL,16C05,"Fenilefrina HCL; 0,5%; Gotas nasais","0,5%",Fenilefrina HCL
+ESS_MEDS,VIA ESSENTIAL,08Q06,Ketoconazol; 200mg; Comprimidos,200mg,Ketoconazol
+ESS_MEDS,VIA ESSENTIAL,09D01,Etoposido; 100mg; Cápsulas,100mg,Etoposido
+ESS_MEDS,VIA ESSENTIAL,17C0ZZ,"Idoxiuridina; 0,5%; Pomada oftálmica","0,5%",Idoxiuridina
+ESS_MEDS,VIA ESSENTIAL,17F04,Cromoglicato de Sodio; 4%; Pomada oftálmica,4%,Cromoglicato de Sodio
+ESS_MEDS,VIA ESSENTIAL,03B02,Glibenclamida; 5mg; Comprimidos,5mg,Glibenclamida
+ESS_MEDS,VIA ESSENTIAL,12A12,"Dietapolimerica  ped normo pro; 0,2%; Solução","0,2%",Dietapolimerica  ped normo proteica/normocalorica
+ESS_MEDS,VIA ESSENTIAL,08L10,Cicloserina; 250mg; Cápsulas,250mg,Cicloserina
+ESS_MEDS,VIA ESSENTIAL,03B01,Acarbose; 50mg; Comprimidos,50mg,Acarbose
+ESS_MEDS,VIA ESSENTIAL,23C06,Penso Ocular Adesivo; 50x62mm; Compressa,50x62mm,Penso Ocular Adesivo
+ESS_MEDS,VIA ESSENTIAL,08P02,Suramina; 1g/5mL; Injectável,1g/5mL,Suramina
+ESS_MEDS,VIA ESSENTIAL,08S17Y,Zidovudina (AZT); 50mg/5mL 100ml; Suspensão,50mg/5mL 100ml,Zidovudina (AZT)
+ESS_MEDS,VIA ESSENTIAL,17F02,"Corante azul diluida de azul t; 0,2%; Solução","0,2%",Corante azul diluida de azul typan esterilizada
+ESS_MEDS,VIA ESSENTIAL,04E03Z,"Ciproterona, acetato; 50mg; Comprimidos",50mg,"Ciproterona, acetato"
+ESS_MEDS,VIA ESSENTIAL,06F0ZY,Acido aminocaproico; 5g/20mL; Injectável,5g/20mL,Acido aminocaproico
+ESS_MEDS,VIA ESSENTIAL,24A23Z,"Agulha Hipodermica 20G; 0,90x38mm; Embalagem","0,90x38mm",Agulha Hipodermica 20G
+ESS_MEDS,VIA ESSENTIAL,09C07,"Metotrexato; 2,5mg; Comprimidos","2,5mg",Metotrexato
+ESS_MEDS,VIA ESSENTIAL,08J01,Vancomicina; 125mg; Cápsulas,125mg,Vancomicina
+ESS_MEDS,VIA ESSENTIAL,07A03,Paracetamol; 500mg; Comprimidos,500mg,Paracetamol
+ESS_MEDS,VIA ESSENTIAL,08R04,"Ganciclovir, sal sódico; 500mg; Cápsulas",500mg,"Ganciclovir, sal sÑdico"
+ESS_MEDS,VIA ESSENTIAL,08G03Z,Tetraciclina ; 250mg; Cápsulas,250mg,Tetraciclina
+ESS_MEDS,VIA ESSENTIAL,04A08,Nistatina; 100 000UI; Comprimidos vaginais,100 000UI,Nistatina
+ESS_MEDS,VIA ESSENTIAL,07I07,Diazepam; 10mg/2mL; Injectável,10mg/2mL,Diazepam
+ESS_MEDS,VIA ESSENTIAL,07D04,Fenitoina; 100mg; Comprimidos,100mg,Fenitoina
+ESS_MEDS,VIA ESSENTIAL,14B0ZZ,Probenicide; 500mg; Comprimidos,500mg,Probenicide
+ESS_MEDS,VIA ESSENTIAL,02D03,"Glicerina infantil; 1,5g; Supositório","1,5g",Glicerina infantil
+ESS_MEDS,VIA ESSENTIAL,15G01,"Calamina; 0,2% 200ml; Loção","0,2% 200ml",Calamina
+ESS_MEDS,VIA ESSENTIAL,09E10,Paclitaxel; 30mg/5mL; Injectável,30mg/5mL,Paclitaxel
+ESS_MEDS,VIA ESSENTIAL,08L06,Rifampicina+Isoniazida; 150mg+100mg; Comprimidos,150mg+100mg,Rifampicina+Isoniazida
+ESS_MEDS,VIA ESSENTIAL,15K01Z,"Capsaicina ; 0,025%; Créme","0,025%",Capsaicina
+MMIA,MMIA,08S20,Efavirenz (EFV); 200mg 90Caps; Embalagem,200mg Caps,Efavirenz (EFV)
+ESS_MEDS,VIA ESSENTIAL,02B01,Butilescopolamina; 10mg; Comprimidos,10mg,Butilescopolamina
+ESS_MEDS,VIA ESSENTIAL,15B17,"Metilprednisolona aceponato; 0,1%; Emulsão","0,1%",Metilprednisolona aceponato
+ESS_MEDS,VIA ESSENTIAL,08O13,Sulfadoxina+Pirimetamina; 500mg + 25mg; Comprimidos,500mg + 25mg,Sulfadoxina+Pirimetamina
+ESS_MEDS,VIA ESSENTIAL,04H01,Cloreto de trospio; 20mg; Comprimidos,20mg,Cloreto de trospio
+ESS_MEDS,VIA ESSENTIAL,07I02,Bromazepam; 3mg; Comprimidos,3mg,Bromazepam
+ESS_MEDS,VIA ESSENTIAL,08A15Z,Flucloxacilina Sodica; 250mg/5mL; Suspensão,250mg/5mL,Flucloxacilina Sodica
+ESS_MEDS,VIA ESSENTIAL,08Q05Z,Terbinafina; 250mg; Comprimidos,250mg,Terbinafina
+ESS_MEDS,VIA ESSENTIAL,21A10,"Naloxona HCL; 0,4mg/mL; Injectável","0,4mg/mL",Naloxona HCL
+ESS_MEDS,VIA ESSENTIAL,06E02,Clopidogrel; 75mg; Comprimidos,75mg,Clopidogrel
+ESS_MEDS,VIA ESSENTIAL,23A02Z,Adesivo Esparadrapo(Transpore); Transpore; Rolo 10cm X5m; Rolo,Transpore; Rolo 10cm X5m,Adesivo Esparadrapo(Transpore)
+ESS_MEDS,VIA ESSENTIAL,01A04,Dobutamina; 250mg/5mL; Injectável,250mg/5mL,Dobutamina
+ESS_MEDS,VIA ESSENTIAL,05A14,Teofilina de accao prolongada; 250mg; Comprimidos,250mg,Teofilina de accao prolongada
+ESS_MEDS,VIA ESSENTIAL,08O11Z,Quinina; 300mg/2mL; Injectável,300mg/2mL,Quinina
+ESS_MEDS,VIA ESSENTIAL,07J06,Haloperidol; 5mg; Comprimidos,5mg,Haloperidol
+ESS_MEDS,VIA ESSENTIAL,04D08,Ciproterona+Estradiol; 2mg+2mg+1mg; Comprimidos,2mg+2mg+1mg,Ciproterona+Estradiol
+ESS_MEDS,VIA ESSENTIAL,09D05,Vinorelbina; 10mg/mL; Injectável,10mg/mL,Vinorelbina
+ESS_MEDS,VIA ESSENTIAL,08S11,Estavudina(D4T); 40mg; Cápsulas,40mg,Estavudina(D4T)
+ESS_MEDS,VIA ESSENTIAL,23C01,Gaze Gordurosa ; 10cm X 10cm; Compressa,10cm X 10cm,Gaze Gordurosa
+ESS_MEDS,VIA ESSENTIAL,14A0ZZ,Ibuprofeno+Paracetamol; 400mg+350mg; Comprimidos,400mg+350mg,Ibuprofeno+Paracetamol
+ESS_MEDS,VIA ESSENTIAL,19A02,Imunoglubulina anti-rabica; 1000UI/5ml; Injectável,1000UI/5ml,Imunoglubulina anti-rabica
+ESS_MEDS,VIA ESSENTIAL,08S31,Tenofovir/Emtricitabina; 300mg + 200mg 30 Comp; Embalagem,300mg + 200mg 30 Comp,Tenofovir/Emtricitabina
+ESS_MEDS,VIA ESSENTIAL,07G06Z,Maprotilina; 50mg; Comprimidos,50mg,Maprotilina
+ESS_MEDS,VIA ESSENTIAL,09H03,Ondansetron; 4mg; Cápsulas,4mg,Ondansetron
+ESS_MEDS,VIA ESSENTIAL,08K02Z,Cloranfenicol oleosa; 1g/4mL; Injectável,1g/4mL,Cloranfenicol oleosa
+ESS_MEDS,VIA ESSENTIAL,04F02,Etinilestradiol+Gestodeno; 20mcg + 75mcg; Comprimidos,20mcg + 75mcg,Etinilestradiol+Gestodeno
+ESS_MEDS,VIA ESSENTIAL,02G02,Pancreatina; 5000+2900+3309UI; Cápsulas,5000+2900+3309UI,Pancreatina
+ESS_MEDS,VIA ESSENTIAL,26B05,Caixa Para Kits AL/US Sem Dosagem Papel,Sem Dosagem,Caixa Para Kits AL/US
+ESS_MEDS,VIA ESSENTIAL,07I05,Diazepam; 2mg; Comprimidos,2mg,Diazepam
+ESS_MEDS,VIA ESSENTIAL,04F06Y,Levonorgestrel (Microlut) 30mcg Ciclo,30mcg,Levonorgestrel (Microlut)
+MMIA,MMIA,08S17,Zidovudina (AZT); 50mg/5mL 240mL; Solução,50mg/5mL 240mL,Zidovudina (AZT)
+ESS_MEDS,VIA ESSENTIAL,08H06,Norfloxacina; 400mg; Cápsulas,400mg,Norfloxacina
+ESS_MEDS,VIA ESSENTIAL,11A09,"Cloreto de Sódio; 1000 mL (0,9%); Injectável","1000 mL (0,9%)",Cloreto de SÑdio
+ESS_MEDS,VIA ESSENTIAL,12A0ZZ,Leite terapeutico F-100; SEM DOSAGEM; Pó,Sem Dosagem,Leite terapeutico F-100
+ESS_MEDS,VIA ESSENTIAL,15E05,"Tretinoina; 0,05%100mL; Loção","0,05%100mL",Tretinoina
+ESS_MEDS,VIA ESSENTIAL,17A06,"Timolol; 0,25%; Colírio","0,25%",Timolol
+ESS_MEDS,VIA ESSENTIAL,07E02,Meclizina; 25mg; Comprimidos,25mg,Meclizina
+ESS_MEDS,VIA ESSENTIAL,15B20,"Mometasona furoato; 0,1%; Loção","0,1%",Mometasona furoato
+ESS_MEDS,VIA ESSENTIAL,09E12,Trastuzumab; 150mg; Injectável,150mg,Trastuzumab
+ESS_MEDS,VIA ESSENTIAL,12A10,"Dietapolimérica normo proteica; 0,2%; Solução","0,2%",Dietapolim_rica normo proteica/normo calÑrica
+ESS_MEDS,VIA ESSENTIAL,19A05,Soro Anti-Ofidico polivalente; 10ml; Injectável,10ml,Soro Anti-Ofidico polivalente
+MMIA,MMIA,08S39B,Lopinavir/Ritonavir 100mg+25mg 60Comp Embalagem,100mg + 25mg Comp,Lopinavir/Ritonavir
+ESS_MEDS,VIA ESSENTIAL,08S14,Lamivudina(3TC); 50mg/5mL 240mL; Solução Oral,50mg/5mL 240mL,Lamivudina(3TC)
+ESS_MEDS,VIA ESSENTIAL,01C05,"Reserpina; 0,25mg; Comprimidos","0,25mg",Reserpina
+ESS_MEDS,VIA ESSENTIAL,21A04,Carvao activado; 300g; Pó,300g,Carvao activado
+ESS_MEDS,VIA ESSENTIAL,14B02,"Colchicina; 0,5mg; Comprimidos","0,5mg",Colchicina
+ESS_MEDS,VIA ESSENTIAL,11A23,"Sais de Rehidratação Oral; 2,6g+1,5g+2,9g+13,5g; Pó","2,6g+1,5g+2,9g+13,5g",Sais de RehidrataÜo Oral
+ESS_MEDS,VIA ESSENTIAL,04F0XZ,"Norgestrel (Ovrette); 0,075mg; Ciclo","0,075mg",Norgestrel (Ovrette)
+ESS_MEDS,VIA ESSENTIAL,24D01,"Cateter periferico c/ agulha, valvula de injeccao e abas 14G, Radiopaco unidade Embalagem",unidade,"Cateter periferico c/ agulha, valvula de injeccao e abas 14G, Radiopaco"
+ESS_MEDS,VIA ESSENTIAL,12B08Z,"Lipidos,Aminoacidos e Glicose 3500 Kcal",3500 Kcal,"Lipidos,Aminoacidos e Glicose"
+ESS_MEDS,VIA ESSENTIAL,FC001,Produto FC001  50ML (10MG/ML) Xpe,50ML (10MG/ML),Produto FC001
+ESS_MEDS,VIA ESSENTIAL,11A15,Glicose (Dextrose); 1000mL 5%; Injectável,1000mL 5%,Glicose (Dextrose)
+ESS_MEDS,VIA ESSENTIAL,15B0ZY,Betametasona+Neomicina; 1g+5g; Créme,1g+5g,Betametasona+Neomicina
+ESS_MEDS,VIA ESSENTIAL,18F02,Efedrina HCL; Inj (50 mg/mL),50 mg/mL,Efedrina HCL
+ESS_MEDS,VIA ESSENTIAL,12D08Z,"Complexo B; 0,2%; Xarope","0,2%",Complexo B
+ESS_MEDS,VIA ESSENTIAL,08L01,Estreptomicina; 1g/5mL; Injectável,1g/5mL,Estreptomicina
+ESS_MEDS,VIA ESSENTIAL,14A07,Ketorolac; 30mg/mL; Injectável,30mg/mL,Ketorolac
+ESS_MEDS,VIA ESSENTIAL,01B03,Amiodarona HCL; 150mg/3mL; Injectável,150mg/3mL,Amiodarona HCL
+ESS_MEDS,VIA ESSENTIAL,18C11Y,Lidocaina+Adrenalina carpule; 2%; Injectável,2%,Lidocaina+Adrenalina carpule
+ESS_MEDS,VIA ESSENTIAL,07D13,Valproato de Sodio; 200mg; Comprimidos,200mg,Valproato de Sodio
+ESS_MEDS,VIA ESSENTIAL,08S01ZY,Abacavir (ABC)+Lamivudina (3TC; 600mg+300mg  30Comp; Embalagem,600mg+300mg  30Comp,Abacavir (ABC)+Lamivudina (3TC)
+ESS_MEDS,VIA ESSENTIAL,04C01,"Bromocriptina; 2,5mg; Comprimidos","2,5mg",Bromocriptina
+ESS_MEDS,VIA ESSENTIAL,08D0X,Kanamicina; 2 g/8mL-ampola; Injectável,2 g/8mL-ampola,Kanamicina
+ESS_MEDS,VIA ESSENTIAL,08A06Y,Penicilina Sodica cristalina; 10 000 000UI; Injectável,10 000 000UI,Penicilina Sodica cristalina
+ESS_MEDS,VIA ESSENTIAL,06C01,Filgrastim; 300 mcg/mL; Injectável,300 mcg/mL,Filgrastim
+ESS_MEDS,VIA ESSENTIAL,05A07,Ketotifeno; 1mg; Comprimidos,1mg,Ketotifeno
+ESS_MEDS,VIA ESSENTIAL,18C06Z,Lidocaina carpule; 40mg/2mL-ampola; Injectável,40mg/2mL-ampola,Lidocaina carpule
+ESS_MEDS,VIA ESSENTIAL,03A01Z,Dexametasona; 5mg/mL; Injectável,5mg/mL,Dexametasona
+ESS_MEDS,VIA ESSENTIAL,08B04,Cefixima; 200mg; Comprimidos,200mg,Cefixima
+ESS_MEDS,VIA ESSENTIAL,08S03,Didanosina (DDI); 50mg 30comp; Embalagem,50mg 30comp,Didanosina (DDI)
+ESS_MEDS,VIA ESSENTIAL,08R0ZZ,Aciclovir; 20mg/5mL; Xarope,20mg/5mL,Aciclovir
+ESS_MEDS,VIA ESSENTIAL,14E03,Cloroquina difosfato; 250mg 150mg base; Comprimidos,250mg 150mg base,Cloroquina difosfato
+ESS_MEDS,VIA ESSENTIAL,15I01,Hidroxicloreto de aluminio; 20%; Solução,20%,Hidroxicloreto de aluminio
+ESS_MEDS,VIA ESSENTIAL,04B06,"Terbutalina; 2,5mg; Comprimidos","2,5mg",Terbutalina
+ESS_MEDS,VIA ESSENTIAL,01B02,Amiodarona HCL; 200mg; Comprimidos,200mg,Amiodarona HCL
+ESS_MEDS,VIA ESSENTIAL,15C10,Crotamitona; 10%; Créme,10%,Crotamitona
+ESS_MEDS,VIA ESSENTIAL,08D06,"Neomicina, sulfato; 500mg; Comprimidos",500mg,"Neomicina, sulfato"
+ESS_MEDS,VIA ESSENTIAL,17C01,Aciclovir; 3%; Pomada oftálmica,3%,Aciclovir
+ESS_MEDS,VIA ESSENTIAL,02B03,Mebeverina HCL; 135mg; Comprimidos,135mg,Mebeverina HCL
+ESS_MEDS,VIA ESSENTIAL,17B02,Ciclopentolato; 1%; Colírio,1%,Ciclopentolato
+ESS_MEDS,VIA ESSENTIAL,09E08,Hidroxicarbamida (Hidroxiureia; 500mg; Cápsulas,500mg,Hidroxicarbamida (Hidroxiureia)
+ESS_MEDS,VIA ESSENTIAL,07D08,Fenobarbital; 200mg/2mL; Injectável,200mg/2mL,Fenobarbital
+ESS_MEDS,VIA ESSENTIAL,04G01,Doxazosina; 2mg; Comprimidos,2mg,Doxazosina
+ESS_MEDS,VIA ESSENTIAL,08F05,Claritromicina; 125mg/5mL; Suspensão,125mg/5mL,Claritromicina
+ESS_MEDS,VIA ESSENTIAL,04F08,Levonorgestrel+Etinilestradiol; 250mcg + 50mcg; Comprimidos,250mcg + 50mcg,Levonorgestrel+Etinilestradiol
+ESS_MEDS,VIA ESSENTIAL,19B06,Vacina Anti - Rabica (Antitoxi; SEM DOSAGEM; Injectável,Sem Dosagem,Vacina Anti - Rabica (Antitoxin)
+ESS_MEDS,VIA ESSENTIAL,08O15Z,Artesunato+Amodiaquina; 100mg+153mg; Comprimidos,100mg+153mg,Artesunato+Amodiaquina
+ESS_MEDS,VIA ESSENTIAL,04F06W,Levonorgestrel  0.75mg Comp,0.75mg,Levonorgestrel
+ESS_MEDS,VIA ESSENTIAL,08A01,Fenoximetilpenicilina; 500mg; Comprimidos,500mg,Fenoximetilpenicilina
+ESS_MEDS,VIA ESSENTIAL,01K0ZZ,Polidocanol 60mg/2mL Inj,60mg/2mL,Polidocanol
+ESS_MEDS,VIA ESSENTIAL,08S06,Didanosina (DDI); 200mg; Comprimidos,200mg,Didanosina (DDI)
+ESS_MEDS,VIA ESSENTIAL,18D04,Suxametonio; 50 mg/mL; Injectável,50 mg/mL,Suxametonio
+ESS_MEDS,VIA ESSENTIAL,02H01,Dimeticone; 50 mg/mL; Gotas Orais,50 mg/mL,Dimeticone
+ESS_MEDS,VIA ESSENTIAL,25A10,Nota de Entrega Sem Dosagem Papel,Sem Dosagem,Nota de Entrega
+ESS_MEDS,VIA ESSENTIAL,08L07,Rifampicina+Isoniazida; 150mg+75mg; Comprimidos,150mg+75mg,Rifampicina+Isoniazida
+ESS_MEDS,VIA ESSENTIAL,08N07,Tiabendazol; 5%; Pomada,5%,Tiabendazol
+ESS_MEDS,VIA ESSENTIAL,08Q04,Fluconazol; 2mg/mL; Injectável,2mg/mL,Fluconazol
+ESS_MEDS,VIA ESSENTIAL,05A09Z,Salbutamol; 4mg; Comprimidos,4mg,Salbutamol
+ESS_MEDS,VIA ESSENTIAL,08O0XZ,Artesunato; 60mg/mL; Injectável,60mg/mL,Artesunato
+ESS_MEDS,VIA ESSENTIAL,09D04Z,Vincristina; 1mg/ml Ampola; Injectável,1mg/ml Ampola,Vincristina
+ESS_MEDS,VIA ESSENTIAL,17A02,Acetazolamida; 500mg; Injectável,500mg,Acetazolamida
+ESS_MEDS,VIA ESSENTIAL,18C11,"Lidocaina+Adrenalina  carpule; 0,2%; Injectável","0,2%",Lidocaina+Adrenalina  carpule
+ESS_MEDS,VIA ESSENTIAL,07B10Z,Tramadol; 150mg; Comprimidos,150mg,Tramadol
+ESS_MEDS,VIA ESSENTIAL,15D07,"Calciprotiol; 0,005%; Pomada","0,005%",Calciprotiol
+ESS_MEDS,VIA ESSENTIAL,08E01Z,Clindamicina; 100 mg/mL; Solução,100 mg/mL,Clindamicina
+ESS_MEDS,VIA ESSENTIAL,15A11,Ureia; 5%; Créme,5%,Ureia
+ESS_MEDS,VIA ESSENTIAL,08S16,Zidovudina (AZT); 200mg/20mL; Injectável,200mg/20mL,Zidovudina (AZT)
+ESS_MEDS,VIA ESSENTIAL,05A01Z,Aminofilina; 125mg; Comprimidos,125mg,Aminofilina
+ESS_MEDS,VIA ESSENTIAL,06D03,Varfarina; 5mg; Comprimidos,5mg,Varfarina
+ESS_MEDS,VIA ESSENTIAL,19B11,"Vacina Triplice (D.P.T.); 0,2%; Injectável","0,2%",Vacina Triplice (D.P.T.)
+ESS_MEDS,VIA ESSENTIAL,02I01,"Anti hemorroidario; 0,2%; Créme","0,2%",Anti hemorroidario
+ESS_MEDS,VIA ESSENTIAL,01G01,Dinitrato de isossorbido; 40mg; Comprimidos,40mg,Dinitrato de isossorbido
+ESS_MEDS,VIA ESSENTIAL,17A04,Pilocarpina; 2%; Colírio,2%,Pilocarpina
+ESS_MEDS,VIA ESSENTIAL,08D05,Kanamicina sulfato; 1g/3mL-ampola; Injectável,1g/3mL-ampola,Kanamicina sulfato
+ESS_MEDS,VIA ESSENTIAL,07I01,"Alprazolam; 0,5mg; Comprimidos","0,5mg",Alprazolam
+ESS_MEDS,VIA ESSENTIAL,15A13,Ureia; 20%; Créme,20%,Ureia
+ESS_MEDS,VIA ESSENTIAL,23A04,"Adesivo Elastico; 10cmx2,5m; Rolo","10cmx2,5m",Adesivo Elastico
+ESS_MEDS,VIA ESSENTIAL,19B03,"Vacina anti-meningococica 50 d; 50mcg/0,5mL; Injectável","50mcg/0,5mL",Vacina anti-meningococica 50 dose
+ESS_MEDS,VIA ESSENTIAL,08O12,"Quinina, dicloridrato; 600mg/2mL; Injectável",600mg/2mL,"Quinina, dicloridrato"
+ESS_MEDS,VIA ESSENTIAL,04K04,Finasterida; 5mg; Comprimidos,5mg,Finasterida
+ESS_MEDS,VIA ESSENTIAL,07D03,Clonazepam; 1mg/mL; Injectável,1mg/mL,Clonazepam
+ESS_MEDS,VIA ESSENTIAL,12A08,Leite de transicao; SEM DOSAGEM; Pó,Sem Dosagem,Leite de transicao
+ESS_MEDS,VIA ESSENTIAL,11A04,"Cloreto de Sodio; 0,45%; Injectável","0,45%",Cloreto de Sodio
+ESS_MEDS,VIA ESSENTIAL,19A01Y,"Imunoglobulina Humana Inespecifica 0,5mg/10mL Inj","0,5mg/10mL",Imunoglobulina Humana Inespecifica
+ESS_MEDS,VIA ESSENTIAL,18E01,Dantroleno; Inj (20mg/70mL); 20mg/70mL; Injectável,20mg/70mL,Dantroleno; Inj (20mg/70mL)
+ESS_MEDS,VIA ESSENTIAL,08A07Z,Amoxicilina trihidrato; 250mg; Cápsulas,250mg,Amoxicilina trihidrato
+ESS_MEDS,VIA ESSENTIAL,20A11,"Hipoclorito de Sódio; 0,2%; Granulado","0,2%",Hipoclorito de SÑdio
+ESS_MEDS,VIA ESSENTIAL,15A04,Linimento de calcario; 50g + 50g; Linimento,50g + 50g,Linimento de calcario
+ESS_MEDS,VIA ESSENTIAL,15B18,"Metilprednisolona aceponato; 0,1%; Pomada","0,1%",Metilprednisolona aceponato
+ESS_MEDS,VIA ESSENTIAL,23D11,Ligadura Gessada  ; 20cm X 3m; Rolo,20cm X 3m,Ligadura Gessada
+ESS_MEDS,VIA ESSENTIAL,15H01,"Sulfureto de selenio; 2,5%; Loção","2,5%",Sulfureto de selenio
+ESS_MEDS,VIA ESSENTIAL,02H0ZY,Fenipentol; 100mg; Comprimidos,100mg,Fenipentol
+ESS_MEDS,VIA ESSENTIAL,05A10,Salbutamol; 500mcg/mL; Injectável,500mcg/mL,Salbutamol
+ESS_MEDS,VIA ESSENTIAL,06F06,Factor VIII Coagulacao Humano ; 500 UI; Injectável,500 UI,Factor VIII Coagulacao Humano liofilizado
+ESS_MEDS,VIA ESSENTIAL,25B02,Livro de  Registo  Diario de  ARVs-TARV Sem Dosagem Papel,Sem Dosagem,Livro de  Registo  Diario de  ARVs-TARV
+ESS_MEDS,VIA ESSENTIAL,15C27,Violeta de genciana; 1%; Solução Aquosa,1%,Violeta de genciana
+ESS_MEDS,VIA ESSENTIAL,25A09Y,Livro de Mapa de Resumo/Plano Dist/KIT  Sem Dosagem Papel,Sem Dosagem,Livro de Mapa de Resumo/Plano Dist/KIT
+ESS_MEDS,VIA ESSENTIAL,07D08Z,Fenobarbital; 200mg/mL; Injectável,200mg/mL,Fenobarbital
+ESS_MEDS,VIA ESSENTIAL,04F06,Levonorgestrel(Microlut) 30mcg Ciclo,30mcg,Levonorgestrel(Microlut)
+ESS_MEDS,VIA ESSENTIAL,15A06,"Oleo de banho; 91,7% + 3%; Líquido","91,7% + 3%",Oleo de banho
+ESS_MEDS,VIA ESSENTIAL,08M01,Clofazimina; 50mg; Cápsulas,50mg,Clofazimina
+ESS_MEDS,VIA ESSENTIAL,16A03,Clorbut+Paradiclorob+Benzoc; 5%+2%+2%; Gotas auriculares,5%+2%+2%,Clorbut+Paradiclorob+Benzoc
+ESS_MEDS,VIA ESSENTIAL,15B10,"Dexametasona+Clotrimazol; 0,1% + 1%; Créme","0,1% + 1%",Dexametasona+Clotrimazol
+ESS_MEDS,VIA ESSENTIAL,04B03Z,"Metilergometrina; 0,2mg/mL; Injectável","0,2mg/mL",Metilergometrina
+ESS_MEDS,VIA ESSENTIAL,04A01,Clindamicina; 20mg/g; Créme vaginal,20mg/g,Clindamicina
+ESS_MEDS,VIA ESSENTIAL,08O09,"Primaquina,fosfato; 15mg; Comprimidos",15mg,"Primaquina,fosfato"
+ESS_MEDS,VIA ESSENTIAL,08B06,Cefotaxima sodico; 500mg-frasco; Injectável,500mg-frasco,Cefotaxima sodico
+ESS_MEDS,VIA ESSENTIAL,10A04,Furosemida; 20mg/2mL; Injectável,20mg/2mL,Furosemida
+ESS_MEDS,VIA ESSENTIAL,22A05,TDR de Sifilis; Kit de 30; Tests,1,TDR de Sifilis
+ESS_MEDS,VIA ESSENTIAL,07A02T,Acido acetil Salcilico; (650mg); Comprimidos,(650mg),Acido acetil Salcilico
+ESS_MEDS,VIA ESSENTIAL,08K02Y,Cloranfenicol; 1g/4mL; Injectável,1g/4mL,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,15C08,Clotrimazol; 1%; Créme,1%,Clotrimazol
+ESS_MEDS,VIA ESSENTIAL,20A12,Iodopovidona ; 4% 4g/100ml; Solução Aquosa,4% 4g/100ml,Iodopovidona
+ESS_MEDS,VIA ESSENTIAL,22B05Z,Sulfato de Bario; 175g; Pó para Suspensão,175g,Sulfato de Bario
+ESS_MEDS,VIA ESSENTIAL,04A06,Iodopovidona ginecologica; 100mg/mL; Solução,100mg/mL,Iodopovidona ginecologica
+ESS_MEDS,VIA ESSENTIAL,02C02,Metoclopramida; 10mg/2mL; Injectável,10mg/2mL,Metoclopramida
+ESS_MEDS,VIA ESSENTIAL,11A10,Cloreto de sodio; 20mL 20%; Injectável,20mL 20%,Cloreto de sodio
+ESS_MEDS,VIA ESSENTIAL,15B0Z,Betametasona+Neomicina; 1g+5g; Pomada,1g+5g,Betametasona+Neomicina
+ESS_MEDS,VIA ESSENTIAL,15E01,Isotretinoina; 10mg; Cápsulas,10mg,Isotretinoina
+ESS_MEDS,VIA ESSENTIAL,15A10,Oxido de zinco+Talco; 25g + 25g; Pasta,25g + 25g,Oxido de zinco+Talco
+ESS_MEDS,VIA ESSENTIAL,08G03,"Tetraciclina, hidrocloreto; 500mg; Cápsulas",500mg,"Tetraciclina, hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,20A15,Sulfadiazina de prata; 1% 1g/100g; Créme,1% 1g/100g,Sulfadiazina de prata
+ESS_MEDS,VIA ESSENTIAL,23A02,Adesivo Esparadrapo(Transpore); 10cm X10m; Rolo,10cm X10m,Adesivo Esparadrapo(Transpore)
+ESS_MEDS,VIA ESSENTIAL,08S30ZZ,Raltegravir 400mg 60Comp Embalagem,400mg 60Comp,Raltegravir
+ESS_MEDS,VIA ESSENTIAL,08K03Z,Cloranfenicol; 125mg/5mL; Suspensão,125mg/5mL,Cloranfenicol
+ESS_MEDS,VIA ESSENTIAL,04A05,Iodopovidona ginecologico; 100 mg/g; Gel,100 mg/g,Iodopovidona ginecologico
+ESS_MEDS,VIA ESSENTIAL,05A03,Beclometasona; 100mcg/inalacao; Aerosol,100mcg/inalacao,Beclometasona
+ESS_MEDS,VIA ESSENTIAL,15A03,"Lanolina; 0,2% 20g; Créme","0,2% 20g",Lanolina
+ESS_MEDS,VIA ESSENTIAL,06D02,"Heparina de baixo peso molecul; 4000UI/0,4mL; Injectável","4000UI/0,4mL",Heparina de baixo peso molecular
+ESS_MEDS,VIA ESSENTIAL,24B03Z,Seringa para Depoprovera  1ml Inj,1ml,Seringa para Depoprovera
+ESS_MEDS,VIA ESSENTIAL,06D01Z,Heparina Sodica; 5000UI/5mL; Injectável,5000UI/5mL,Heparina Sodica
+ESS_MEDS,VIA ESSENTIAL,23D08,Ligadura Gessada  ; 10cm X 3m; Rolo,10cm X 3m,Ligadura Gessada
+ESS_MEDS,VIA ESSENTIAL,06A05,Hidroxicobalamina acetato B12; 1mg/mL; Injectável,1mg/mL,Hidroxicobalamina acetato B12
+ESS_MEDS,VIA ESSENTIAL,15C05,Bacitracina; 1% 15g; Pomada,1% 15g,Bacitracina
+ESS_MEDS,VIA ESSENTIAL,08M0ZZ,Dapsona+Clofazimina+Rifampicin; 50+50+150mg; Comprimidos,50+50+150mg,Dapsona+Clofazimina+Rifampicina
+ESS_MEDS,VIA ESSENTIAL,02A03Y,Hidrox de Alumin+Magn; 225 +200mg/5mL; Suspensão,225 +200mg/5mL,Hidrox de Alumin+Magn
+ESS_MEDS,VIA ESSENTIAL,08O05Z,Artemeter+Lumefantrina; 120mg+20mg 2x6; Comprimidos,120mg+20mg 2x6,Artemeter+Lumefantrina
+ESS_MEDS,VIA ESSENTIAL,08S30Z,Darunavir; 300mg 120Comp; Embalagem,300mg 120Comp,Darunavir
+ESS_MEDS,VIA ESSENTIAL,18F05,"Neostigmina 0,5mg/mL Inj","0,5mg/mL",Neostigmina
+ESS_MEDS,VIA ESSENTIAL,05B01,Benzoato de sodio; 3 g/100mL; Xarope,3 g/100mL,Benzoato de sodio
+ESS_MEDS,VIA ESSENTIAL,01C02,Hidralazina; 25mg; Comprimidos,25mg,Hidralazina
+ESS_MEDS,VIA ESSENTIAL,19B08,Vacina BCG 20 doses; 1ml; Injectável,1ml,Vacina BCG 20 doses
+ESS_MEDS,VIA ESSENTIAL,15B15,Hidrocortisona butirato; 2%; Loção Capilar,2%,Hidrocortisona butirato
+ESS_MEDS,VIA ESSENTIAL,18D02,Pancuronio; 4mg/2mL; Injectável,4mg/2mL,Pancuronio
+ESS_MEDS,VIA ESSENTIAL,02F02,Prednisolona fosfato sódico; 20mg; Enema,20mg,Prednisolona fosfato sÑdico
+MMIA,MMIA,08S18Z,Tenofovir/Lamivudina; 300mg+300mg 30Comp; Embalagem,300mg+300mg Comp,Tenofovir/Lamivudina
+ESS_MEDS,VIA ESSENTIAL,20A10,"Hipoclorito de sodio; 0,025% 250 ppm; Solução","0,025% 250 ppm",Hipoclorito de sodio
+ESS_MEDS,VIA ESSENTIAL,18C08,Lidocaina; 10%-10mg; Spray,10%-10mg,Lidocaina
+ESS_MEDS,VIA ESSENTIAL,15C01,Aciclovir; 5%; Créme,5%,Aciclovir
+ESS_MEDS,VIA ESSENTIAL,24D07,"Cateter periferico c/ agulha, valvula de injeccao e abas 26G, Radiopaco unidade Embalagem",unidade,"Cateter periferico c/ agulha, valvula de injeccao e abas 26G, Radiopaco"
+ESS_MEDS,VIA ESSENTIAL,04F0ZZ,"Etinilestradiol; 0,01mg 10mcg; Comprimidos","0,01mg 10mcg",Etinilestradiol
+ESS_MEDS,VIA ESSENTIAL,22A03Z,Tuberculina purificada; 10 TU; Injectável,10 TU,Tuberculina purificada
+ESS_MEDS,VIA ESSENTIAL,07J16,Risperidona; 3mg; Comprimidos,3mg,Risperidona
+ESS_MEDS,VIA ESSENTIAL,09D03,"Vinblastina, sulfato; 10mg/10mL; Injectável",10mg/10mL,"Vinblastina, sulfato"
+MMIA,MMIA,08S40Z,"Lamivudina+Zidovudina; 30mg+60mg, 60 Comprimidos; Embalagem","30mg+60mg, Comprimidos",Lamivudina+Zidovudina
+ESS_MEDS,VIA ESSENTIAL,12B05,Glicose; 500ml 30%; Injectável,500ml 30%,Glicose
+ESS_MEDS,VIA ESSENTIAL,08D01,Amikacina sulfato; 250mg/2mL-ampola; Injectável,250mg/2mL-ampola,Amikacina sulfato
+ESS_MEDS,VIA ESSENTIAL,23B02,Algodao Oftalmologico ; 500g; Rolo,500g,Algodao Oftalmologico
+ESS_MEDS,VIA ESSENTIAL,14E02,Cloroquina difosfato; 150mg de cloroquina-base; Comprimidos,150mg de cloroquina-base,Cloroquina difosfato
+ESS_MEDS,VIA ESSENTIAL,08O10,Quinina sulfato; 100mg; Comprimidos,100mg,Quinina sulfato
+ESS_MEDS,VIA ESSENTIAL,17B03Z,"Fenilefrina; 2,5%; Colírio","2,5%",Fenilefrina
+ESS_MEDS,VIA ESSENTIAL,08S41,Zidovudina/Lamivudina/Abacavir; 300mg+150mg+300mg 60Comp; Embalagem,300mg+150mg+300mg 60Comp,Zidovudina/Lamivudina/Abacavir
+ESS_MEDS,VIA ESSENTIAL,08H06Z,Norfloxacina; 100mg; Cápsulas,100mg,Norfloxacina
+ESS_MEDS,VIA ESSENTIAL,12D07,Colecalciferol (Vit D); 560UI; Gotas Orais,560UI,Colecalciferol (Vit D)
+ESS_MEDS,VIA ESSENTIAL,09C03,Fluorouracilo; 5%; Créme,5%,Fluorouracilo
+ESS_MEDS,VIA ESSENTIAL,05A11,Salbutamol ; 5mg/mL; Solução para Nebulização,5mg/mL,Salbutamol
+ESS_MEDS,VIA ESSENTIAL,20A04Z,Etanol a 99% Líquido,99%,Etanol a
+ESS_MEDS,VIA ESSENTIAL,07D10,Gabapentina; 300mg; Cápsulas,300mg,Gabapentina
+ESS_MEDS,VIA ESSENTIAL,08O01,"Amodiaquina,hidrocloreto; 261mg (200mg base); Comprimidos",261mg (200mg base),"Amodiaquina,hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,09G04,Letrozole; SEM DOSAGEM; Comprimidos,Sem Dosagem,Letrozole
+ESS_MEDS,VIA ESSENTIAL,08L08,Rifampicina+Isoniazida+Pirazin; 150mg+75mg+400mg+275mg; Comprimidos,150mg+75mg+400mg+275mg,Rifampicina+Isoniazida+Pirazinamida+Etambutol
+ESS_MEDS,VIA ESSENTIAL,01C01Z,Hidralazina; 20mg/mL; Injectável,20mg/mL,Hidralazina
+ESS_MEDS,VIA ESSENTIAL,06F06Y,"Factor de Coagulacao Humana II,VII,IX,X,Inj(500UI) 500 UI Inj",500 UI,"Factor de Coagulacao Humana II,VII,IX,X,Inj(500UI)"
+ESS_MEDS,VIA ESSENTIAL,04B05Z,Oxitocina; 10UI/mL; Injectável,10UI/mL,Oxitocina
+ESS_MEDS,VIA ESSENTIAL,07J14,Clozapina; 50mg/2mL; Injectável,50mg/2mL,Clozapina
+ESS_MEDS,VIA ESSENTIAL,01A05,Dopamina HCL; 200mg/5mL; Injectável,200mg/5mL,Dopamina HCL
+ESS_MEDS,VIA ESSENTIAL,10A0ZZ,Clortalidona; 50mg; Comprimidos,50mg,Clortalidona
+ESS_MEDS,VIA ESSENTIAL,08A13,"Flucloxacilina, Sodica; 250mg; Cápsulas",250mg,"Flucloxacilina, Sodica"
+ESS_MEDS,VIA ESSENTIAL,25A06,Livro de Receita Medica Sem Dosagem Papel,Sem Dosagem,Livro de Receita Medica
+ESS_MEDS,VIA ESSENTIAL,09B05,Doxorubicina; 50mg; Injectável,50mg,Doxorubicina
+ESS_MEDS,VIA ESSENTIAL,17B01Z,"Atropina; 0,5%; Colírio","0,5%",Atropina
+ESS_MEDS,VIA ESSENTIAL,01J01,Bezafibrato; 200mg; Comprimidos,200mg,Bezafibrato
+ESS_MEDS,VIA ESSENTIAL,02C01,Metoclopramida; 10mg; Comprimidos,10mg,Metoclopramida
+ESS_MEDS,VIA ESSENTIAL,23A10,Adesivo Transparente  10cm X 10m Rolo,10cm X 10m,Adesivo Transparente
+ESS_MEDS,VIA ESSENTIAL,16C02,Cromoglicato de Sódio; 2%; Spray nasal,2%,Cromoglicato de SÑdio
+ESS_MEDS,VIA ESSENTIAL,02G02Z,Pancrealipase; 33500 + 33500 + 8040UI; Cápsulas,33500 + 33500 + 8040UI,Pancrealipase
+ESS_MEDS,VIA ESSENTIAL,08D04,Gentamicina; 20mg/2mL-ampola; Injectável,20mg/2mL-ampola,Gentamicina
+ESS_MEDS,VIA ESSENTIAL,15C13,Eosina dermica; 2%; Solução alcoólica,2%,Eosina dermica
+ESS_MEDS,VIA ESSENTIAL,12A09X,Isoflagen; 50mg; Cápsulas,50mg,Isoflagen
+ESS_MEDS,VIA ESSENTIAL,04E07,Testosterona enantato; 250mg/mL; Injectável,250mg/mL,Testosterona enantato
+ESS_MEDS,VIA ESSENTIAL,16D04,Miconazol nitrato ; 2%; Gel oral,2%,Miconazol nitrato
+ESS_MEDS,VIA ESSENTIAL,24B09,Seringa 20 ml  ; SEM DOSAGEM; Embalagem,Sem Dosagem,Seringa 20 ml
+ESS_MEDS,VIA ESSENTIAL,08O06,Artesunato; 50mg; Comprimidos,50mg,Artesunato
+ESS_MEDS,VIA ESSENTIAL,12C04,Sulfato de Zinco; 20mg; Comprimidos,20mg,Sulfato de Zinco
+ESS_MEDS,VIA ESSENTIAL,19B02,"Vacina anti-hepatite B 10 dose; 0,2mcg/ml; Injectável","0,2mcg/ml",Vacina anti-hepatite B 10 doses
+ESS_MEDS,VIA ESSENTIAL,07G05,Imipramina; 25mg/2mL; Injectável,25mg/2mL,Imipramina
+ESS_MEDS,VIA ESSENTIAL,07D11,Lamotrigina; 50mg; Comprimidos,50mg,Lamotrigina
+ESS_MEDS,VIA ESSENTIAL,15C06,Bacitracina; 1% 30g; Pomada,1% 30g,Bacitracina
+ESS_MEDS,VIA ESSENTIAL,09A03,Ciclofosfamida; 500mg; Injectável,500mg,Ciclofosfamida
+ESS_MEDS,VIA ESSENTIAL,08A0ZW,Cloxacilina; 50mg/mL; Injectável,50mg/mL,Cloxacilina
+ESS_MEDS,VIA ESSENTIAL,15A01,"Acetato de aluminio; 0,65%; Loção Aquosa","0,65%",Acetato de aluminio
+ESS_MEDS,VIA ESSENTIAL,12D16,Tiamina (Vitamina B1); 100mg; Comprimidos,100mg,Tiamina (Vitamina B1)
+ESS_MEDS,VIA ESSENTIAL,04D03,Estrogenios conjugados; 625mcg/g; Créme vaginal,625mcg/g,Estrogenios conjugados
+ESS_MEDS,VIA ESSENTIAL,20A08,Clorexidina; 2g/400ml; Spray,2g/400ml,Clorexidina
+ESS_MEDS,VIA ESSENTIAL,07F01,Biperideno Hidrocloreto; 2mg; Comprimidos,2mg,Biperideno Hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,08C01,Imipenem+Cilastatina; 500mg + 500mg-ampola; Injectável,500mg + 500mg-ampola,Imipenem+Cilastatina
+ESS_MEDS,VIA ESSENTIAL,08A10,Amoxicilina+Acido clavulanico; 250mg + 125mg; Comprimidos,250mg + 125mg,Amoxicilina+Acido clavulanico
+ESS_MEDS,VIA ESSENTIAL,07B10,"Tramadol, Hidrocloreto; 100mg; Comprimidos",100mg,"Tramadol, Hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,17C06,Iodopovidona; 10%; Solução,10%,Iodopovidona
+ESS_MEDS,VIA ESSENTIAL,11A25,"Solução p/ Diálise peritoneal ; 2,5%; Injectável","2,5%",SoluÜo p/ Diàlise peritoneal c/ Glicose
+ESS_MEDS,VIA ESSENTIAL,13A06,Hidroxizina HCl; 50 mg/mL; Injectável,50 mg/mL,Hidroxizina HCl
+ESS_MEDS,VIA ESSENTIAL,08S24,Amprenavir (APV); 150mg; Embalagem,150mg,Amprenavir (APV)
+ESS_MEDS,VIA ESSENTIAL,15A02,"Creme aquoso; 0,2%; Créme","0,2%",Creme aquoso
+ESS_MEDS,VIA ESSENTIAL,07G01,Amitriptilina; 10mg; Comprimidos,10mg,Amitriptilina
+ESS_MEDS,VIA ESSENTIAL,07D02,Clonazepam; 2mg; Comprimidos,2mg,Clonazepam
+ESS_MEDS,VIA ESSENTIAL,08L03,Isoniazida; 300mg; Comprimidos,300mg,Isoniazida
+ESS_MEDS,VIA ESSENTIAL,08D05Y,Kanamicina; 2g/10mL-ampola; Injectável,2g/10mL-ampola,Kanamicina
+ESS_MEDS,VIA ESSENTIAL,07B09,"Tramadol, Hidrocloreto; 50mg; Comprimidos",50mg,"Tramadol, Hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,15B11,Hidrocortisona acetato; 1%; Créme,1%,Hidrocortisona acetato
+ESS_MEDS,VIA ESSENTIAL,08E01,"Clindamicina,hidrocloreto; 150mg; Cápsulas",150mg,"Clindamicina,hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,16A04,Fenazona+Procaina; 5g + 1g; Gotas auriculares,5g + 1g,Fenazona+Procaina
+ESS_MEDS,VIA ESSENTIAL,06F02,Acido tranexamico; 500mg/5mL; Injectável,500mg/5mL,Acido tranexamico
+ESS_MEDS,VIA ESSENTIAL,07J03,Clorpromazina; 25mg/2mL; Injectável,25mg/2mL,Clorpromazina
+ESS_MEDS,VIA ESSENTIAL,18A02,"Isoflurano; 0,2%; Líquido","0,2%",Isoflurano
+ESS_MEDS,VIA ESSENTIAL,15D01,Acido salicílico; 5%; Pomada,5%,Acido salicÕlico
+ESS_MEDS,VIA ESSENTIAL,06F06Z,Factor de coagulacao VIII; 1000UI; Injectável,1000UI,Factor de coagulacao VIII
+ESS_MEDS,VIA ESSENTIAL,01C04,Metildopa; 250mg; Comprimidos,250mg,Metildopa
+ESS_MEDS,VIA ESSENTIAL,12B08,Lipidos+aminoacidos e glicose 1876 Kcal,1876 Kcal,Lipidos+aminoacidos e glicose
+ESS_MEDS,VIA ESSENTIAL,08M0XZ,Dapsona+Rifampicina infantil; 50mg+150mg; Comprimidos,50mg+150mg,Dapsona+Rifampicina infantil
+ESS_MEDS,VIA ESSENTIAL,08B0WZ,Cefalexina; 250mg; Cápsulas,250mg,Cefalexina
+ESS_MEDS,VIA ESSENTIAL,18C06,Lidocaina; 1%-10mg/ml- Ampola; Injectável,1%-10mg/ml- Ampola,Lidocaina
+ESS_MEDS,VIA ESSENTIAL,07J05Z,Flufenazina; 25mg/mL; Injectável,25mg/mL,Flufenazina
+ESS_MEDS,VIA ESSENTIAL,15F05,Podofilina; 20%; Solução alcoólica,20%,Podofilina
+ESS_MEDS,VIA ESSENTIAL,02D01,Bisacodil; 5mg; Comprimidos,5mg,Bisacodil
+ESS_MEDS,VIA ESSENTIAL,22A08,TDR de Malaria; kit de 25; Tests,kit de 25,TDR de Malaria
+ESS_MEDS,VIA ESSENTIAL,04F08Z,"Levonor+Etinil (Microgynon); Microgynon; Ciclo0,15mg + 0,03; Ciclo","Microgynon; Ciclo0,15mg + 0,03mg",Levonor+Etinil (Microgynon)
+ESS_MEDS,VIA ESSENTIAL,18C09Z,Lidocaina Hiperbarica; 100mg/2mL; Injectável,100mg/2mL,Lidocaina Hiperbarica
+ESS_MEDS,VIA ESSENTIAL,22A01,Carmin de indigo; 80mg/10ml; Injectável,80mg/10mL,Carmin de indigo
+ESS_MEDS,VIA ESSENTIAL,08A07,Amoxicilina trihidrato; 500mg; Cápsulas,500mg,Amoxicilina trihidrato
+MMIA,MMIA,08S19,Efavirenz (EFV); 50mg 30Caps; Embalagem,50mg Caps,Efavirenz (EFV)
+ESS_MEDS,VIA ESSENTIAL,08F04,Claritromicina; 500mg-ampola; Injectável,500mg-ampola,Claritromicina
+ESS_MEDS,VIA ESSENTIAL,01A03Z,"Digoxina; 0,25mg/2mL; Injectável","0,25mg/2mL",Digoxina
+ESS_MEDS,VIA ESSENTIAL,18B01,Etomidato; 2mg/mL; Injectável,2mg/mL,Etomidato
+ESS_MEDS,VIA ESSENTIAL,11A13,Glicose (Dextrose); 250mL 5%; Injectável,250mL 5%,Glicose (Dextrose)
+ESS_MEDS,VIA ESSENTIAL,07J03Y,Cloropromazina; 50mg/2mL; Injectável,50mg/2mL,Cloropromazina
+ESS_MEDS,VIA ESSENTIAL,14A01Z,Diclofenac; 25mg; Comprimidos,25mg,Diclofenac
+ESS_MEDS,VIA ESSENTIAL,21A05,"Desferroxiamina mexilato; 0,5g; Injectável","0,5g",Desferroxiamina mexilato
+ESS_MEDS,VIA ESSENTIAL,04A07,Metronidazol; 500mg; Óvulo vaginal,500mg,Metronidazol
+ESS_MEDS,VIA ESSENTIAL,02D04,Glicerina adulto; 3 g; Supositório,3 g,Glicerina adulto
+ESS_MEDS,VIA ESSENTIAL,06F07Z,"Fitomenadiona (Vit K1); 0,5mg/mL; Injectável","0,5mg/mL",Fitomenadiona (Vit K1)
+ESS_MEDS,VIA ESSENTIAL,05A12,Salbutamol; 2mg/5mL; Xarope,2mg/5mL,Salbutamol
+ESS_MEDS,VIA ESSENTIAL,17F08,"Hidroxipropilmetilcelulose; 1,75%; Solução Aquosa","1,75%",Hidroxipropilmetilcelulose
+ESS_MEDS,VIA ESSENTIAL,08F07Y,"Eritromicina Etilsuccinato; 2,5mg/mL; Injectável","2,5mg/mL",Eritromicina Etilsuccinato
+ESS_MEDS,VIA ESSENTIAL,05B0ZZ,Ciclidrol; 8mg/mL; Xarope,8mg/mL,Ciclidrol
+ESS_MEDS,VIA ESSENTIAL,07A0WZ,Metamizol; 5g/100mL; Xarope,5g/100mL,Metamizol
+ESS_MEDS,VIA ESSENTIAL,07A0ZX,Paracetamol+Codeina; 500mg+30mg; Comprimidos,500mg+30mg,Paracetamol+Codeina
+ESS_MEDS,VIA ESSENTIAL,08O05,Artemeter+Lumefantrina; 120mg+20mg 1x6; Comprimidos,120mg+20mg 1x6,Artemeter+Lumefantrina
+ESS_MEDS,VIA ESSENTIAL,24B06,Seringa 3 ml  ; SEM DOSAGEM; Embalagem,Sem Dosagem,Seringa 3 ml
+ESS_MEDS,VIA ESSENTIAL,09A06,Estramustina fosfato; 140mg; Injectável,140mg,Estramustina fosfato
+ESS_MEDS,VIA ESSENTIAL,19B12,"Vacina pneumococica conjugada 0,5ml Inj frasco","0,5ml",Vacina pneumococica conjugada
+ESS_MEDS,VIA ESSENTIAL,26B04,Saquinhos para reembalagem de ; 10cmx10cm; Embalagem,10cmx10cm,Saquinhos para reembalagem de medicamentos
+ESS_MEDS,VIA ESSENTIAL,06D01,Heparina Sodica; 25 000 UI/5mL; Injectável,25 000 UI/5mL,Heparina Sodica
+ESS_MEDS,VIA ESSENTIAL,08G01,Doxiciclina Hidrocloreto; 100mg; Cápsulas,100mg,Doxiciclina Hidrocloreto
+ESS_MEDS,VIA ESSENTIAL,02A0ZZ,Cimetidina; 200mg; Comprimidos,200mg,Cimetidina
+ESS_MEDS,VIA ESSENTIAL,12A0ZY,Leite terapeutico F-75; SEM DOSAGEM; Pó,Sem Dosagem,Leite terapeutico F-75
+MMIA,MMIA,08S01,"Abacavir sulfato (ABC) 300mg,60comp Embalagem","300mg,comp",Abacavir sulfato (ABC)
+ESS_MEDS,VIA ESSENTIAL,15G01Z,"Calamina; 0,2%; Créme","0,2%",Calamina
+ESS_MEDS,VIA ESSENTIAL,08O17,Sulfadiazina; 500mg; Comprimidos,500mg,Sulfadiazina
+ESS_MEDS,VIA ESSENTIAL,05A03Z,Beclometasona; 50mcg/inalacao; Aerosol,50mcg/inalacao,Beclometasona
+ESS_MEDS,VIA ESSENTIAL,07J10,Tioridazina; 100mg; Comprimidos,100mg,Tioridazina
+ESS_MEDS,VIA ESSENTIAL,18A0ZZ,"Peroxido de azoto; 0,2%; Gás","0,2%",Peroxido de azoto
+ESS_MEDS,VIA ESSENTIAL,09A01,Bussulfano; 2mg; Comprimidos,2mg,Bussulfano
+ESS_MEDS,VIA ESSENTIAL,24A04,"Agulha Hipodermica ; 1,20x38mm; Embalagem","1,20x38mm",Agulha Hipodermica
+ESS_MEDS,VIA ESSENTIAL,12A0ZW,Leite adaptado para recém nasc; SEM DOSAGEM; Pó,Sem Dosagem,Leite adaptado para rec_m nascidos de baixo peso
+ESS_MEDS,VIA ESSENTIAL,08F06,"Eritromicina, estearato; 500mg; Comprimidos",500mg,"Eritromicina, estearato"
+ESS_MEDS,VIA ESSENTIAL,04F09,"Copper T380 dispositivo ; 0,2%; DIU","0,2%",Copper T380 dispositivo
+ESS_MEDS,VIA ESSENTIAL,06F07Y,Fitomenadiona (Vit K1); 1mg/mL; Injectável,1mg/mL,Fitomenadiona (Vit K1)
+ESS_MEDS,VIA ESSENTIAL,04B03Y,"Metilergometrina; 0,5mg/mL; Injectável","0,5mg/mL",Metilergometrina
+ESS_MEDS,VIA ESSENTIAL,07A05,Paracetamol; 250mg; Supositório,250mg,Paracetamol
+ESS_MEDS,VIA ESSENTIAL,08O0YZ,Artimisina; 40mg; Comprimidos,40mg,Artimisina
+ESS_MEDS,VIA ESSENTIAL,15A07,"Oleo de banho saq; 0,2%; Saquetas","0,2%",Oleo de banho saq
+ESS_MEDS,VIA ESSENTIAL,02D06Z,"Lactulose; 66,7% 667mg/mL; Solução","66,7% 667mg/mL",Lactulose
+ESS_MEDS,VIA ESSENTIAL,17A07,"Timolol; 0,5%; Colírio","0,5%",Timolol
+ESS_MEDS,VIA ESSENTIAL,08N02,Dietilcarbamazina; 50mg; Comprimidos,50mg,Dietilcarbamazina
+ESS_MEDS,VIA ESSENTIAL,08S30X,Atazanavir; 150mg 60Caps; Embalagem,150mg 60Caps,Atazanavir
+ESS_MEDS,VIA ESSENTIAL,14A0Z,Diclofenac ; 1%; Gel,1%,Diclofenac
+ESS_MEDS,VIA ESSENTIAL,17D02,"Hidrocortisona acetato; 0,5%; Pomada oftálmica","0,5%",Hidrocortisona acetato
+ESS_MEDS,VIA ESSENTIAL,08S30,Saquinavir ; 200mg 270Caps; Embalagem,200mg 270Caps,Saquinavir
+ESS_MEDS,VIA ESSENTIAL,07B06,Morfina sulfato; 10mg/mL; Injectável,10mg/mL,Morfina sulfato
+ESS_MEDS,VIA ESSENTIAL,08L0YZ,Rifamp+Isoniaz+Piraz;Comp(60+30+150)mg 3DFC pediat Sem Dosagem Tratamento,Sem Dosagem,Rifamp+Isoniaz+Piraz;Comp(60+30+150)mg 3DFC pediat
+ESS_MEDS,VIA ESSENTIAL,18A04,"Sevoflurano; 0,2%; Líquido","0,2%",Sevoflurano
+ESS_MEDS,VIA ESSENTIAL,07B05,Morfina sulfato; 30mg; Comprimidos,30mg,Morfina sulfato
+ESS_MEDS,VIA ESSENTIAL,03B08,Insulina accao curta (ultra-ra; 100UI/mL; Injectável,100UI/mL,Insulina accao curta (ultra-rapida)
+ESS_MEDS,VIA ESSENTIAL,09G05,Tamoxifeno; 20mg; Comprimidos,20mg,Tamoxifeno
+ESS_MEDS,VIA ESSENTIAL,04E10,Gonadotrofina coriónica humana; 5000UI/mL; Injectável,5000UI/mL,Gonadotrofina coriÑnica humana
+ESS_MEDS,VIA ESSENTIAL,12A09,"Trigliceridos de cadeia media; 0,2%; Injectável","0,2%",Trigliceridos de cadeia media
+ESS_MEDS,VIA ESSENTIAL,08R05,"Ganciclovir, sal sódico; 500mg; Injectável",500mg,"Ganciclovir, sal sÑdico"
+ESS_MEDS,VIA ESSENTIAL,08L04Y,Isoniazida+Tiacetazona; 100mg+50mg; Comprimidos,100mg+50mg,Isoniazida+Tiacetazona
+ESS_MEDS,VIA ESSENTIAL,17B01,Atropina sulfato; 1%; Colírio,1%,Atropina sulfato
+ESS_MEDS,VIA ESSENTIAL,08O08,"Mefloquina, hidrocloreto; 250mg; Comprimidos",250mg,"Mefloquina, hidrocloreto"
+ESS_MEDS,VIA ESSENTIAL,22A02,Pilocarpina; 1mg/mL; Injectável,1mg/mL,Pilocarpina
+ESS_MEDS,VIA ESSENTIAL,04E02,Noretisterona; 5mg; Comprimidos,5mg,Noretisterona
+ESS_MEDS,VIA ESSENTIAL,08N0ZZ,Mebendazol; 100mg/5mL; Xarope,100mg/5mL,Mebendazol
+ESS_MEDS,VIA ESSENTIAL,08A14,Flucloxacilina Sodica; 500mg; Injectável,500mg,Flucloxacilina Sodica
+ESS_MEDS,VIA ESSENTIAL,25B04,Mapa Mensal Informacao ARVs-MM; SEM DOSAGEM; Papel,Sem Dosagem,Mapa Mensal Informacao ARVs-MMIA
+ESS_MEDS,VIA ESSENTIAL,04F06Z,Levonorgestrel; JADELLE; Implante,JADELLE,Levonorgestrel
+ESS_MEDS,VIA ESSENTIAL,08L05,Pirazinamida; 400mg; Comprimidos,400mg,Pirazinamida
