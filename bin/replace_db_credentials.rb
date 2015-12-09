@@ -8,11 +8,15 @@ def generateModelPath()
   "models_directory:" + ENV["MODELS_PATH"].to_s
 end
 
-lines=File.readlines('slicer.ini')
+def generateCubePath()
+  ENV["CUBES_PATH"].to_s
+end
+
+lines=File.readlines(generateCubePath+'/slicer.ini')
 linesWithCredentials=lines.map{|line|
   if line["url: "]
     generateConnectionString
-  elsif line["models_directory: $MODELS_DIRECTORY"]
+  elsif line["models_directory:"]
     generateModelPath
   else
     line
@@ -20,6 +24,6 @@ linesWithCredentials=lines.map{|line|
 }
 
 
-File.open("slicer.ini", "w+") do |f|
+File.open(generateCubePath+'/slicer.ini', "w+") do |f|
   linesWithCredentials.each { |element| f.puts(element) }
 end
