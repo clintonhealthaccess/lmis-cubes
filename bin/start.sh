@@ -6,6 +6,7 @@ CUBES_PATH=$(dirname ${name})
 export MODELS_PATH=$CUBES_PATH/../models
 export CUBES_PATH=$CUBES_PATH
 
+echo $MODELS_PATH
 virtualenv --python=/usr/bin/python2.7 $CUBES_PATH/env
 source $CUBES_PATH/env/bin/activate
 pip install -r $CUBES_PATH/requirements.txt

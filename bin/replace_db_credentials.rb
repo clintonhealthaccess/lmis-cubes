@@ -8,6 +8,7 @@ def generateModelPath()
   "models_directory:" + ENV["MODELS_PATH"].to_s
 end
 
+
 def generateCubePath()
   ENV["CUBES_PATH"].to_s
 end
@@ -22,6 +23,7 @@ linesWithCredentials=lines.map{|line|
     line
   end
 }
+
 
 
 File.open(generateCubePath+'/slicer.ini', "w+") do |f|
