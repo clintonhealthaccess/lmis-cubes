@@ -2,19 +2,19 @@ all facilities and its users (ok)
 
 all products and which program it belongs to (ok)
 
-latest stock on hands of each drug of facilities, expire date included (ok)
+latest stock on hands of each drug of facilities, expire date included (the ones without expiration date are missing)
 
-all movements histories, signature included (ok)
+all movements histories, signature included (the ones without signatures are missing)
 
 all VIA requisition histories (theory soh is missing now) need signature, committed time, synced time
 
 all MMIA requisition histories (theory soh is missing now)
 
-regime and quantification of patients of each requisition
+regimens and quantification of patients of each requisition
 
 filter by date range is not in scope for now.
 
-7 csv files in a zip file
+8 csv files in a zip file
 
 facilities csv: [http://localhost:5555/cube/facilities/facts?format=csv](http://localhost:5555/cube/facilities/facts?format=csv)
 
@@ -28,6 +28,6 @@ requisition mmia: [http://localhost:5555/cube/requisition_line_items/facts?cut=p
 
 requisition via: [http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS&format=csv](http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS&format=csv)
 
-regimes: [http://localhost:5555/cube/requisitions/members/regime?format=csv](http://localhost:5555/cube/requisitions/members/regime?format=csv)
+regimens: [http://localhost:5555/cube/requisitions/members/regimen?format=csv](http://localhost:5555/cube/requisitions/members/regimen?format=csv)
 
-patient quantification: [http://localhost:5555/cube/requisitions/members/patient_quantification](http://localhost:5555/cube/requisitions/members/patient_quantification)
+patient quantification: [http://localhost:5555/cube/requisitions/members/patient_quantification?format=csv](http://localhost:5555/cube/requisitions/members/patient_quantification?format=csv)

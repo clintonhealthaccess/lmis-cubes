@@ -1,20 +1,20 @@
 {
   "dimensions": [{
-    "name": "regime",
-    "attributes": ["program", "facility", "regimename", "patients", "time"]
+    "name": "regimen",
+    "attributes": ["program", "facility", "regimenname", "patients", "time"]
   }, {
     "name": "patient_quantification",
     "attributes": ["program", "facility", "category", "patients", "time"]
   }],
   "cubes": [{
     "name": "requisitions",
-    "dimensions": ["regime", "patient_quantification"],
+    "dimensions": ["regimen", "patient_quantification"],
     "mappings": {
-      "regime.program": "programs.name",
-      "regime.facility": "facilities.name",
-      "regime.regimename": "regimen_line_items.name",
-      "regime.patients": "regimen_line_items.patientsontreatment",
-      "regime.time": "requisitions.createddate",
+      "regimen.program": "programs.name",
+      "regimen.facility": "facilities.name",
+      "regimen.regimenname": "regimen_line_items.name",
+      "regimen.patients": "regimen_line_items.patientsontreatment",
+      "regimen.time": "requisitions.createddate",
 
       "patient_quantification.program": "programs.name",
       "patient_quantification.facility": "facilities.name",
