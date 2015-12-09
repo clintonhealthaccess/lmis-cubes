@@ -1,17 +1,26 @@
 {
   "dimensions": [{
-    "name": "requisition",
-    "attributes": ["program", "facility", "regimename", "patients","time"]
+    "name": "regime",
+    "attributes": ["program", "facility", "regimename", "patients", "time"]
+  }, {
+    "name": "patient_quantification",
+    "attributes": ["program", "facility", "category", "patients", "time"]
   }],
   "cubes": [{
     "name": "requisitions",
-    "dimensions": ["requisition"],
+    "dimensions": ["regime", "patient_quantification"],
     "mappings": {
-      "requisition.program": "programs.name",
-      "requisition.facility": "facilities.name",
-      "requisition.regimename": "regimen_line_items.name",
-      "requisition.patients": "regimen_line_items.patientsontreatment",
-      "requisition.time": "requisitions.createddate"
+      "regime.program": "programs.name",
+      "regime.facility": "facilities.name",
+      "regime.regimename": "regimen_line_items.name",
+      "regime.patients": "regimen_line_items.patientsontreatment",
+      "regime.time": "requisitions.createddate",
+
+      "patient_quantification.program": "programs.name",
+      "patient_quantification.facility": "facilities.name",
+      "patient_quantification.category": "patient_quantification_line_items.category",
+      "patient_quantification.patients": "patient_quantification_line_items.total",
+      "patient_quantification.time": "requisitions.createddate"
     },
     "joins": [{
       "master": "programid",
@@ -22,6 +31,9 @@
     }, {
       "master": "id",
       "detail": "regimen_line_items.rnrid"
+    }, {
+      "master": "id",
+      "detail": "patient_quantification_line_items.rnrid"
     }]
   }]
 }

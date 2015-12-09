@@ -27,3 +27,7 @@ movement history:  [http://localhost:5555/cube/stock_cards/members/movement?cut=
 requisition mmia: [http://localhost:5555/cube/requisition_line_items/facts?cut=products:MMIA&format=csv](http://localhost:5555/cube/requisition_line_items/facts?cut=products:MMIA&format=csv)
 
 requisition via: [http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS&format=csv](http://localhost:5555/cube/requisition_line_items/facts?cut=products:ESS_MEDS&format=csv)
+
+regimes: [http://localhost:5555/cube/requisitions/members/regime?format=csv](http://localhost:5555/cube/requisitions/members/regime?format=csv)
+
+patient quantification: [http://localhost:5555/cube/requisitions/members/patient_quantification](http://localhost:5555/cube/requisitions/members/patient_quantification)
