@@ -4,14 +4,21 @@ def generateConnectionString()
   "localhost:5432/open_lmis_prod"
 end
 
+def generateModelPath()
+  "models_directory:" + ENV["MODELS_PATH"].to_s
+end
+
 lines=File.readlines('slicer.ini')
 linesWithCredentials=lines.map{|line|
   if line["url: "]
     generateConnectionString
+  elsif line["models_directory: $MODELS_DIRECTORY"]
+    generateModelPath
   else
     line
   end
 }
+
 
 File.open("slicer.ini", "w+") do |f|
   linesWithCredentials.each { |element| f.puts(element) }

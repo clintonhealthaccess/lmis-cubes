@@ -1,10 +1,16 @@
 #!/bin/bash
 #
-virtualenv --python=/usr/bin/python2.7 env
-source env/bin/activate
-pip install -r requirements.txt
-ruby replace_db_credentials.rb
-slicer serve slicer.ini
+name=$0
+echo "Execute location: $0"
+CUBES_PATH=$(dirname ${name})
+export MODELS_PATH=$CUBES_PATH/../models
+
+echo $MODELS_PATH
+virtualenv --python=/usr/bin/python2.7 $CUBES_PATH/env
+source $CUBES_PATH/env/bin/activate
+pip install -r $CUBES_PATH/requirements.txt
+ruby $CUBES_PATH/replace_db_credentials.rb
+slicer serve $CUBES_PATH/slicer.ini
 
 
 
