@@ -10,7 +10,9 @@ echo $MODELS_PATH
 echo $CUBES_PATH
 
 virtualenv --python=/usr/bin/python2.7 $CUBES_PATH/env
+env >> aaa.aa
 source $CUBES_PATH/env/bin/activate
 pip install -r $CUBES_PATH/requirements.txt
 ruby $CUBES_PATH/replace_db_credentials.rb
+env >> aaa.aa
 nohup slicer serve $CUBES_PATH/slicer.ini &
