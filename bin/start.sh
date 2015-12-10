@@ -13,4 +13,4 @@ virtualenv --python=/usr/bin/python2.7 $CUBES_PATH/env
 source $CUBES_PATH/env/bin/activate
 pip install -r $CUBES_PATH/requirements.txt
 ruby $CUBES_PATH/replace_db_credentials.rb
-exec slicer serve $CUBES_PATH/slicer.ini &
+nohup slicer serve $CUBES_PATH/slicer.ini &
