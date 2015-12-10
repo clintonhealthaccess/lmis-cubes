@@ -1,7 +1,7 @@
 def generateConnectionString()
   "url: postgresql://"+
   ENV["POSTGRES_USER_NAME"].to_s+":"+ENV["POSTGRES_PASSWORD"].to_s+"@"+
-  "localhost:5432/open_lmis_prod"
+  "localhost:5432/open_lmis"
 end
 
 def generateModelPath()
