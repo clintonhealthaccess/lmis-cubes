@@ -1,13 +1,12 @@
 def generateConnectionString()
   "url: postgresql://"+
   ENV["POSTGRES_USER_NAME"].to_s+":"+ENV["POSTGRES_PASSWORD"].to_s+"@"+
-  "localhost:5432/open_lmis"
+  ENV["POSTGRES_HOST"].to_s+":5432/open_lmis"
 end
 
 def generateModelPath()
   "models_directory:" + ENV["MODELS_PATH"].to_s
 end
-
 
 def generateCubePath()
   ENV["CUBES_PATH"].to_s
@@ -23,8 +22,6 @@ linesWithCredentials=lines.map{|line|
     line
   end
 }
-
-
 
 File.open(generateCubePath+'/slicer.ini', "w+") do |f|
   linesWithCredentials.each { |element| f.puts(element) }
