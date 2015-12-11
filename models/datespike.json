@@ -1,0 +1,59 @@
+{
+  "dimensions": [
+    {
+      "name": "date",
+      "levels": [
+        {
+          "name": "year"
+        },
+        {
+          "name": "month"
+        },
+        {
+          "name": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "others",
+      "attributes": [
+        "type"
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "stock_card_entries",
+      "dimensions": [
+        "date",
+        "others"
+      ],
+      "mappings": {
+        "others.type": "stock_card_entries.type",
+        "date.year": {
+          "column": "createddate",
+          "extract": "year"
+        },
+        "date.month": {
+          "column": "createddate",
+          "extract": "month"
+        },
+        "date.day": {
+          "column": "createddate",
+          "extract": "day"
+        }
+      }
+    }
+  ]
+}

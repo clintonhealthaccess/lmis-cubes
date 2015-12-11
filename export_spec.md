@@ -31,3 +31,7 @@ requisition via: [http://localhost:5555/cube/requisition_line_items/facts?cut=pr
 regimens: [http://localhost:5555/cube/requisitions/members/regimen?format=csv](http://localhost:5555/cube/requisitions/members/regimen?format=csv)
 
 patient quantification: [http://localhost:5555/cube/requisitions/members/patient_quantification?format=csv](http://localhost:5555/cube/requisitions/members/patient_quantification?format=csv)
+
+Spike: 
+select date range could be done like this
+http://localhost:5555/cube/stock_card_entries/facts?cut=date:2015,11,10-2015,11,15|others:ADJUSTMENT
