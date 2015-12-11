@@ -6,8 +6,9 @@ CUBES_PATH=$(dirname ${name})
 export MODELS_PATH=$CUBES_PATH/../models
 export CUBES_PATH=$CUBES_PATH
 
-echo $MODELS_PATH
-echo $CUBES_PATH
+export POSTGRES_PASSWORD=`grep POSTGRES_PASSWORD ~/.bashrc | awk -F "=" '{print $2}'`
+export POSTGRES_HOST=`grep POSTGRES_HOST ~/.bashrc | awk -F "=" '{print $2}'`
+export POSTGRES_USER_NAME=`grep POSTGRES_USER_NAME ~/.bashrc | awk -F "=" '{print $2}'`
 
 virtualenv --python=/usr/bin/python2.7 $CUBES_PATH/env
 source $CUBES_PATH/env/bin/activate
