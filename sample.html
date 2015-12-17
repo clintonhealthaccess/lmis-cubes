@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- CubesViewer CSS resources -->
+    <link type="text/css" rel="stylesheet" href="cubesviewer/static/js/jqueryui/jquery-ui.min.css"/>
+    <link type="text/css" rel="stylesheet" href="cubesviewer/static/css/jqgrid/ui.jqgrid.css" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="cubesviewer/static/js/qtip/jquery.qtip.css"/>
+    <link type="text/css" rel="stylesheet" href="cubesviewer/static/js/wiky/wiky.math.css"/>
+    <link type="text/css" rel="stylesheet" href="cubesviewer/static/js/nvd3/nv.d3.min.css"/>
+    <link type="text/css" rel="stylesheet" href="cubesviewer/static/css/cubesviewer/cubesviewer.css"/>
+
+    <!-- CubesViewer JS dependencies -->
+
+    <script type="text/javascript" src="cubesviewer/static/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/jquery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/jqueryui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/dateformat/dateformat.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/jquery/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/wiky/wiky.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/wiky/wiky.math.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/flotr2/flotr2.min.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/d3js/d3.v3.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/nvd3/nv.d3.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/qtip/jquery.qtip.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/jqgrid/i18n/grid.locale-en.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/jqgrid/migrate-jquery-browser.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/jqgrid/jquery.jqGrid.min.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubes/cubes.js"></script>
+
+    <!-- Cubesviewer modules -->
+
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.cache.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.views.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.explore.js"></script>
+    <script type="text/javascript"
+            src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.datefilter.js"></script>
+    <script type="text/javascript"
+            src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.rangefilter.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.series.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.chart.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.facts.js"></script>
+    <script type="text/javascript"
+            src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.dimensionfilter.js"></script>
+    <script type="text/javascript" src="cubesviewer/static/js/cubesviewer/cubesviewer.views.cube.columns.js"></script>
+
+    <script>
+        // Initialize CubesViewer when document is ready
+        $(document).ready(function () {
+
+            // Initialize CubesViewer system
+            cubesviewer.init({
+                cubesUrl: "http://localhost:5555"
+            });
+
+
+            var viewConfig = {
+                "cubename": "requisition_line_items",
+                "name": "ABC Stock In Hand",
+                "mode": "chart",
+                "drilldown": ["products:products"],
+                "cuts": [{
+                    dimension: 'products',
+                    value: 'MMIA,08S01;MMIA,08S01B;MMIA,08S01ZZ'
+                },{
+                    dimension: 'facilities',
+                    value: '1;7;10'
+                }],
+                "datefilters": [],
+                "rangefilters": [],
+                "xaxis": "facilities",
+                "yaxis": "stockinhand_sum",
+                "charttype": "bars-vertical",
+                "columnHide": {},
+                "columnWidths": {},
+                "columnSort": {}
+            };
+
+            // Add views
+            view1 = cubesviewer.views.createView("olapview1", $('#cv-view1'), "cube", viewConfig);
+
+            // Start Cubesviewer system
+            cubesviewer.refresh();
+        });
+    </script>
+
+    <style type="text/css">
+        .olapview {
+            min-width: 400px;
+        }
+        .cv-view-viewinfo, .cv-view-viewmenu {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+<div id="cv-view1" class="olapview">The view should appear here...</div>
+</body>
+</html>
