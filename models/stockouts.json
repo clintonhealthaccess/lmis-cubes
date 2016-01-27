@@ -1,0 +1,72 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility_name",
+          "label": "Facility name"
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stockout",
+      "label": "Stock out",
+      "levels": [
+        {
+          "name": "date",
+          "label": "Stock out date"
+        },
+        {
+          "name": "days",
+          "label": "Stock out days"
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "stockouts",
+      "dimensions": [
+        "facility",
+        "drug",
+        "stockout"
+      ],
+      "measures": [
+        {
+          "name": "stockout_days",
+          "label": "Stock out days"
+        }
+      ],
+      "aggregates": [
+        {
+          "name": "stockout_days",
+          "label": "Stock out days",
+          "measure": "stockout_days",
+          "function": "sum"
+        }
+      ],
+      "mappings": {
+        "drug.drug_name": "stockouts.drug_name",
+        "drug.drug_code": "stockouts.drug_code",
+        "stockout.date": "stockouts.stockout_date",
+        "stockout.days": "stockouts.stockout_days"
+      }
+    }
+  ]
+}
