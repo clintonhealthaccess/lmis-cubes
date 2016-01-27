@@ -1,7 +1,7 @@
 def generateConnectionString()
   "url: postgresql://"+
-  ENV["POSTGRES_USER_NAME"].to_s+":"+ENV["POSTGRES_PASSWORD"].to_s+"@"+
-  ENV["POSTGRES_HOST"].to_s+":5432/open_lmis"
+      ENV["POSTGRES_USER_NAME"].to_s+":"+ENV["POSTGRES_PASSWORD"].to_s+"@"+
+      ENV["POSTGRES_HOST"].to_s+":5432/open_lmis"
 end
 
 def generateModelPath()
@@ -13,10 +13,13 @@ def generateCubePath()
 end
 
 lines=File.readlines(generateCubePath+'/slicer.ini')
-linesWithCredentials=lines.map{|line|
-  if line["url: "]
+linesWithCredentials=lines.map { |line|
+
+  if line["url"]
+    puts "replacing sql connection string"
     generateConnectionString
-  elsif line["models_directory:"]
+  elsif line["models_directory"]
+    puts "replacing model path"
     generateModelPath
   else
     line
