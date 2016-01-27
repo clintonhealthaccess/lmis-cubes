@@ -41,7 +41,8 @@
   ],
   "cubes": [
     {
-      "name": "stockouts",
+      "name": "vw_stockouts",
+      "label": "Stock outs",
       "dimensions": [
         "facility",
         "drug",
@@ -62,10 +63,10 @@
         }
       ],
       "mappings": {
-        "drug.drug_name": "stockouts.drug_name",
-        "drug.drug_code": "stockouts.drug_code",
-        "stockout.date": "stockouts.stockout_date",
-        "stockout.days": "stockouts.stockout_days"
+        "drug.drug_name": "vw_stockouts.drug_name",
+        "drug.drug_code": "vw_stockouts.drug_code",
+        "stockout.date": "vw_stockouts.stockout_date",
+        "stockout.days": "vw_stockouts.stockout_days"
       }
     }
   ]
