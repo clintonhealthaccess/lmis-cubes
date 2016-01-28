@@ -33,8 +33,42 @@
           "label": "Stock out date"
         },
         {
-          "name": "days",
-          "label": "Stock out days"
+          "name": "duration",
+          "label": "Stock out duration"
+        },
+        {
+          "name": "resolved_date",
+          "label": "Stock out resolved date"
+        }
+      ]
+    },
+    {
+      "name": "date",
+      "label": "Stock out date",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
         }
       ]
     }
@@ -46,19 +80,20 @@
       "dimensions": [
         "facility",
         "drug",
-        "stockout"
+        "stockout",
+        "date"
       ],
       "measures": [
         {
-          "name": "stockout_days",
-          "label": "Stock out days"
+          "name": "duration",
+          "label": "Stock out duration"
         }
       ],
       "aggregates": [
         {
-          "name": "stockout_days",
-          "label": "Stock out days",
-          "measure": "stockout_days",
+          "name": "duration",
+          "label": "Stock out duration",
+          "measure": "duration",
           "function": "sum"
         }
       ],
@@ -66,7 +101,20 @@
         "drug.drug_name": "vw_stockouts.drug_name",
         "drug.drug_code": "vw_stockouts.drug_code",
         "stockout.date": "vw_stockouts.stockout_date",
-        "stockout.days": "vw_stockouts.stockout_days"
+        "stockout.duration": "vw_stockouts.duration",
+        "stockout.resolved_date": "vw_stockouts.resolved_date",
+        "date.year": {
+          "column": "stockout_date",
+          "extract": "year"
+        },
+        "date.month": {
+          "column": "stockout_date",
+          "extract": "month"
+        },
+        "date.day": {
+          "column": "stockout_date",
+          "extract": "day"
+        }
       }
     }
   ]
