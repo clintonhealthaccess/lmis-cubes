@@ -25,6 +25,16 @@
       ]
     },
     {
+      "name": "program",
+      "label": "Program",
+      "levels": [
+        {
+          "name": "program",
+          "label": "Program"
+        }
+      ]
+    },
+    {
       "name": "stockout",
       "label": "Stock out",
       "levels": [
@@ -39,6 +49,16 @@
         {
           "name": "resolved_date",
           "label": "Stock out resolved date"
+        }
+      ]
+    },
+    {
+      "name": "is_resolved",
+      "label": "Is stock out resolved or not",
+      "levels": [
+        {
+          "name": "is_resolved",
+          "label": "Is stock out resolved or not"
         }
       ]
     },
@@ -80,7 +100,9 @@
       "dimensions": [
         "facility",
         "drug",
+        "program",
         "stockout",
+        "is_resolved",
         "date"
       ],
       "measures": [
@@ -100,9 +122,11 @@
       "mappings": {
         "drug.drug_name": "vw_stockouts.drug_name",
         "drug.drug_code": "vw_stockouts.drug_code",
+        "program.program": "vw_stockouts.program",
         "stockout.date": "vw_stockouts.stockout_date",
         "stockout.duration": "vw_stockouts.duration",
         "stockout.resolved_date": "vw_stockouts.resolved_date",
+        "is_resolved.is_resolved": "vw_stockouts.is_resolved",
         "date.year": {
           "column": "stockout_date",
           "extract": "year"
