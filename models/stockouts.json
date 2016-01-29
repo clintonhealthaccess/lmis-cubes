@@ -11,6 +11,20 @@
       ]
     },
     {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "province"
+        },
+        {
+          "name": "district",
+          "label": "district"
+        }
+      ]
+    },
+    {
       "name": "drug",
       "label": "Drug",
       "levels": [
@@ -99,6 +113,7 @@
       "label": "Stock outs",
       "dimensions": [
         "facility",
+        "location",
         "drug",
         "program",
         "stockout",
@@ -122,6 +137,8 @@
       "mappings": {
         "drug.drug_name": "vw_stockouts.drug_name",
         "drug.drug_code": "vw_stockouts.drug_code",
+        "location.district": "vw_stockouts.district",
+        "location.province": "vw_stockouts.province",
         "program.program": "vw_stockouts.program",
         "stockout.date": "vw_stockouts.stockout_date",
         "stockout.duration": "vw_stockouts.duration",
