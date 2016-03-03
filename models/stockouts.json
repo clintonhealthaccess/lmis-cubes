@@ -138,6 +138,12 @@
           "label": "Record count",
           "measure": "duration",
           "function": "count"
+        },
+        {
+          "name": "average_days",
+          "label": "Average days",
+          "measure": "duration",
+          "function": "avg"
         }
       ],
       "mappings": {
