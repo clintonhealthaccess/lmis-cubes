@@ -132,6 +132,12 @@
           "label": "Stock out duration",
           "measure": "duration",
           "function": "sum"
+        },
+        {
+          "name": "record_count",
+          "label": "Record count",
+          "measure": "duration",
+          "function": "count"
         }
       ],
       "mappings": {
