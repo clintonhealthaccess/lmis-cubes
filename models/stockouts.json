@@ -5,8 +5,12 @@
       "label": "Facility",
       "levels": [
         {
-          "name": "facility_name",
-          "label": "Facility name"
+          "name": "facility",
+          "label": "Facility",
+          "attributes":[
+            "facility_code",
+            "facility_name"
+          ]
         }
       ]
     },
@@ -16,11 +20,19 @@
       "levels": [
         {
           "name": "province",
-          "label": "province"
+          "label": "Province",
+          "attributes":[
+            "province_code",
+            "province_name"
+          ]
         },
         {
           "name": "district",
-          "label": "district"
+          "label": "District",
+          "attributes":[
+            "district_code",
+            "district_name"
+          ]
         }
       ]
     },
@@ -147,10 +159,14 @@
         }
       ],
       "mappings": {
+        "facility.facility_name":"vw_stockouts.facility_name",
+        "facility.facility_code":"vw_stockouts.facility_code",
         "drug.drug_name": "vw_stockouts.drug_name",
         "drug.drug_code": "vw_stockouts.drug_code",
-        "location.district": "vw_stockouts.district",
-        "location.province": "vw_stockouts.province",
+        "location.district_name": "vw_stockouts.district_name",
+        "location.district_code": "vw_stockouts.district_code",
+        "location.province_name": "vw_stockouts.province_name",
+        "location.province_code": "vw_stockouts.province_code",
         "program.program": "vw_stockouts.program",
         "stockout.date": "vw_stockouts.stockout_date",
         "stockout.duration": "vw_stockouts.duration",
