@@ -7,7 +7,7 @@
         {
           "name": "facility",
           "label": "Facility",
-          "attributes":[
+          "attributes": [
             "facility_code",
             "facility_name"
           ]
@@ -21,7 +21,7 @@
         {
           "name": "province",
           "label": "Province",
-          "attributes":[
+          "attributes": [
             "province_code",
             "province_name"
           ]
@@ -29,7 +29,7 @@
         {
           "name": "district",
           "label": "District",
-          "attributes":[
+          "attributes": [
             "district_code",
             "district_name"
           ]
@@ -61,6 +61,16 @@
       ]
     },
     {
+      "name": "overlapped_month",
+      "label": "overlapped month",
+      "levels": [
+        {
+          "name": "overlapped_month",
+          "label": "overlapped month"
+        }
+      ]
+    },
+    {
       "name": "stockout",
       "label": "Stock out",
       "levels": [
@@ -69,12 +79,12 @@
           "label": "Stock out date"
         },
         {
-          "name": "duration",
-          "label": "Stock out duration"
-        },
-        {
           "name": "resolved_date",
           "label": "Stock out resolved date"
+        },
+        {
+          "name": "overlap_duration",
+          "label": "Overlap duration of month"
         }
       ]
     },
@@ -89,8 +99,8 @@
       ]
     },
     {
-      "name": "date",
-      "label": "Stock out date",
+      "name": "overlapped_date",
+      "label": "Overlapped date",
       "role": "time",
       "levels": [
         {
@@ -129,38 +139,39 @@
         "drug",
         "program",
         "stockout",
+        "overlapped_month",
         "is_resolved",
-        "date"
+        "overlapped_date"
       ],
       "measures": [
         {
-          "name": "duration",
+          "name": "overlap_duration",
           "label": "Stock out duration"
         }
       ],
       "aggregates": [
         {
-          "name": "duration",
-          "label": "Stock out duration",
-          "measure": "duration",
+          "name": "overlap_duration",
+          "label": "total overlap duration",
+          "measure": "overlap_duration",
           "function": "sum"
         },
         {
           "name": "record_count",
           "label": "Record count",
-          "measure": "duration",
+          "measure": "overlap_duration",
           "function": "count"
         },
         {
           "name": "average_days",
           "label": "Average days",
-          "measure": "duration",
+          "measure": "overlap_duration",
           "function": "avg"
         }
       ],
       "mappings": {
-        "facility.facility_name":"vw_stockouts.facility_name",
-        "facility.facility_code":"vw_stockouts.facility_code",
+        "facility.facility_name": "vw_stockouts.facility_name",
+        "facility.facility_code": "vw_stockouts.facility_code",
         "drug.drug_name": "vw_stockouts.drug_name",
         "drug.drug_code": "vw_stockouts.drug_code",
         "location.district_name": "vw_stockouts.district_name",
@@ -169,19 +180,20 @@
         "location.province_code": "vw_stockouts.province_code",
         "program.program": "vw_stockouts.program",
         "stockout.date": "vw_stockouts.stockout_date",
-        "stockout.duration": "vw_stockouts.duration",
         "stockout.resolved_date": "vw_stockouts.resolved_date",
+        "overlapped_month": "vw_stockouts.overlapped_month",
+        "stockout.overlap_duration": "vw_stockouts.overlap_duration",
         "is_resolved.is_resolved": "vw_stockouts.is_resolved",
-        "date.year": {
-          "column": "stockout_date",
+        "overlapped_date.year": {
+          "column": "overlapped_month",
           "extract": "year"
         },
-        "date.month": {
-          "column": "stockout_date",
+        "overlapped_date.month": {
+          "column": "overlapped_month",
           "extract": "month"
         },
-        "date.day": {
-          "column": "stockout_date",
+        "overlapped_date.day": {
+          "column": "overlapped_month",
           "extract": "day"
         }
       }
