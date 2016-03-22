@@ -1,0 +1,3 @@
+//this will be the cubes model for expiry dates, use the view in postgres DB called vw_expiry_dates
+// and also, there will be a lot of information that overlap with stockout, the drug info, facility info, district and province
+// try to find out if you can only define those dimensions only once.
