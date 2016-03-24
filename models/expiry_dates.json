@@ -1,3 +1,107 @@
-//this will be the cubes model for expiry dates, use the view in postgres DB called vw_expiry_dates
-// and also, there will be a lot of information that overlap with stockout, the drug info, facility info, district and province
-// try to find out if you can only define those dimensions only once.
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "occurred",
+      "label": "Movement Date",
+      "levels": [
+        {
+          "name": "occurred",
+          "label": "Movement Date",
+          "attributes": ["occurred"]
+        }
+      ]
+    },
+    {
+      "name": "expiry_dates",
+      "label": "Expiry Dates",
+      "levels": [
+        {
+          "name": "expiry_dates",
+          "label": "Expiry Dates",
+          "attributes": ["expiry_dates"]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_expiry_dates",
+      "label": "Expiry Dates",
+      "dimensions": [
+        "facility",
+        "location",
+        "drug",
+        "occurred",
+        "expiry_dates"
+      ],
+      "measures": [
+        {
+          "name": "expiry_dates",
+          "label": "Expiry Dates"
+        }
+      ],
+      "mappings": {
+        "facility.facility_name": "vw_expiry_dates.facility_name",
+        "facility.facility_code": "vw_expiry_dates.facility_code",
+        "drug.drug_name": "vw_expiry_dates.drug_name",
+        "drug.drug_code": "vw_expiry_dates.drug_code",
+        "location.district_name": "vw_expiry_dates.district_name",
+        "location.district_code": "vw_expiry_dates.district_code",
+        "location.province_name": "vw_expiry_dates.province_name",
+        "location.province_code": "vw_expiry_dates.province_code",
+        "occurred.occurred": "vw_expiry_dates.occurred",
+        "expiry_dates.expiry_dates": "vw_expiry_dates.expiry_dates"
+      }
+    }
+  ]
+}
