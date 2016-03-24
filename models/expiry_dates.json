@@ -53,11 +53,30 @@
     {
       "name": "occurred",
       "label": "Movement Date",
+      "role": "time",
       "levels": [
         {
-          "name": "occurred",
-          "label": "Movement Date",
-          "attributes": ["occurred"]
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
         }
       ]
     },
@@ -67,8 +86,7 @@
       "levels": [
         {
           "name": "expiry_dates",
-          "label": "Expiry Dates",
-          "attributes": ["expiry_dates"]
+          "label": "Expiry Dates"
         }
       ]
     }
@@ -99,8 +117,20 @@
         "location.district_code": "vw_expiry_dates.district_code",
         "location.province_name": "vw_expiry_dates.province_name",
         "location.province_code": "vw_expiry_dates.province_code",
-        "occurred.occurred": "vw_expiry_dates.occurred",
-        "expiry_dates.expiry_dates": "vw_expiry_dates.expiry_dates"
+        "occurred": "vw_expiry_dates.occurred",
+        "expiry_dates": "vw_expiry_dates.expiry_dates",
+        "occurred.year": {
+          "column": "occurred",
+          "extract": "year"
+        },
+        "occurred.month": {
+          "column": "occurred",
+          "extract": "month"
+        },
+        "occurred.day": {
+          "column": "occurred",
+          "extract": "day"
+        }
       }
     }
   ]
