@@ -1,0 +1,94 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dates",
+      "label": "dates",
+      "levels": [
+        {
+          "name": "dates",
+          "label": "dates",
+          "attributes": [
+            "carry_start_date",
+            "facility_golive_date",
+            "facility_godown_date"
+          ]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_carry_start_dates",
+      "label": "carry start dates",
+      "dimensions": [
+        "facility",
+        "location",
+        "drug",
+        "dates"
+      ],
+      "mappings": {
+        "facility.facility_name": "vw_carry_start_dates.facility_name",
+        "facility.facility_code": "vw_carry_start_dates.facility_code",
+        "drug.drug_name": "vw_carry_start_dates.drug_name",
+        "drug.drug_code": "vw_carry_start_dates.drug_code",
+        "location.district_name": "vw_carry_start_dates.district_name",
+        "location.district_code": "vw_carry_start_dates.district_code",
+        "location.province_name": "vw_carry_start_dates.province_name",
+        "location.province_code": "vw_carry_start_dates.province_code",
+        "dates.carry_start_date": "vw_carry_start_dates.carry_start_date",
+        "dates.facility_golive_date": "vw_carry_start_dates.facility_golive_date",
+        "dates.facility_godown_date": "vw_carry_start_dates.facility_godown_date"
+      }
+    }
+  ]
+}
