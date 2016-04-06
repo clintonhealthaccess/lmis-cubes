@@ -64,6 +64,34 @@
           ]
         }
       ]
+    },{
+      "name":"carry_start",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
     }
   ],
   "cubes": [
@@ -74,7 +102,8 @@
         "facility",
         "location",
         "drug",
-        "dates"
+        "dates",
+        "carry_start"
       ],
       "mappings": {
         "facility.facility_name": "vw_carry_start_dates.facility_name",
@@ -87,7 +116,19 @@
         "location.province_code": "vw_carry_start_dates.province_code",
         "dates.carry_start_date": "vw_carry_start_dates.carry_start_date",
         "dates.facility_golive_date": "vw_carry_start_dates.facility_golive_date",
-        "dates.facility_godown_date": "vw_carry_start_dates.facility_godown_date"
+        "dates.facility_godown_date": "vw_carry_start_dates.facility_godown_date",
+        "carry_start.year": {
+          "column": "carry_start_date",
+          "extract": "year"
+        },
+        "carry_start.month": {
+          "column": "carry_start_date",
+          "extract": "month"
+        },
+        "carry_start.day": {
+          "column": "carry_start_date",
+          "extract": "day"
+        }
       }
     }
   ]
