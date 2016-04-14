@@ -1,0 +1,39 @@
+{
+  "dimensions": [
+    {
+      "name": "drug",
+      "levels": [
+        {
+          "name": "drug",
+          "attributes": [
+            "code"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "is_tracer",
+      "levels": [
+        {
+          "name": "is_tracer",
+          "attributes": [
+            "tracer"
+          ]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "products",
+      "dimensions": [
+        "drug",
+        "is_tracer"
+      ],
+      "mappings": {
+        "drug.code": "code",
+        "is_tracer.tracer": "tracer"
+      }
+    }
+  ]
+}
