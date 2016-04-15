@@ -6,7 +6,8 @@
         {
           "name": "drug",
           "attributes": [
-            "code"
+            "drug_code",
+            "drug_name"
           ]
         }
       ]
@@ -31,7 +32,8 @@
         "is_tracer"
       ],
       "mappings": {
-        "drug.code": "code",
+        "drug.drug_code": "code",
+        "drug.drug_name": "primaryname",
         "is_tracer.tracer": "tracer"
       }
     }
