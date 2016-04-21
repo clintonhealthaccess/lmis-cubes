@@ -1,0 +1,143 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "date",
+      "label": "date",
+      "levels": [
+        {
+          "name": "date",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "name": "cutDate",
+      "label": "cutDate",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "soh",
+      "levels": [
+        {
+          "name": "soh",
+          "attributes": [
+            "soh"
+          ]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_weekly_tracer_soh",
+      "label": "Weekly tracer SOH",
+      "dimensions": [
+        "facility",
+        "drug",
+        "date",
+        "soh",
+        "location",
+        "cutDate"
+      ],
+      "mappings": {
+        "facility.facility_name": "vw_weekly_tracer_soh.facility_name",
+        "facility.facility_code": "vw_weekly_tracer_soh.facility_code",
+        "drug.drug_name": "vw_weekly_tracer_soh.drug_name",
+        "drug.drug_code": "vw_weekly_tracer_soh.drug_code",
+        "location.district_name": "vw_weekly_tracer_soh.district_name",
+        "location.district_code": "vw_weekly_tracer_soh.district_code",
+        "location.province_name": "vw_weekly_tracer_soh.province_name",
+        "location.province_code": "vw_weekly_tracer_soh.province_code",
+        "soh":"vw_weekly_tracer_soh.soh",
+        "date": "vw_weekly_tracer_soh.date",
+        "cutDate.year": {
+          "column": "date",
+          "extract": "year"
+        },
+        "cutDate.month": {
+          "column": "date",
+          "extract": "month"
+        },
+        "cutDate.day": {
+          "column": "date",
+          "extract": "day"
+        }
+      }
+    }
+  ]
+}
