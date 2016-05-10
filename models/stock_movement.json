@@ -1,0 +1,61 @@
+{
+  "dimensions": [{
+    "name": "movement",
+    "levels": [{
+      "name": "movement",
+      "label": "movement",
+      "attributes": [
+        "reason",
+        "type",
+        "documentnumber",
+        "date",
+        "quantity",
+        "latest_soh",
+        "signature",
+        "soh",
+        "expirationdates"
+        ]
+      }]
+    },
+    {
+      "name": "product",
+      "levels": [{
+        "name": "product",
+        "label": "product",
+        "attributes": [
+          "product_code",
+          "product_name"
+        ]
+      }
+
+      ]
+    },
+    {
+      "name": "facility",
+      "levels": [{
+        "name": "facility",
+        "label": "Facility",
+        "attributes": [
+          "facilityname"
+        ]
+      }]
+    }],
+  "cubes": [{
+    "name": "vw_stock_movements",
+    "dimensions": ["movement", "product", "facility"],
+    "mappings": {
+      "movement.reason": "vw_stock_movements.reason",
+      "movement.type": "vw_stock_movements.adjustmenttype",
+      "movement.documentnumber": "vw_stock_movements.documentnumber",
+      "movement.date": "vw_stock_movements.createddate",
+      "movement.quantity": "vw_stock_movements.quantity",
+      "movement.latest_soh": "vw_stock_movements.totalquantityonhand",
+      "movement.signature": "vw_stock_movements.signature",
+      "movement.soh": "vw_stock_movements.soh",
+      "movement.expirationdates": "vw_stock_movements.expirationdates",
+      "product.product_name": "vw_stock_movements.primaryname",
+      "product.product_code": "vw_stock_movements.productcode",
+      "facility.facilityname": "vw_stock_movements.facilityname"
+    }
+  }]
+}
