@@ -21,6 +21,7 @@
       "name": "movement",
       "label": "movement",
       "attributes": [
+        "id",
         "reason",
         "type",
         "documentnumber",
@@ -49,7 +50,8 @@
       "movement.reason": "vw_stock_movements.reason",
       "movement.type": "vw_stock_movements.adjustmenttype",
       "movement.documentnumber": "vw_stock_movements.documentnumber",
-      "movement.date": "vw_stock_movements.createddate",
+      "movement.id": "vw_stock_movements.id",
+      "movement.date": "vw_stock_movements.movementdate",
       "movement.quantity": "vw_stock_movements.quantity",
       "movement.latest_soh": "vw_stock_movements.totalquantityonhand",
       "movement.signature": "vw_stock_movements.signature",
