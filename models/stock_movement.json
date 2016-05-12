@@ -1,7 +1,23 @@
 {
   "dimensions": [{
     "name": "movement",
-    "levels": [{
+    "levels": [
+      {
+        "name": "facility",
+        "label": "facility",
+        "attributes": [
+          "facilityname"
+        ]
+      },
+      {
+        "name": "product",
+        "label": "product",
+        "attributes": [
+          "productcode",
+          "productname"
+        ]
+      },
+      {
       "name": "movement",
       "label": "movement",
       "attributes": [
@@ -14,35 +30,21 @@
         "signature",
         "soh",
         "expirationdates"
-        ]
-      }]
-    },
-    {
-      "name": "product",
-      "levels": [{
-        "name": "product",
-        "label": "product",
-        "attributes": [
-          "product_code",
-          "product_name"
-        ]
-      }
-
+        ]}
       ]
     },
     {
-      "name": "facility",
+      "name": "stock",
       "levels": [{
-        "name": "facility",
-        "label": "Facility",
-        "attributes": [
-          "facilityname"
-        ]
+        "name": "stock",
+        "label": "stock",
+        "attributes": ["latest_soh", "product_name", "product_code", "facility_name", "expiration"]
       }]
-    }],
+    }
+  ],
   "cubes": [{
     "name": "vw_stock_movements",
-    "dimensions": ["movement", "product", "facility"],
+    "dimensions": ["movement", "stock"],
     "mappings": {
       "movement.reason": "vw_stock_movements.reason",
       "movement.type": "vw_stock_movements.adjustmenttype",
@@ -53,9 +55,15 @@
       "movement.signature": "vw_stock_movements.signature",
       "movement.soh": "vw_stock_movements.soh",
       "movement.expirationdates": "vw_stock_movements.expirationdates",
-      "product.product_name": "vw_stock_movements.primaryname",
-      "product.product_code": "vw_stock_movements.productcode",
-      "facility.facilityname": "vw_stock_movements.facilityname"
+      "movement.productname": "vw_stock_movements.primaryname",
+      "movement.productcode": "vw_stock_movements.productcode",
+      "movement.facilityname": "vw_stock_movements.facilityname",
+
+      "stock.latest_soh": "vw_stock_movements.totalquantityonhand",
+      "stock.product_name": "vw_stock_movements.primaryname",
+      "stock.product_code": "vw_stock_movements.productcode",
+      "stock.facility_name": "vw_stock_movements.facilityname",
+      "stock.expiration": "vw_stock_movements.expirationdates"
     }
   }]
 }
