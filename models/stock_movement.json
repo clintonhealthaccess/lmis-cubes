@@ -6,6 +6,7 @@
         "name": "facility",
         "label": "facility",
         "attributes": [
+          "facilitycode",
           "facilityname"
         ]
       },
@@ -60,6 +61,7 @@
       "movement.productname": "vw_stock_movements.primaryname",
       "movement.productcode": "vw_stock_movements.productcode",
       "movement.facilityname": "vw_stock_movements.facilityname",
+      "movement.facilitycode": "vw_stock_movements.facilitycode",
 
       "stock.latest_soh": "vw_stock_movements.totalquantityonhand",
       "stock.product_name": "vw_stock_movements.primaryname",
