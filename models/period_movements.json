@@ -1,0 +1,167 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "occurrences",
+      "label": "occurrences",
+      "levels": [
+        {
+          "name": "occurrences",
+          "attributes": [
+            "occurrences"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "soh",
+      "levels": [
+        {
+          "name": "soh",
+          "attributes": [
+            "soh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cmm",
+      "levels": [
+        {
+          "name": "cmm",
+          "attributes": [
+            "cmm"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reason_code",
+      "levels": [
+        {
+          "name": "reason_code",
+          "attributes": [
+            "reason_code"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "total_quantity",
+      "levels": [
+        {
+          "name": "total_quantity",
+          "attributes": [
+            "total_quantity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "periodstart",
+      "levels": [
+        {
+          "name": "periodstart",
+          "attributes": [
+            "periodstart"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "periodend",
+      "levels": [
+        {
+          "name": "periodend",
+          "attributes": [
+            "periodend"
+          ]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_period_movements",
+      "label": "period movements",
+      "dimensions": [
+        "facility",
+        "drug",
+        "location",
+        "occurrences",
+        "soh",
+        "cmm",
+        "reason_code",
+        "total_quantity",
+        "periodstart",
+        "periodend"
+      ],
+      "mappings": {
+        "periodstart.periodstart": "vw_period_movements.periodstart",
+        "periodend.periodend": "vw_period_movements.periodend",
+        "soh.soh": "vw_period_movements.soh",
+        "cmm.cmm": "vw_period_movements.cmm",
+        "reason_code.reason_code": "vw_period_movements.reason_code",
+        "occurrences.occurrences": "vw_period_movements.occurrences",
+        "total_quantity.total_quantity": "vw_period_movements.total_quantity",
+        "facility.facility_name": "vw_period_movements.facility_name",
+        "facility.facility_code": "vw_period_movements.facility_code",
+        "drug.drug_name": "vw_period_movements.drug_name",
+        "drug.drug_code": "vw_period_movements.drug_code",
+        "location.district_name": "vw_period_movements.district_name",
+        "location.district_code": "vw_period_movements.district_code",
+        "location.province_name": "vw_period_movements.province_name",
+        "location.province_code": "vw_period_movements.province_code"
+      }
+    }
+  ]
+}
