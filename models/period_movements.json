@@ -108,22 +108,56 @@
     },
     {
       "name": "periodstart",
+      "role": "time",
       "levels": [
         {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
           "name": "periodstart",
-          "attributes": [
-            "periodstart"
+          "levels": [
+            "year",
+            "month",
+            "day"
           ]
         }
       ]
     },
     {
       "name": "periodend",
+      "role": "time",
       "levels": [
         {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
           "name": "periodend",
-          "attributes": [
-            "periodend"
+          "levels": [
+            "year",
+            "month",
+            "day"
           ]
         }
       ]
@@ -146,8 +180,30 @@
         "periodend"
       ],
       "mappings": {
-        "periodstart.periodstart": "vw_period_movements.periodstart",
-        "periodend.periodend": "vw_period_movements.periodend",
+        "periodstart.year": {
+          "column": "periodstart",
+          "extract": "year"
+        },
+        "periodstart.month": {
+          "column": "periodstart",
+          "extract": "month"
+        },
+        "periodstart.day": {
+          "column": "periodstart",
+          "extract": "day"
+        },
+        "periodend.year": {
+          "column": "periodend",
+          "extract": "year"
+        },
+        "periodend.month": {
+          "column": "periodend",
+          "extract": "month"
+        },
+        "periodend.day": {
+          "column": "periodend",
+          "extract": "day"
+        },
         "soh.soh": "vw_period_movements.soh",
         "cmm.cmm": "vw_period_movements.cmm",
         "reason_code.reason_code": "vw_period_movements.reason_code",
