@@ -179,6 +179,34 @@
         "periodstart",
         "periodend"
       ],
+      "measures": [
+        {
+          "name": "total_quantity"
+        },
+        {
+          "name": "cmm"
+        },
+        {
+          "name": "soh"
+        }
+      ],
+      "aggregates": [
+        {
+          "name": "total_quantity",
+          "measure": "total_quantity",
+          "function": "sum"
+        },
+        {
+          "name": "cmm",
+          "measure": "cmm",
+          "function": "sum"
+        },
+        {
+          "name": "soh",
+          "measure": "soh",
+          "function": "sum"
+        }
+      ],
       "mappings": {
         "periodstart.year": {
           "column": "periodstart",
