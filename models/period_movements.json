@@ -205,6 +205,11 @@
           "name": "soh",
           "measure": "soh",
           "function": "sum"
+        },
+        {
+          "name": "occurrences",
+          "measure": "occurrences",
+          "function": "sum"
         }
       ],
       "mappings": {
