@@ -25,6 +25,7 @@
         "id",
         "reason",
         "type",
+        "description",
         "documentnumber",
         "date",
         "quantity",
@@ -51,6 +52,7 @@
     "mappings": {
       "movement.reason": "vw_stock_movements.reason",
       "movement.type": "vw_stock_movements.adjustmenttype",
+      "movement.description": "vw_stock_movements.description",
       "movement.documentnumber": "vw_stock_movements.documentnumber",
       "movement.id": "vw_stock_movements.id",
       "movement.date": "vw_stock_movements.movementdate",
