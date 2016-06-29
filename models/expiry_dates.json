@@ -69,6 +69,16 @@
           "label": "Expiry Dates"
         }
       ]
+    },
+    {
+      "name": "createddate",
+      "label": "Created Date",
+      "levels": [
+        {
+          "name": "createddate",
+          "label": "Created Date"
+        }
+      ]
     }
   ],
   "cubes": [
@@ -80,11 +90,16 @@
         "location",
         "drug",
         "occurred",
-        "expiry_dates"
+        "expiry_dates",
+        "createddate"
       ],
       "measures": [
         { "name": "occurred",
           "label": "Occurred Date"
+        },
+        {
+          "name": "createddate",
+          "label": "Created Date"
         }
       ],
       "aggregates": [
@@ -92,7 +107,12 @@
           "name": "last_occurred",
           "function": "max",
           "measure": "occurred"
-      }
+      },
+        {
+          "name": "last_createddate",
+          "measure": "createddate",
+          "function": "max"
+        }
       ],
 
       "mappings": {
@@ -106,7 +126,8 @@
         "location.province_code": "vw_expiry_dates.province_code",
         "occurred": "vw_expiry_dates.occurred",
         "expiry_dates": "vw_expiry_dates.expiry_dates",
-        "occurred.year": "vw_expiry_dates.occurred"
+        "occurred.year": "vw_expiry_dates.occurred",
+        "createddate": "vw_expiry_dates.createddate"
       }
     }
   ]
