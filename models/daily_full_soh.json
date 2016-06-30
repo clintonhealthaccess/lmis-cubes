@@ -1,0 +1,175 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "occurred",
+      "label": "Movement Date",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "expiry_date",
+      "label": "Soonest Expiry Dates",
+      "levels": [
+        {
+          "name": "expiry_date"
+        }
+      ]
+    },
+    {
+      "name": "soh",
+      "label": "soh",
+      "levels": [
+        {
+          "name": "soh"
+        }
+      ]
+    },
+    {
+      "name": "last_sync_date",
+      "label": "last sync date",
+      "levels": [
+        {
+          "name": "last_sync_date"
+        }
+      ]
+    },
+    {
+      "name": "cmm",
+      "label": "cmm",
+      "levels": [
+        {
+          "name": "cmm"
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_daily_full_soh",
+      "label": "Expiry Dates",
+      "dimensions": [
+        "facility",
+        "location",
+        "drug",
+        "occurred",
+        "expiry_date",
+        "soh",
+        "last_sync_date",
+        "cmm"
+      ],
+      "measures": [
+        {
+          "name": "occurred",
+          "label": "Occurred Date"
+        }
+      ],
+      "aggregates": [
+        {
+          "name": "last_occurred",
+          "function": "max",
+          "measure": "occurred"
+        }
+      ],
+      "mappings": {
+        "facility.facility_name": "vw_daily_full_soh.facility_name",
+        "facility.facility_code": "vw_daily_full_soh.facility_code",
+        "drug.drug_name": "vw_daily_full_soh.drug_name",
+        "drug.drug_code": "vw_daily_full_soh.drug_code",
+        "location.district_name": "vw_daily_full_soh.district_name",
+        "location.district_code": "vw_daily_full_soh.district_code",
+        "location.province_name": "vw_daily_full_soh.province_name",
+        "location.province_code": "vw_daily_full_soh.province_code",
+        "occurred.year": {
+          "column": "occurred",
+          "extract": "year"
+        },
+        "occurred.month": {
+          "column": "occurred",
+          "extract": "month"
+        },
+        "occurred.day": {
+          "column": "occurred",
+          "extract": "day"
+        },
+        "expiry_date": "vw_daily_full_soh.soonest_expiry_date",
+        "soh": "vw_daily_full_soh.soh",
+        "last_sync_date": "vw_daily_full_soh.last_sync_date",
+        "cmm": "vw_daily_full_soh.cmm"
+      }
+    }
+  ]
+}
