@@ -51,6 +51,15 @@
       ]
     },
     {
+      "name": "occurred_date",
+      "label": "occurred date in full string",
+      "levels": [
+        {
+          "name": "occurred_date"
+        }
+      ]
+    },
+    {
       "name": "occurred",
       "label": "Movement Date",
       "role": "time",
@@ -126,23 +135,11 @@
         "location",
         "drug",
         "occurred",
+        "occurred_date",
         "expiry_date",
         "soh",
         "last_sync_date",
         "cmm"
-      ],
-      "measures": [
-        {
-          "name": "occurred",
-          "label": "Occurred Date"
-        }
-      ],
-      "aggregates": [
-        {
-          "name": "last_occurred",
-          "function": "max",
-          "measure": "occurred"
-        }
       ],
       "mappings": {
         "facility.facility_name": "vw_daily_full_soh.facility_name",
@@ -153,6 +150,7 @@
         "location.district_code": "vw_daily_full_soh.district_code",
         "location.province_name": "vw_daily_full_soh.province_name",
         "location.province_code": "vw_daily_full_soh.province_code",
+        "occurred_date": "vw_daily_full_soh.occurred",
         "occurred.year": {
           "column": "occurred",
           "extract": "year"
