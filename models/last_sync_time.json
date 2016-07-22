@@ -1,0 +1,73 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "last_sync_time",
+      "label": "Sync Time",
+      "levels": [
+        {
+          "name": "sync_time",
+          "label": "Sync Time",
+          "attributes": [
+            "last_sync_time"
+          ]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_sync_time",
+      "label": "Sync Time",
+      "dimensions": [
+        "facility",
+        "location",
+        "last_sync_time"
+      ],
+      "mappings": {
+        "facility.facility_name": "vw_sync_time.facility_name",
+        "facility.facility_code": "vw_sync_time.facility_code",
+        "location.district_name": "vw_sync_time.district_name",
+        "location.district_code": "vw_sync_time.district_code",
+        "location.province_name": "vw_sync_time.province_name",
+        "location.province_code": "vw_sync_time.province_code",
+        "last_sync_time.last_sync_time": "vw_sync_time.last_sync_time"
+      }
+    }
+  ]
+}
