@@ -199,12 +199,12 @@
         {
           "name": "cmm",
           "measure": "cmm",
-          "function": "sum"
+          "function": "max"
         },
         {
           "name": "soh",
           "measure": "soh",
-          "function": "sum"
+          "function": "max"
         },
         {
           "name": "occurrences",
