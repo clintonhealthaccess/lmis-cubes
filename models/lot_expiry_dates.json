@@ -1,0 +1,137 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "occurred",
+      "label": "Movement Date",
+      "levels": [
+        {
+          "name": "occurred",
+          "label": "Occurred Date"
+        }
+      ]
+    },
+    {
+      "name": "lot_number",
+      "label": "Lot Number",
+      "levels": [
+        {
+          "name": "lot_number",
+          "label": "Lot Number"
+        }
+      ]
+    },
+    {
+      "name": "expiry_dates",
+      "label": "Expiry Dates",
+      "levels": [
+        {
+          "name": "expiry_dates",
+          "label": "Expiry Dates"
+        }
+      ]
+    },
+    {
+      "name": "lotonhand",
+      "label": "Lot On Hand",
+      "levels": [
+        {
+          "name": "lotonhand",
+          "label": "Lot On Hand"
+        }
+      ]
+    },
+    {
+      "name": "createddate",
+      "label": "Created Date",
+      "levels": [
+        {
+          "name": "createddate",
+          "label": "Created Date"
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_lot_expiry_dates",
+      "label": "Expiry Dates",
+      "dimensions": [
+        "facility",
+        "location",
+        "drug",
+        "occurred",
+        "lot_number",
+        "expiry_dates",
+        "lotonhand",
+        "createddate"
+      ],
+
+      "mappings": {
+        "facility.facility_name": "vw_lot_expiry_dates.facility_name",
+        "facility.facility_code": "vw_lot_expiry_dates.facility_code",
+        "drug.drug_name": "vw_lot_expiry_dates.drug_name",
+        "drug.drug_code": "vw_lot_expiry_dates.drug_code",
+        "location.district_name": "vw_lot_expiry_dates.district_name",
+        "location.district_code": "vw_lot_expiry_dates.district_code",
+        "location.province_name": "vw_lot_expiry_dates.province_name",
+        "location.province_code": "vw_lot_expiry_dates.province_code",
+        "occurred": "vw_lot_expiry_dates.occurred",
+        "lot_number": "vw_lot_expiry_dates.lot_number",
+        "expiry_dates": "vw_lot_expiry_dates.expiration_date",
+        "lotonhand": "vw_lot_expiry_dates.lot_on_hand",
+        "occurred.year": "vw_lot_expiry_dates.occurred",
+        "createddate": "vw_lot_expiry_dates.createddate"
+      }
+    }
+  ]
+}
