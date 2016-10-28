@@ -72,11 +72,10 @@
     },
     {
       "name": "expiry_date",
-      "label": "Expiry Date",
+      "label": "Expiry date",
       "levels": [
         {
-          "name": "expiry_date",
-          "label": "Expiry Date"
+          "name": "expiry_date"
         }
       ]
     },
@@ -99,6 +98,15 @@
           "label": "Created Date"
         }
       ]
+    },
+    {
+      "name": "stock_card_entry_id",
+      "label": "Stock Card Entry Id",
+      "levels": [
+        {
+          "name": "stock_card_entry_id"
+        }
+      ]
     }
   ],
   "cubes": [
@@ -113,7 +121,23 @@
         "lot_number",
         "expiry_date",
         "lotonhand",
-        "createddate"
+        "createddate",
+        "stock_card_entry_id"
+      ],
+
+      "measures": [
+        {
+          "name": "lotonhand",
+          "label": "Lot on Hand"
+        }
+      ],
+      "aggregates": [
+        {
+          "name": "total_lotonhand",
+          "label": "Total lot on hand",
+          "measure": "lotonhand",
+          "function": "sum"
+        }
       ],
 
       "mappings": {
@@ -129,8 +153,8 @@
         "lot_number": "vw_lot_expiry_dates.lot_number",
         "expiry_date": "vw_lot_expiry_dates.expiration_date",
         "lotonhand": "vw_lot_expiry_dates.lot_on_hand",
-        "occurred.year": "vw_lot_expiry_dates.occurred",
-        "createddate": "vw_lot_expiry_dates.createddate"
+        "createddate": "vw_lot_expiry_dates.createddate",
+        "stock_card_entry_id": "vw_lot_expiry_dates.stock_card_entry_id"
       }
     }
   ]
