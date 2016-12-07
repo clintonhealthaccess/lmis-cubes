@@ -1,0 +1,213 @@
+{
+  "dimensions": [
+    {
+      "name": "item_name",
+      "levels": [
+        {
+          "name": "item_name",
+          "attributes": [
+            "item_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "item_value",
+      "levels": [
+        {
+          "name": "item_value",
+          "attributes": [
+            "item_value"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "column_code",
+      "levels": [
+        {
+          "name": "column_code",
+          "attributes": [
+            "column_code"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "formid",
+      "levels": [
+        {
+          "name": "formid",
+          "attributes": [
+            "formid"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "startdate",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "startdate",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "enddate",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "enddate",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "full_startdate",
+      "label": "start date in full string",
+      "levels": [
+        {
+          "name": "full_startdate"
+        }
+      ]
+    },
+    {
+      "name": "full_enddate",
+      "label": "end date in full string",
+      "levels": [
+        {
+          "name": "full_enddate"
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_rapid_test",
+      "label": "rapid test",
+      "dimensions": [
+        "item_name",
+        "item_value",
+        "column_code",
+        "facility",
+        "location",
+        "startdate",
+        "enddate",
+        "full_startdate",
+        "full_enddate"
+      ],
+      "mappings": {
+        "startdate.year": {
+          "column": "startdate",
+          "extract": "year"
+        },
+        "startdate.month": {
+          "column": "startdate",
+          "extract": "month"
+        },
+        "startdate.day": {
+          "column": "startdate",
+          "extract": "day"
+        },
+        "enddate.year": {
+          "column": "enddate",
+          "extract": "year"
+        },
+        "enddate.month": {
+          "column": "enddate",
+          "extract": "month"
+        },
+        "enddate.day": {
+          "column": "enddate",
+          "extract": "day"
+        },
+        "item_name.item_name": "vw_rapid_test.item_name",
+        "item_value.item_value": "vw_rapid_test.item_value",
+        "column_code.column_code": "vw_rapid_test.column_code",
+        "formid.formid": "vw_rapid_test.formid",
+        "full_startdate": "vw_rapid_test.startdate",
+        "full_enddate": "vw_rapid_test.enddate",
+        "facility.facility_name": "vw_rapid_test.facility_name",
+        "facility.facility_code": "vw_rapid_test.facility_code",
+        "location.district_name": "vw_rapid_test.district_name",
+        "location.district_code": "vw_rapid_test.district_code",
+        "location.province_name": "vw_rapid_test.province_name",
+        "location.province_code": "vw_rapid_test.province_code"
+      }
+    }
+  ]
+}
