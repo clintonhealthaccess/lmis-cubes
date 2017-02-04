@@ -1,0 +1,135 @@
+{
+  "dimensions": [
+    {
+      "name": "cmm",
+      "levels": [
+        {
+          "name": "cmmvalue",
+          "attributes": [
+            "cmmvalue"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "levels": [
+        {
+          "name": "productcode",
+          "attributes": [
+            "productcode"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "facility",
+      "levels": [
+        {
+          "name": "facilityid",
+          "attributes": [
+            "facilityid"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "periodbegin",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "periodbegin",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "periodend",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "periodend",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "cmm_entries",
+      "label": "cmm entry",
+      "dimensions": [
+        "facility",
+        "product",
+        "cmm",
+        "periodbegin",
+        "periodend"
+      ],
+      "mappings": {
+        "periodbegin.year": {
+          "column": "periodbegin",
+          "extract": "year"
+        },
+        "periodbegin.month": {
+          "column": "periodbegin",
+          "extract": "month"
+        },
+        "periodbegin.day": {
+          "column": "periodbegin",
+          "extract": "day"
+        },
+        "periodend.year": {
+          "column": "periodend",
+          "extract": "year"
+        },
+        "periodend.month": {
+          "column": "periodend",
+          "extract": "month"
+        },
+        "periodend.day": {
+          "column": "periodend",
+          "extract": "day"
+        },
+        "cmm.cmmvalue": "cmm_entries.cmmvalue",
+        "product.productcode": "cmm_entries.productcode",
+        "facility.facilityid": "cmm_entries.facilityid"
+      }
+    }
+  ]
+}

@@ -9,7 +9,8 @@
           "label": "Facility",
           "attributes": [
             "facility_code",
-            "facility_name"
+            "facility_name",
+            "facility_id"
           ]
         }
       ]
@@ -117,15 +118,6 @@
       ]
     },
     {
-      "name": "cmm",
-      "label": "cmm",
-      "levels": [
-        {
-          "name": "cmm"
-        }
-      ]
-    },
-    {
       "name": "stock_card_entry_id",
       "label": "stock card entry id",
       "levels": [
@@ -148,12 +140,12 @@
         "expiry_date",
         "soh",
         "last_sync_date",
-        "cmm",
         "stock_card_entry_id"
       ],
       "mappings": {
         "facility.facility_name": "vw_lot_daily_full_soh.facility_name",
         "facility.facility_code": "vw_lot_daily_full_soh.facility_code",
+        "facility.facility_id": "vw_lot_daily_full_soh.facility_id",
         "drug.drug_name": "vw_lot_daily_full_soh.drug_name",
         "drug.drug_code": "vw_lot_daily_full_soh.drug_code",
         "location.district_name": "vw_lot_daily_full_soh.district_name",
@@ -176,7 +168,6 @@
         "expiry_date": "vw_lot_daily_full_soh.soonest_expiry_date",
         "soh": "vw_lot_daily_full_soh.soh",
         "last_sync_date": "vw_lot_daily_full_soh.last_sync_date",
-        "cmm": "vw_lot_daily_full_soh.cmm",
         "stock_card_entry_id": "vw_lot_daily_full_soh.stock_card_entry_id"
       }
     }
