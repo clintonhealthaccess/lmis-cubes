@@ -34,6 +34,28 @@
       ]
     },
     {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
       "name": "periodbegin",
       "role": "time",
       "levels": [
@@ -92,10 +114,11 @@
   ],
   "cubes": [
     {
-      "name": "cmm_entries",
+      "name": "vw_cmm_entries",
       "label": "cmm entry",
       "dimensions": [
         "facility",
+        "location",
         "product",
         "cmm",
         "periodbegin",
@@ -128,7 +151,11 @@
         },
         "cmm.cmmvalue": "cmm_entries.cmmvalue",
         "product.productcode": "cmm_entries.productcode",
-        "facility.facilityid": "cmm_entries.facilityid"
+        "facility.facilityid": "cmm_entries.facilityid",
+        "location.district_name": "vw_cmm_entries.district_name",
+        "location.district_code": "vw_cmm_entries.district_code",
+        "location.province_name": "vw_cmm_entries.province_name",
+        "location.province_code": "vw_cmm_entries.province_code"
       }
     }
   ]
