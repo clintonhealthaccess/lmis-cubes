@@ -34,6 +34,17 @@
       ]
     },
     {
+      "name": "facilityCode",
+      "levels": [
+        {
+          "name": "facilitycode",
+          "attributes": [
+            "facilitycode"
+          ]
+        }
+      ]
+    },
+    {
       "name": "location",
       "label": "Location",
       "levels": [
@@ -118,6 +129,7 @@
       "label": "cmm entry",
       "dimensions": [
         "facility",
+        "facilityCode",
         "location",
         "product",
         "cmm",
@@ -152,6 +164,7 @@
         "cmm.cmmvalue": "cmm_entries.cmmvalue",
         "product.productcode": "cmm_entries.productcode",
         "facility.facilityid": "cmm_entries.facilityid",
+        "facilityCode.facilitycode": "vw_cmm_entries.facilitycode",
         "location.district_name": "vw_cmm_entries.district_name",
         "location.district_code": "vw_cmm_entries.district_code",
         "location.province_name": "vw_cmm_entries.province_name",
