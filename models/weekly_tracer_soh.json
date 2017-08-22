@@ -100,6 +100,20 @@
           ]
         }
       ]
+    },
+    {
+      "name": "area",
+      "label": "Area",
+      "levels": [
+        {
+          "name": "area",
+          "label": "Area",
+          "attributes": [
+            "area_name",
+            "sub_area_name"
+          ]
+        }
+      ]
     }
   ],
   "cubes": [
@@ -111,6 +125,7 @@
         "drug",
         "date",
         "soh",
+        "area",
         "location",
         "cutDate"
       ],
@@ -123,6 +138,8 @@
         "location.district_code": "vw_weekly_tracer_soh.district_code",
         "location.province_name": "vw_weekly_tracer_soh.province_name",
         "location.province_code": "vw_weekly_tracer_soh.province_code",
+        "area.area_name": "vw_weekly_tracer_soh.area",
+        "area.sub_area_name": "vw_weekly_tracer_soh.sub_area",
         "soh":"vw_weekly_tracer_soh.soh",
         "date": "vw_weekly_tracer_soh.date",
         "cutDate.year": {
