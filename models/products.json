@@ -22,6 +22,17 @@
           ]
         }
       ]
+    },
+    {
+      "name": "is_nos",
+      "levels": [
+        {
+          "name": "is_nos",
+          "attributes": [
+            "nos"
+          ]
+        }
+      ]
     }
   ],
   "cubes": [
@@ -29,12 +40,14 @@
       "name": "products",
       "dimensions": [
         "drug",
-        "is_tracer"
+        "is_tracer",
+        "is_nos"
       ],
       "mappings": {
         "drug.drug_code": "code",
         "drug.drug_name": "primaryname",
-        "is_tracer.tracer": "tracer"
+        "is_tracer.tracer": "tracer",
+        "is_nos.nos": "nos"
       }
     }
   ]
