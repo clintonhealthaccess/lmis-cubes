@@ -127,6 +127,66 @@
           ]
         }
       ]
+    },
+    {
+      "name": "stockout_date",
+      "label": "Stock out date",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stockout_resolved_date",
+      "label": "Stock resolved date",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
     }
   ],
   "cubes": [
@@ -141,7 +201,9 @@
         "stockout",
         "overlapped_month",
         "is_resolved",
-        "overlapped_date"
+        "overlapped_date",
+        "stockout_date",
+        "stockout_resolved_date"
       ],
       "measures": [
         {
@@ -194,6 +256,30 @@
         },
         "overlapped_date.day": {
           "column": "overlapped_month",
+          "extract": "day"
+        },
+        "stockout_date.year": {
+          "column": "stockout_date",
+          "extract": "year"
+        },
+        "stockout_date.month": {
+          "column": "stockout_date",
+          "extract": "month"
+        },
+        "stockout_date.day": {
+          "column": "stockout_date",
+          "extract": "day"
+        },
+        "stockout_resolved_date.year": {
+          "column": "resolved_date",
+          "extract": "year"
+        },
+        "stockout_resolved_date.month": {
+          "column": "resolved_date",
+          "extract": "month"
+        },
+        "stockout_resolved_date.day": {
+          "column": "resolved_date",
           "extract": "day"
         }
       }
