@@ -82,6 +82,36 @@
           ]
         }
       ]
+    },
+    {
+      "name": "movementdate",
+      "label": "movementdate",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "movementdate",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
     }
   ],
   "cubes": [
@@ -91,7 +121,8 @@
         "movement",
         "stock",
         "facility",
-        "location"
+        "location",
+        "movementdate"
       ],
       "mappings": {
         "movement.reason": "vw_stock_movements.reason",
@@ -118,7 +149,19 @@
         "stock.product_name": "vw_stock_movements.primaryname",
         "stock.product_code": "vw_stock_movements.productcode",
         "stock.facility_name": "vw_stock_movements.facilityname",
-        "stock.expiration": "vw_stock_movements.expirationdates"
+        "stock.expiration": "vw_stock_movements.expirationdates",
+        "movementdate.year": {
+          "column": "movementdate",
+          "extract": "year"
+        },
+        "movementdate.month": {
+          "column": "movementdate",
+          "extract": "month"
+        },
+        "movementdate.day": {
+          "column": "movementdate",
+          "extract": "day"
+        }
       }
     }
   ]
