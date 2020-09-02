@@ -1,0 +1,160 @@
+{
+  "dimensions": [
+    {
+      "name": "facility",
+      "label": "Facility",
+      "levels": [
+        {
+          "name": "facility",
+          "label": "Facility",
+          "attributes": [
+            "facility_code",
+            "facility_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "levels": [
+        {
+          "name": "province",
+          "label": "Province",
+          "attributes": [
+            "province_code",
+            "province_name"
+          ]
+        },
+        {
+          "name": "district",
+          "label": "District",
+          "attributes": [
+            "district_code",
+            "district_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "drug",
+      "label": "Drug",
+      "levels": [
+        {
+          "name": "drug",
+          "label": "Drug",
+          "attributes": [
+            "drug_code",
+            "drug_name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "date",
+      "label": "date",
+      "levels": [
+        {
+          "name": "date",
+          "label": "date"
+        }
+      ]
+    },
+    {
+      "name": "cutDate",
+      "label": "cutDate",
+      "role": "time",
+      "levels": [
+        {
+          "name": "year",
+          "label": "year"
+        },
+        {
+          "name": "month",
+          "label": "month"
+        },
+        {
+          "name": "day",
+          "label": "day"
+        }
+      ],
+      "hierarchies": [
+        {
+          "name": "date",
+          "label": "date",
+          "levels": [
+            "year",
+            "month",
+            "day"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "soh",
+      "levels": [
+        {
+          "name": "soh",
+          "attributes": [
+            "soh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "area",
+      "label": "Area",
+      "levels": [
+        {
+          "name": "area",
+          "label": "Area",
+          "attributes": [
+            "area_name",
+            "sub_area_name"
+          ]
+        }
+      ]
+    }
+  ],
+  "cubes": [
+    {
+      "name": "vw_weekly_nos_soh_before_2020_05_31",
+      "label": "Weekly NOS SOH",
+      "dimensions": [
+        "facility",
+        "drug",
+        "date",
+        "soh",
+        "area",
+        "location",
+        "cutDate"
+      ],
+      "mappings": {
+        "facility.facility_name": "vw_weekly_nos_soh_before_2020_05_31.facility_name",
+        "facility.facility_code": "vw_weekly_nos_soh_before_2020_05_31.facility_code",
+        "drug.drug_name": "vw_weekly_nos_soh_before_2020_05_31.drug_name",
+        "drug.drug_code": "vw_weekly_nos_soh_before_2020_05_31.drug_code",
+        "location.district_name": "vw_weekly_nos_soh_before_2020_05_31.district_name",
+        "location.district_code": "vw_weekly_nos_soh_before_2020_05_31.district_code",
+        "location.province_name": "vw_weekly_nos_soh_before_2020_05_31.province_name",
+        "location.province_code": "vw_weekly_nos_soh_before_2020_05_31.province_code",
+        "area.area_name": "vw_weekly_nos_soh_before_2020_05_31.area",
+        "area.sub_area_name": "vw_weekly_nos_soh_before_2020_05_31.sub_area",
+        "soh": "vw_weekly_nos_soh_before_2020_05_31.soh",
+        "date": "vw_weekly_nos_soh_before_2020_05_31.date",
+        "cutDate.year": {
+          "column": "date",
+          "extract": "year"
+        },
+        "cutDate.month": {
+          "column": "date",
+          "extract": "month"
+        },
+        "cutDate.day": {
+          "column": "date",
+          "extract": "day"
+        }
+      }
+    }
+  ]
+}
