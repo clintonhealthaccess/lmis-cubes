@@ -92,7 +92,7 @@
         }
     ],
     "cubes": [{
-        "name": "vw_lot_expiry_dates_not_equal_zero",
+        "name": "vw_lot_expiry_dates_before_20200531",
         "label": "Expiry Dates",
         "dimensions": [
             "facility",
@@ -118,20 +118,20 @@
         }],
 
         "mappings": {
-            "facility.facility_name": "vw_lot_expiry_dates_not_equal_zero.facility_name",
-            "facility.facility_code": "vw_lot_expiry_dates_not_equal_zero.facility_code",
-            "drug.drug_name": "vw_lot_expiry_dates_not_equal_zero.drug_name",
-            "drug.drug_code": "vw_lot_expiry_dates_not_equal_zero.drug_code",
-            "location.district_name": "vw_lot_expiry_dates_not_equal_zero.district_name",
-            "location.district_code": "vw_lot_expiry_dates_not_equal_zero.district_code",
-            "location.province_name": "vw_lot_expiry_dates_not_equal_zero.province_name",
-            "location.province_code": "vw_lot_expiry_dates_not_equal_zero.province_code",
-            "occurred": "vw_lot_expiry_dates_not_equal_zero.occurred",
-            "lot_number": "vw_lot_expiry_dates_not_equal_zero.lot_number",
-            "expiry_date": "vw_lot_expiry_dates_not_equal_zero.expiration_date",
-            "lotonhand": "vw_lot_expiry_dates_not_equal_zero.lot_on_hand",
-            "createddate": "vw_lot_expiry_dates_not_equal_zero.createddate",
-            "stock_card_entry_id": "vw_lot_expiry_dates_not_equal_zero.stock_card_entry_id"
+            "facility.facility_name": "vw_lot_expiry_dates_before_20200531.facility_name",
+            "facility.facility_code": "vw_lot_expiry_dates_before_20200531.facility_code",
+            "drug.drug_name": "vw_lot_expiry_dates_before_20200531.drug_name",
+            "drug.drug_code": "vw_lot_expiry_dates_before_20200531.drug_code",
+            "location.district_name": "vw_lot_expiry_dates_before_20200531.district_name",
+            "location.district_code": "vw_lot_expiry_dates_before_20200531.district_code",
+            "location.province_name": "vw_lot_expiry_dates_before_20200531.province_name",
+            "location.province_code": "vw_lot_expiry_dates_before_20200531.province_code",
+            "occurred": "vw_lot_expiry_dates_before_20200531.occurred",
+            "lot_number": "vw_lot_expiry_dates_before_20200531.lot_number",
+            "expiry_date": "vw_lot_expiry_dates_before_20200531.expiration_date",
+            "lotonhand": "vw_lot_expiry_dates_before_20200531.lot_on_hand",
+            "createddate": "vw_lot_expiry_dates_before_20200531.createddate",
+            "stock_card_entry_id": "vw_lot_expiry_dates_before_20200531.stock_card_entry_id"
         }
     }]
 }

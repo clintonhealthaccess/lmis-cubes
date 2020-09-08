@@ -1,0 +1,137 @@
+{
+    "dimensions": [{
+            "name": "facility",
+            "label": "Facility",
+            "levels": [{
+                "name": "facility",
+                "label": "Facility",
+                "attributes": [
+                    "facility_code",
+                    "facility_name"
+                ]
+            }]
+        },
+        {
+            "name": "location",
+            "label": "Location",
+            "levels": [{
+                    "name": "province",
+                    "label": "Province",
+                    "attributes": [
+                        "province_code",
+                        "province_name"
+                    ]
+                },
+                {
+                    "name": "district",
+                    "label": "District",
+                    "attributes": [
+                        "district_code",
+                        "district_name"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "drug",
+            "label": "Drug",
+            "levels": [{
+                "name": "drug",
+                "label": "Drug",
+                "attributes": [
+                    "drug_code",
+                    "drug_name"
+                ]
+            }]
+        },
+        {
+            "name": "occurred",
+            "label": "Movement Date",
+            "levels": [{
+                "name": "occurred",
+                "label": "Occurred Date"
+            }]
+        },
+        {
+            "name": "lot_number",
+            "label": "Lot Number",
+            "levels": [{
+                "name": "lot_number",
+                "label": "Lot Number"
+            }]
+        },
+        {
+            "name": "expiry_date",
+            "label": "Expiry date",
+            "levels": [{
+                "name": "expiry_date"
+            }]
+        },
+        {
+            "name": "lotonhand",
+            "label": "Lot On Hand",
+            "levels": [{
+                "name": "lotonhand",
+                "label": "Lot On Hand"
+            }]
+        },
+        {
+            "name": "createddate",
+            "label": "Created Date",
+            "levels": [{
+                "name": "createddate",
+                "label": "Created Date"
+            }]
+        },
+        {
+            "name": "stock_card_entry_id",
+            "label": "Stock Card Entry Id",
+            "levels": [{
+                "name": "stock_card_entry_id"
+            }]
+        }
+    ],
+    "cubes": [{
+        "name": "vw_lot_expiry_dates_after_20200531",
+        "label": "Expiry Dates",
+        "dimensions": [
+            "facility",
+            "location",
+            "drug",
+            "occurred",
+            "lot_number",
+            "expiry_date",
+            "lotonhand",
+            "createddate",
+            "stock_card_entry_id"
+        ],
+
+        "measures": [{
+            "name": "lotonhand",
+            "label": "Lot on Hand"
+        }],
+        "aggregates": [{
+            "name": "total_lotonhand",
+            "label": "Total lot on hand",
+            "measure": "lotonhand",
+            "function": "sum"
+        }],
+
+        "mappings": {
+            "facility.facility_name": "vw_lot_expiry_dates_after_20200531.facility_name",
+            "facility.facility_code": "vw_lot_expiry_dates_after_20200531.facility_code",
+            "drug.drug_name": "vw_lot_expiry_dates_after_20200531.drug_name",
+            "drug.drug_code": "vw_lot_expiry_dates_after_20200531.drug_code",
+            "location.district_name": "vw_lot_expiry_dates_after_20200531.district_name",
+            "location.district_code": "vw_lot_expiry_dates_after_20200531.district_code",
+            "location.province_name": "vw_lot_expiry_dates_after_20200531.province_name",
+            "location.province_code": "vw_lot_expiry_dates_after_20200531.province_code",
+            "occurred": "vw_lot_expiry_dates_after_20200531.occurred",
+            "lot_number": "vw_lot_expiry_dates_after_20200531.lot_number",
+            "expiry_date": "vw_lot_expiry_dates_after_20200531.expiration_date",
+            "lotonhand": "vw_lot_expiry_dates_after_20200531.lot_on_hand",
+            "createddate": "vw_lot_expiry_dates_after_20200531.createddate",
+            "stock_card_entry_id": "vw_lot_expiry_dates_after_20200531.stock_card_entry_id"
+        }
+    }]
+}
